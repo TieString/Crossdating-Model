@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+node_modules/
+dist/
+work/
+artifacts/
+datasets/raw/
+datasets/cache/
+*.joblib
+*.npy
+*.npz
+!datasets/fixtures/*.npz
+.DS_Store
+Thumbs.db

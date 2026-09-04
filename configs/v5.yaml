@@ -1,0 +1,48 @@
+schema_version: 1
+model_version: v5.0.0
+asset_model_version: joint-explicit-global-v5
+runtime_version: local-review-v3
+seed: 20260914
+objective: lambdarank
+feature_schema_version: 5
+feature_count: 207
+window_width: 13
+cofecha_js_version: 0.2.0
+
+lightgbm:
+  n_estimators: 600
+  learning_rate: 0.04
+  num_leaves: 31
+  min_child_samples: 80
+  reg_lambda: 20.0
+  reg_alpha: 0.25
+  lambdarank_truncation_level: 1
+  n_jobs: 8
+
+eligibility:
+  file_correlation_bins:
+    - [0.60, 0.70]
+    - [0.70, 0.80]
+    - [0.80, null]
+  target_master_correlation_min: 0.60
+  require_no_cofecha_a_segment: false
+  require_target_excluded_references: true
+
+operations:
+  whole: { minimum: -100, maximum: 100, exclude: [0] }
+  partial: { minimum: -100, maximum: -2 }
+  missing: -1
+  false: 1
+
+evaluation:
+  file_grouped_folds: 5
+  clean_false_positive_max: 0.01
+  window_width: 13
+  bootstrap_iterations: 3000
+  frontier_protocol: bark-to-pith-user-unblock
+
+categories:
+  A: single event
+  B: multiple same-family events
+  C: clustered same-direction unit events
+  D: mixed local events with adjacent events at least 30 years apart

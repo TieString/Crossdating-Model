@@ -1,0 +1,2536 @@
+{
+  "schemaVersion": 1,
+  "sourceManifestSha256": "41b17476e2dba417c43d95441a35784f9fb06a56b9e8eb379b127f91fbc2c74f",
+  "fileIsolation": true,
+  "newFinalConsumed": false,
+  "roles": {
+    "calibration": [
+      {
+        "relativePath": "ausl009.rwl",
+        "sha256": "18773a495e884a235c13c3fbe5eb2d969e1885724a498e342e9beb186b833868",
+        "evaluationClusterId": "8b23413a7cf837c75331e0212522b96d8358c2ad0e2617f10fc1f03f688deb45",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "ausl031.rwl",
+        "sha256": "9608e52191db9399a7163c9be716fc60bcd3ec9baaa5da7691080c9e5c99f6f8",
+        "evaluationClusterId": "19426198999f559af2cc1a354964b19f577ea2a90db1131183e54c562c365f55",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "ausl037.rwl",
+        "sha256": "19202a108e99efda4bc9288580337dc76654f990b0cdb7835019d6a71b724076",
+        "evaluationClusterId": "baee6f9646acf88dcfcf40b439dcff38f77b27fd3e5faeaaf1e6ff09f32f656d",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "aut119.rwl",
+        "sha256": "47659b02151cdd46f51af3b0232fe2d813a03dc11e7d90425d52802357c3653b",
+        "evaluationClusterId": "5f26c63efac57331f230ec54e12dd7ff6651f73fa8d1de5d9513f98e21238679",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "aut137.rwl",
+        "sha256": "af27e0b894ecd0cf20db809eb576fa3af04061cf054b280794e46ee9b3e7aded",
+        "evaluationClusterId": "017a3153a49d52c00c85c0a1c004ef3366c2f5f06d243766020e260c81e5e990",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "bel001.rwl",
+        "sha256": "3e3a27c60ff60b4fbed7f684799fef566aceee0d38a5d8401ea3c9e73d9a0b25",
+        "evaluationClusterId": "ac0d1f2c5387888437f78c6e3026ce1d2810a93c936813982c02288cbe7105cd",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "che414.rwl",
+        "sha256": "a5464c908484de9a226b308545fa879c09ec2b6c04cb459fdd3268feb79f6e21",
+        "evaluationClusterId": "69426323464e7b0ae4130d9c5a8d4f620c7945a657ed1290e1366f01b328341b",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "che525.rwl",
+        "sha256": "9d48f348ffb10497f28dbc7500fd7b2161d12b12ac63efdc82153e464cd3fc15",
+        "evaluationClusterId": "d61b833af47fa49ba72411e33a2b4979eaf196e8669fa6872fa2a4c009934284",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "che526.rwl",
+        "sha256": "ee09232adf9e40e103b06b9b0b00c947d993228ac1df3dfaffbb85e737cf72ae",
+        "evaluationClusterId": "882f0c1a48befcd87723126399c74acd22dd40d1b72cd1b4db5acf267d47341a",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "che567.rwl",
+        "sha256": "804bfbd89a6841fff5a97d4c019b58309398efa97cf99d6cd3d9fb72c9507e5d",
+        "evaluationClusterId": "9141e38353960ff174fbff6717f1560a2f954301faad62e34917fbcbb0655468",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "che618.rwl",
+        "sha256": "bed0416498cf1f9a9b030cc8d2d3e96b09953825e95291bfa6d0da7a3954139f",
+        "evaluationClusterId": "877901cb70f00adace1d065cdd7e18354a0b9ee0df83748afc6cee21b59b2585",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "chin004x.rwl",
+        "sha256": "aab20af5485565aeb1f509b468dba571695765f94ae53c4682694d7c07f5bb3a",
+        "evaluationClusterId": "da2e34746d1defa78a0255495609854f2e27653f61a9319252a505fa2d75ce21",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "chin006.rwl",
+        "sha256": "b20c04b54220ff5b454a9c6982c421148b4cb4172fbfcc41f817c25fc707ea2f",
+        "evaluationClusterId": "177f2f5981844338827599b8a1891a8f2213c31f8dc5da30a5c8f3d901982867",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "chin052.rwl",
+        "sha256": "c5ad30fd2170fc3ce5b3e55291164ffbc7f80e719cc8a684d5ac3bfef9a66cc8",
+        "evaluationClusterId": "22d3ada010abb91be8d896a48fa3f858bab8fcee1d67e9d779d37eae961ecfd1",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "chin069.rwl",
+        "sha256": "b32f4352c2f91ede5995997bd19f4ec72805761382a41545a1e857a4982498e9",
+        "evaluationClusterId": "75110f7e5dc595f80627194d9efa36d68a4d2cedcfe0313aec457f8db93990e9",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "chn095.rwl",
+        "sha256": "82296bb04339ad6cc88695b06dcd4dd142c9f384289c54f6e324289a01d441cb",
+        "evaluationClusterId": "8da4eedb9bc97ebde006c7863885bed150287217834f4f06b41a6fc5bed5a745",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "chn098.rwl",
+        "sha256": "7c3bc611e6af5036591253fe427393efbb7041e16ec6cb8cc2ff027d860d04c7",
+        "evaluationClusterId": "fe10a4c98a1305138e82cd0c0a70df2acc1a1f72f1e6866e29e4cb3f836f274f",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "cyp020.rwl",
+        "sha256": "65d6e85694c10d2ab39a21a8b082456bfd583a87da3a96ad6fe193e40457fe1b",
+        "evaluationClusterId": "b9265717f002bf4f8d0aab7f9334d535d644868e35bab6fb5a663f378d359029",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "deu465.rwl",
+        "sha256": "bc164590e95d94c1450102be7087374b606de11a3b1cf77f811d98091a556f4d",
+        "evaluationClusterId": "71cdc01f73d1bb2544b702a48cfa0b42807a55c3d19a176c5c1c9ca0562ea571",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "dza004.rwl",
+        "sha256": "d6e21af677821d7824a069db9b14c1c4dfd2d5054497341e8bab970663f4ff05",
+        "evaluationClusterId": "d6a22c3579023beca51784fefd160732763c88447181dd5ec75f078053153716",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "dza012.rwl",
+        "sha256": "9e59fc59c1fdc81573ac57ecb6d288816da78ee85a76e6517d5d3cb1f66690fc",
+        "evaluationClusterId": "936c34e9204f77cea4b50cc5b958e650921526b6e196085d00f137c96f85eac6",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "dza022.rwl",
+        "sha256": "1b35c6814e50cac60115078100922198e33aa00f9e0828214491b585b83bf183",
+        "evaluationClusterId": "a3642711ae41f55eb5a9499231306e4aaa6454c895eec2d4bd88db3dc8ff408f",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "dza023.rwl",
+        "sha256": "da1e1bb49fd9b158d040e741d69fc2943942547b36830f2d621b88e589494e53",
+        "evaluationClusterId": "034981d722ea27d8cf27b05cb8517a8fc73076cb8fd1059c98c44ba6b1f750d5",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "dza032.rwl",
+        "sha256": "9b3ed04bdda1a3d7a5aa29eb58b33296fe2ca9d74f35ad0162f72a94e81b6397",
+        "evaluationClusterId": "e09b31e3addf7f1c327932188ddb286c7d326da02b201670e8413547be3500e0",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "finl058.rwl",
+        "sha256": "500ffdc571888ed58afeccb6bad2514bb146af7522b5f3e79d47b04de63cabcb",
+        "evaluationClusterId": "b236f9f95eea96c91307b0dd037e7e00befe121a33a8dc30ca072a295471e702",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "finl059.rwl",
+        "sha256": "72cb15c248001e7e62749369f9c6916028b87395c98a25403e72263f613a6785",
+        "evaluationClusterId": "83cf355b2ef985a6a82655f35b2f2aab5eda590fd5f515cd30b6af5328206be3",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "fra059.rwl",
+        "sha256": "4a1b976aab94eb4f033f5d007dad9d55c515aabd5c79b8603c82e20922302b2d",
+        "evaluationClusterId": "ef99b75c3269648eb4272db6bda0469d69fa540613bc0a5201292da044071498",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "fra060.rwl",
+        "sha256": "06248ffe441270978ef93c1a413a2c8ebd62361ffb43fd4117813fb582b0a496",
+        "evaluationClusterId": "9b38dac38fe93870fee404dc5c43d26f1c554e9c3123e3178066bb3d233afb8d",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "fran009.rwl",
+        "sha256": "3295ecd12b2dfe2634bc62f796bbb4153ade942e0ae538327cab50895595ebc6",
+        "evaluationClusterId": "a1b3e4e1e179de5c40bf4cfd76ee1e2c7b097e5c15595e8ab9238a9f92575a26",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "germ020e.rwl",
+        "sha256": "6c3226f4461d56da46944c717bf2c570dab94f409f4d04acb603d0d199a0970f",
+        "evaluationClusterId": "d606d5df827c78a4f26ae7f58df707e4f742e57c0a51727f84ca3b2009336597",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "germ052i.rwl",
+        "sha256": "a0b3066757bc6a506e773ba6e51971546de68dbe0bb56b7c48f000bd0b7be2ac",
+        "evaluationClusterId": "ff428a54ad05099bfe27c202e5c884f75198e20ac731f3ebbfa3b331e611e330",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "germ211.rwl",
+        "sha256": "fdc959f4b91711f0b31391264c8afbcb2784a58e470f438980a962fcab88c02c",
+        "evaluationClusterId": "8f372b0dea32a911cf2e73ec7a5e42a2895f7cbbec987c59069e9db7d19bf646",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "grc032.rwl",
+        "sha256": "4808e206ea89bf30c1911efe3c3578910cc78ec852df696c6482080d94b24284",
+        "evaluationClusterId": "266af95bec82f958088bc91880fe92a2fee36305488e3a4ef608da8607695328",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "gree015.rwl",
+        "sha256": "8fb9861889fe16d5ef9575151213decea396d376bc6716a1fa216b06de739aec",
+        "evaluationClusterId": "8f5f82914964d06891a9e3513b613a7b0bdd11b13e02019bd9407570d883aa37",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "gree019.rwl",
+        "sha256": "706d3435fcedc28767b629148f55ac62b170ab0dc90c1636d476d0864a4d64c1",
+        "evaluationClusterId": "45d3df00681f7d6d9bdefb71d75191f9a867e19905c0cbe6e4e3a60b9245ee9c",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "jord001.rwl",
+        "sha256": "d6988011379b9665e18e0e84adc9783be84eb5cc380acfcf190daabe9c41531a",
+        "evaluationClusterId": "2963711e314fa39a4cc74e8311ab46d2a4aab3c7ca21d4f694a2a2d84c63e8cb",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "kaz001.rwl",
+        "sha256": "b43c0a7adcd4d1d7bdba72096fd53b76b7d3dff0bda93211ed97c49107781797",
+        "evaluationClusterId": "45f0d9abacf8c78bfd914b5a67714a6b57bcd9a8af848642c641ceefa9a7a690",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "lbn012.rwl",
+        "sha256": "8216698baac9b831a38ce86d1c7ec231ffaa12080763b91783227812777e38e3",
+        "evaluationClusterId": "0e4ddfa1badc005a688ac89a138f06f892de7c0fe83a4608db6d47fe2b587c0e",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "lith042.rwl",
+        "sha256": "c29e209a587376f1ef5df05b5eddcaae2ae96c346beca2a39d15e70d0a865c05",
+        "evaluationClusterId": "415416a6d7de9c1c81b130f43048c9ab66849821f00aafd6fa9819ae5b8cdbf3",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "mong011.rwl",
+        "sha256": "d54e3ec64d2c1fb6608c6a7817d83335ee70b419f3219d17304892a2044dab18",
+        "evaluationClusterId": "bc932de6f631cfeb2c252c4a66ffa96dee7fb2c6f2524c9f52d9f2ecdd50a52b",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "morc016.rwl",
+        "sha256": "5e0b168b0c959dbe9c424578be9f6c96b4b3214dbfd27ff588ac9f2d7b08e8ad",
+        "evaluationClusterId": "e03bdb5f06f84726e5606f8207bf329db7c9ebf11ced34019743f8082aece13b",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "morc019.rwl",
+        "sha256": "820b6e676d671396926e2a2a630a320c378a09c548f7ca75964aaf4bdf511401",
+        "evaluationClusterId": "07c7937f5572655fff9220ce70819b98e3c18d10602dc00100ab47c5f24e5bed",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "newz015.rwl",
+        "sha256": "aedf486f0c4080d7b099257ba30c3447bee811a512a9e6955b25f7d43ce5a938",
+        "evaluationClusterId": "4d916fa440804ccbd7c6b3ff6d06b4db7b3c5f304afd0ea4c3986d993f3c6561",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "newz020.rwl",
+        "sha256": "a0980970949b131dbb93b990a85cebd938705c37eeb4e8c089a201fa1d0fa33e",
+        "evaluationClusterId": "4e73ab856b88cdac7ead029f2967c69822c3556bc014770df981b705805d9003",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "newz023.rwl",
+        "sha256": "4ff87e6d23dc0ed75c011fa9bc36f9c49ac2ab0bdee5f191b2fe1da896221324",
+        "evaluationClusterId": "084c2ec12e52d296f28e4f7c729dab93586de8f610c98aefad439128a42a4767",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "newz030.rwl",
+        "sha256": "c0e0af80a2508fb60210ddc172d47dac47b985b7a07127b3f624085700fa5de0",
+        "evaluationClusterId": "397d1727d495267a4031cbfc2aab7a046a7efebafa4966bea4a86688dfc8e651",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "newz044.rwl",
+        "sha256": "01c4f52f73a05df06ece2bea94e8a8e589cf91aafcc7a3d61c6159c3004a24c5",
+        "evaluationClusterId": "15b9fcc16f326b3610a55ce6bc8f2a1825c8d5adc02f0ced930a1cd4e12cd232",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/canada/can695.rwl",
+        "sha256": "2fc25552affafc36942a9cb2bf64dbc26040720319016a7f2e5afb6b68ca319b",
+        "evaluationClusterId": "eec263198798b7530e80f03eacac430dd29dd246dc53f7744b70a2d9a40b9346",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/canada/cana011.rwl",
+        "sha256": "f960c73f174ecb1de785a4114f1e2c2cd09e501dbd684bdd06146911313d22e6",
+        "evaluationClusterId": "cce3426eab73f9320663c7eeea318066295eed48cb193d90f7de6797e86e43d9",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/canada/cana013.rwl",
+        "sha256": "a3ac2a61e69bfd86e4b4ce021813223b584d226549a77651ef451c788c44d714",
+        "evaluationClusterId": "825032b50483e5d404a083f3819dea79a2ea5b7d07bcd2a4e21e98ff265e97a5",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/canada/cana213.rwl",
+        "sha256": "6d6b23289e325975ad5d316ecb86ced8827875fc3e96237f0e7aa4035594ddc3",
+        "evaluationClusterId": "c9965d37025b755e98ec829df3843511279bd8f3ee2450d1eca11278ed3a7c8a",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/canada/cana231.rwl",
+        "sha256": "7a08103ce76f84886db45c16fcb091fbc3db2219de8dba18162201f4f4db074f",
+        "evaluationClusterId": "a52ebb80cd7dd3d3a98ea6ad77668e501ef74c644da514af68996d9a344142b0",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/canada/cana338.rwl",
+        "sha256": "1f44ce2e6c904c5582d8c4932b6975118f98b085425b01e67badf4b35527fffc",
+        "evaluationClusterId": "25d56805422d3bbdd1433dc045581829522f51e1eb2b082ccd1b5a730487ced0",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/canada/cana408.rwl",
+        "sha256": "957c8e73297fad8c8797f784b73e2ab81b5b011537e2211b5a450ebe024099a2",
+        "evaluationClusterId": "e3ebf96be8cda997f704ef7a5c38680c66aa5e177a5d6a927a4f16e97d12ac5a",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/canada/cana421.rwl",
+        "sha256": "a7e8e08af2c35a0b7bde42a281407e0a515dd8b1b262f0afb8c9669ec3323cbd",
+        "evaluationClusterId": "06d68de9e5cc34d8eb6e823a1300b64009062c957f35c2c251531dce6d225c9d",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/canada/cana535.rwl",
+        "sha256": "204ed06f86ba63d7881ac55c345b72b06a0cde44b0d0e56cb6bd2ca7c10a0795",
+        "evaluationClusterId": "a0f9f73822e7d9c6fa00a86c728e8684b1c7c3dc6fc7f8ce4b078d8b8eb55d94",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/canada/cana565.rwl",
+        "sha256": "6b3d660a70bda1771d5e9ec5783f8680435fa1fe79c6350d17dd48e02d91922d",
+        "evaluationClusterId": "8c539f86ed03322c6ba091797d555b2097e1e1bf4eb031a971963bb8632e75be",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/canada/cana643.rwl",
+        "sha256": "a56fb9659dfe65873e97c5e844dc560cbda192fa9507b410e8480d85baad57c3",
+        "evaluationClusterId": "e6688b73c5aff5f708d31bb5aebfadc6f8058e74cc405dd92cb350318d68744a",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/mexico/mexi026.rwl",
+        "sha256": "e8420a712044c0ff3ca043e1dcf4ec79e872952d933de951d92c290166a966be",
+        "evaluationClusterId": "45ea21130ebbe493f43b7dab6c66615bc5a9216abfb4400505007bb7d163e205",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/mexico/mexi046e.rwl",
+        "sha256": "4f01d48523cebf8b8ed0ca7566e3f6b41849b6dfbcd6d679fafc5c2717f82b13",
+        "evaluationClusterId": "efc800fa1a42daada6dcdc7d1fc453e1d0652dfdd9344f7ba56b5c11f7573224",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/mexico/mexi059.rwl",
+        "sha256": "77483df0b514c649ae73f146a23036a4a8b7aabf8777c607c783b4101a0708a7",
+        "evaluationClusterId": "7c8e6a9eda65259655e76f800cd42cfef6b2a0c1ce675a8ebf69858c92375173",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/mexico/mexi063.rwl",
+        "sha256": "7750014f46465a33ba546bf663b2d2553fbec9ce4582cb7f4554f7c42c3f60d7",
+        "evaluationClusterId": "72fea21497b37281a875a3a46943e4722b349836e7064ff07b12d0a2ea045e0c",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/mexico/mexi068.rwl",
+        "sha256": "96470b8673f16839162d7807eb4ccee1bc19cff8b0c069eab29fb085acd040c6",
+        "evaluationClusterId": "bee453f51200abb005f258fdd7618611261b15eac17f78543de88a3298207aa0",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/mexico/mexi075.rwl",
+        "sha256": "752e1fcf59c7a76bc0165083db3fd5c3de382b640d22c74d49ceaadb076b620b",
+        "evaluationClusterId": "124c118f04dc547d97d8d7250cfb790e462c965f6d350e8163ee838088c109d9",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/mexico/mexi080.rwl",
+        "sha256": "fba7f771e292aa08d779c2eaef4b2e90b3608578f2a2ee0b1a6509a6f9e8ad82",
+        "evaluationClusterId": "6df6199f93171f1448ce276a75068210ca02a2870547e0c6b198fb18f403108f",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/ak102.rwl",
+        "sha256": "97ea6aea08499a14bcce456adabe2f686d022f25eded9fc8c39b43b379425dfc",
+        "evaluationClusterId": "f2652fb0b85ecde2432aa2ba311a63478518671c0e44985fd48943169a6c769c",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/ar084l.rwl",
+        "sha256": "226f0b809c1425038c1da15d2d97ad5ce1aab4714cde58f66f89d6f5f6a648d0",
+        "evaluationClusterId": "69dfff2724df90d532379edcdb9487cd57a24713745bef3b6426d5ade3a127f9",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/az049.rwl",
+        "sha256": "40179972031bb81030b74c7a95eee7c74ff136932126c1f093ace8e939855d1d",
+        "evaluationClusterId": "4eba89f3261e7bc8c03d45d6ff75c1c723092255a3e7c8a377b1b6647dab4b93",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/az050.rwl",
+        "sha256": "32d9f1d35fc9c381130cbf243732eeaa4c51f4a6754987088216f6982272af15",
+        "evaluationClusterId": "4fa00fb19f8f168f2fb1077d625bc580ae1a8eed15661f0ca6c87c0e8f97bba3",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/az100.rwl",
+        "sha256": "7a0f210ece6b058d94873b7b2369236fb5b2a06a6f71076c3494f20d35e2484a",
+        "evaluationClusterId": "50a5c09291d7b3f18aba99151406d4fbf39c1e8883c5ed27adfaa880233f7017",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/az101.rwl",
+        "sha256": "b5458dfc9d2a59825b573ad68f14e46af8be857c076a032341d90145ba65726a",
+        "evaluationClusterId": "a4b3e8da26783b5644e89297398bcfa002f24b4736bad1b2b3a13b99d8cf1718",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/az105.rwl",
+        "sha256": "8b028058138062bbae91af6276e8f825a1001ef0fa6bdee8cd958eca04294e1f",
+        "evaluationClusterId": "bd2e0741a5e25c82793603522b80f368f9c9508d5b6782e9e30beca906fc44ec",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/az109.rwl",
+        "sha256": "851988d28b91b99453c39caa2ae3c97c7cdaa2bf40c1a24285dfda18b113edab",
+        "evaluationClusterId": "d453ef4ae108a270fa7ce6357f766b485f792550f816b37b1ef2535b31e2349b",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/az139.rwl",
+        "sha256": "80e8935e909935f0dec9b366586aad3ecae3460cf58b260e003c1763c38db3ae",
+        "evaluationClusterId": "7bb2b86570ec807d65736086cfe966a3fad0886baae7101040d5cbb798b51b83",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/az517.rwl",
+        "sha256": "cad026935f5c81220ee5a641cb30a8ee342265ced9efcad88370e83ae04969ea",
+        "evaluationClusterId": "6215a44a1797e5e58b7246a91b443256820411fcb1fd244a825df87c8bf02041",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/az521.rwl",
+        "sha256": "c2134bc6ba4d5d25ae680d6b4774ea01f549a0abcff5b1dd87b45444b1406953",
+        "evaluationClusterId": "2e23cb59089376ab6bf03281c7cfe988258e2415deb3139a6e9449a9ab8f3ccd",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/az523.rwl",
+        "sha256": "c0fdfceedcadcad3a558d44f0168e486022996b1067543b247e46f57d0fbe83b",
+        "evaluationClusterId": "90db3ff7160089b504521fad4eb81b114efd6bf506f8326399661c198416b41f",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/az540.rwl",
+        "sha256": "2de23a5068842c2dc1b00e6b9a9434c8f8852e6e9771b33b79a0d3eb969868bd",
+        "evaluationClusterId": "d847f510fd9082a52b1510404fabfec5de01e04bd702cd8294dc3716a1a5a80f",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/az583.rwl",
+        "sha256": "c6e316e40907b928c6601a55ea6beb09b5f2983353ee69257412b072410b8507",
+        "evaluationClusterId": "73395ef47e95a37fba7a2d22eab5b800b917ea4cea6aa63a3108451e9958c340",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/az585.rwl",
+        "sha256": "f82bc178f386815d43faffdfdf00184b2855fd6163b474d705edde0727232682",
+        "evaluationClusterId": "591d39e17840b1728f31a5c18b048b5c16b06958425707de0f59e23bd48ea0e5",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/az594.rwl",
+        "sha256": "196ce748423566fe442a3641057d1b1b46cba3294ce65865cc600053f0359d1f",
+        "evaluationClusterId": "c795498874d5c954b45f70353fd8db6070817e3813ef5aacec54170e761c82ce",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/az622.rwl",
+        "sha256": "c0bdde22afc067b4299af653a1b0601722ea5251be841599fb299d4b35864c62",
+        "evaluationClusterId": "ef837e997ca597a68252a488419c4e1b786f09a17fd05f724b7132065d278fd8",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/ca512.rwl",
+        "sha256": "f37cf14f6ef80bee1abe807b97f17827f8e7113e7eced0a37f30d09f00eb8085",
+        "evaluationClusterId": "42c5db69fe569ae6bd1ef2654ddd677079b0a085a3211c7080a7d9658335031c",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/ca517.rwl",
+        "sha256": "0deb0211e9505a996cc1062c86504fd6f1ccc02bc5048fa9794eb4059020cfe1",
+        "evaluationClusterId": "1cf49eb565fd82b81abc7e656374da5a8496dec8975b140a4e41be339f7292ff",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/ca520.rwl",
+        "sha256": "8517b927347297143ca2833c6c0486004778d0c7d1f636568b882971a02e51b5",
+        "evaluationClusterId": "8f2308829de23bf79a59bb1bad3faaa2c5daf55c8626d7d2ed6078c132240d64",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/ca613.rwl",
+        "sha256": "d977dd7532b1aafeddcd47eda6c88128c289f702b7211b828deaeeccc8c994f4",
+        "evaluationClusterId": "42c5db69fe569ae6bd1ef2654ddd677079b0a085a3211c7080a7d9658335031c",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/ca637.rwl",
+        "sha256": "6f658ee7660403a97e7c2aca4d1f1d8a400b7c7e00ca4302e094c74cd115784c",
+        "evaluationClusterId": "df25c171fc7ea417408b206cef328b05063b93638a6aa7f01bdcd3b7449506b6",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/ca656.rwl",
+        "sha256": "eb3aee8898316855bd79ba4670e3846fab037536bceff818cddb87119be4ac2d",
+        "evaluationClusterId": "71e4b5467bcafc2f4da60760eb23ed7b031bacb6e9f86093e36f4116bf5c9278",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/ca692.rwl",
+        "sha256": "daab888fcc76d033e15d848a842b77c11c5fe0eab64b9e93a9afbe0a585764bf",
+        "evaluationClusterId": "f298cc99052dd2e9dc9e694e48c1f68a2dcbffa1eafa2b5b15f45d4015edf2aa",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/co036.rwl",
+        "sha256": "015c36a29feb22de5660c816b7ea678ade40965709d54f2d9fcbdfea6d4978ad",
+        "evaluationClusterId": "71f3724752b870f47be1941417b922b793ba6c5c7e9e5e1317c876fb2232537e",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/co532.rwl",
+        "sha256": "c8dea5a9db7cc5d638fe2ed9623e218499b83410d46c2fcb6ab7d2044bf91c39",
+        "evaluationClusterId": "f4fbc52540b2d45b72d845a25e4c111a16036e6613417bb7b216f72215a0144d",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/co558.rwl",
+        "sha256": "13df56684cf1d6439a4ca6bd44ba2515b651d5cbcdd72840376b50105f113338",
+        "evaluationClusterId": "5d572eb2b6480631fd40292491698a6e8e4c0f36b753d5368d50f40d027f0443",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/co569.rwl",
+        "sha256": "e750efd9ce4fabf7d3d2842b06ea0ac33ef8ab766cd6fc52191a3e076f076c03",
+        "evaluationClusterId": "cfe90e190a12f59e6285dc3eaef69b6fecf26006e4f9c91da76bcf389fa0e32e",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/co585.rwl",
+        "sha256": "f058f0989826312eefed06e03669d76a9d2ebda3f213a547af578be2de2c07c8",
+        "evaluationClusterId": "10d3cf2a48c965a1879c3c3b8c1d092b62311420b55c43f1ae98f661790983a0",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/co590.rwl",
+        "sha256": "fc4605a8397d56513577e5e812863b551584540dd9fac4069ae9c5830230a9a4",
+        "evaluationClusterId": "2fed9871dee4b4b373076a7b00bff1708863a956ea8257c504fbc1d91a72e551",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/co592.rwl",
+        "sha256": "fe1e2954d2567d700f08b77423582cfdeb2f4a4865eaa1b7d7ce7ade0101d892",
+        "evaluationClusterId": "d3cb35435e0db81155d9232901b18a97bbe59b113332b6f9be117d28435bd1f7",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/co594.rwl",
+        "sha256": "bc31f3094859f8e1ba7f335a102eac2bd7ca71abb0a4672e9dd4fedcd83d11d1",
+        "evaluationClusterId": "5983575bc7c095448e11ed6021743adaecd9f49ced790b07e20cd4b8cb5aec65",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/co610.rwl",
+        "sha256": "1d606bfb38ab059c98708611f744d8ac0619187ef3d34489ab0f08d566fc6078",
+        "evaluationClusterId": "33d7b434fdb50257760dcbf94b9e9361f5835db510fa71d819fb7037142945d7",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/co621.rwl",
+        "sha256": "b170c42883877ae46a0ac1ab46189f2cb6e38459a0c316274994befbc727e56b",
+        "evaluationClusterId": "5630859cefdd7abc64e506f85651bc45b85640ac2f97038360bc79a19a670893",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/co644.rwl",
+        "sha256": "2264203adeab58c0add8cbc91b7c5571783faa2eb6403696d4229c2fa56f244a",
+        "evaluationClusterId": "6ded815372cfdaa2691ef7ee357fa8ce0d7bf02321e17de22d50e45f20d34252",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/co671.rwl",
+        "sha256": "7994bcf9390b9fd88ee2d41654c10bbe248e9eec197f06574d3bec40410a3c8e",
+        "evaluationClusterId": "8b8c1dfecd7105c5a81b872ddf91d41f660a4d7bd78a3fb93b52078480c51bb7",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/ga003.rwl",
+        "sha256": "697bc04be6db48e98e83c60c8d96a5fbc2d6a67f9849a2b9eea420df995d9ee5",
+        "evaluationClusterId": "999e185c54b21e590ac970306474c1b3d5f788f5ba50a6236f8e50a451b4fd21",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/ga004.rwl",
+        "sha256": "bf042deb896641c729a4ee5089d6e51060c4063345c43e593720f9221a73e21e",
+        "evaluationClusterId": "938238c006628c9541946e4ae56eeeb54f2ac1faaff8886fbaf1e78375693aa9",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/ia023.rwl",
+        "sha256": "d3d2db06ee85f91be8569295ee2ab86b0436d682d2bb19303803e6e4b1612229",
+        "evaluationClusterId": "c0d6cb4dc1c9fbef110bfa526731c0ca6ef8bc22ef494a308b08a2c5d9b7276d",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/id014.rwl",
+        "sha256": "81efb923d92976dc16aaea6a29566256decbfd74468fdffd9a04a8e804be98d8",
+        "evaluationClusterId": "26e4b374da466ee2aefc9a9f7eece8935f64448f0c251371372d2d0267b39ef0",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/id023.rwl",
+        "sha256": "532ebd45189748c28cdadcd41a75e3b082728629c947a48499f5795c81269c14",
+        "evaluationClusterId": "26e4b374da466ee2aefc9a9f7eece8935f64448f0c251371372d2d0267b39ef0",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/id039.rwl",
+        "sha256": "3d51c083f07be083dbfc1a741dee6245d02f4f747d77e2cef4e735d06b6fbc90",
+        "evaluationClusterId": "f96f741706ae84a9981aca363f168e8b3f5817dfe2464a59c74bfadff2f68aec",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/me015x.rwl",
+        "sha256": "7a1f621a82ad175cb1021ddac3a52d1e6d508b9aeefe1568a454e0e3c57d6e0e",
+        "evaluationClusterId": "63a78f379c4f47daf0262df86a035cf56ad83f3e327b3c4ae2771a3c7cb4fd67",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/mn002.rwl",
+        "sha256": "bed469060800f6fd8566322f9ee5de4430b2a1f347af322587f70b95b91332a3",
+        "evaluationClusterId": "9557ac4c18052cabeb18dde7ffc82e80409d3bcde42980a7bde270d92370ac5b",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/mt103.rwl",
+        "sha256": "0193007c48559ae2230183a7de3b2a34626d59529338dec2e568a2b5a9a5d2bc",
+        "evaluationClusterId": "e939ed6fdb911e25a4089c83683283d9a89f4b56536f4d5eb7ba1d8b71050efb",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/nc008l.rwl",
+        "sha256": "0df061f6f985ae04051dce3137aa94fe2ba417b41bfa228a165fffcd454a1aae",
+        "evaluationClusterId": "cce047b9d28907df8546d5b6ef188b4c98ab2cedd071d40d84362c77e3f36939",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/ne006.rwl",
+        "sha256": "2c557c54dab50bad49d9e61cff6d54c971441ee22a70eda73055fe5536592f5c",
+        "evaluationClusterId": "3058265c3f699866a74a1f4dd026c4ce5ce2c154932f3858980f216a0f7a1323",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/nm032.rwl",
+        "sha256": "ce23f520222bd99cd5359ae341d646e5ebbad50abb2a1a5af08581a4fd47e75f",
+        "evaluationClusterId": "9019efeb96cff1755d2546bae0a2770fd6b0b2f9cca2d634b695cbaedb43d9cb",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/nm036.rwl",
+        "sha256": "54c65f9694a8f47595237dabc2234d611ee2227dd06e734fa1b3236a280dc4d6",
+        "evaluationClusterId": "f58fd94c842caedeacd55004513f7f2f6f176dcdc434f95e9d0c23bd9e037360",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/nm040.rwl",
+        "sha256": "5c314954891100911e2aa6e6c262390f4c87eab9fbb40ec20e2b1bf40c4be099",
+        "evaluationClusterId": "8c2019a7d1e87d22768ecde7f2d6f4f8368fab41ff6f2501e35ca870819309b5",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/nm052.rwl",
+        "sha256": "563bb8e82206bb7286010e7c042e9cfc4673cedaade9545d3e09d9c65e48e10d",
+        "evaluationClusterId": "82b154ccc5940847b570c6d2697fab000061ea0996c566c174332d6cb36cf9c5",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/nm119.rwl",
+        "sha256": "c7478a81502a515142f61858ed3ae0bb5b2af9cbe8dffd7f0183d16e4cf5f87b",
+        "evaluationClusterId": "2fcaf74d61535882258eca758c5eb0a3a29115f2594235747bb9bfacdcd5b703",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/nm503.rwl",
+        "sha256": "a9fd584c053b0f2dc96552d4f85014079c95789e3dfa352c74e4ef82b939e978",
+        "evaluationClusterId": "38158ddcbe408d9dd8edb9a9e12a02afd4b83e6deaa7460e13d178e8fce5a0f9",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/nm537t.rwl",
+        "sha256": "f9be00957be2cdd290840ef0abf032b965e28fdf4684c375a0657452ce8be13d",
+        "evaluationClusterId": "2a281e39804b4c93366ec72487706a663e56f09a138e3288c92caedefa1476f5",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/nm573.rwl",
+        "sha256": "ee2669b34a2233e02a747aa1741ea10bd62b8df5afed2731b0ac674006b84fc5",
+        "evaluationClusterId": "aa0d77fa53ce5c6257cd956a8f71dd838047e12db530834a5e3fbd9bdc7223a9",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/nm582.rwl",
+        "sha256": "2a14e4a7e8280d55e0a3823c8950b93cd38e9bcda98b201bdde6fa8b1a9d7634",
+        "evaluationClusterId": "2337e5803b4e7c8ddea18276ebe4f2f82cf5da41f9735684ab91f2859a67ffe0",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/nm586.rwl",
+        "sha256": "21f965b8b360db01eab3fc3c13350804ec3e68392201095c9e1ae22a375c4c0c",
+        "evaluationClusterId": "9e90829eee842046f6751176164da0d29495a6995dc8e4a3192ce56c1cf93bad",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/nm606.rwl",
+        "sha256": "375b94c3dd50ed0cbc0195e0eeb8118112e285c356fdb9ffc234a5c7d0e4f03c",
+        "evaluationClusterId": "3cd64593a5619c8efbd813decaaa06b052027bd3df6a4d9a7f8b9acb5e6e6f63",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/nm607.rwl",
+        "sha256": "93069bf39bfee7c32905ac94da0baf3336b879c6f25775bc6c80d114a3c2b7be",
+        "evaluationClusterId": "c71e6d595f5dfdf6088f2496c46f7aabb5d9f722af1725ad244c94e36146cbb0",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/nm608.rwl",
+        "sha256": "a4ceabbffe973ac67e6223ad520a2acae388e5da46510648976a007f14d29f97",
+        "evaluationClusterId": "31a03d391079c135870a6de7149b2a0df2ce13035d557f4b2fe0f75527475cef",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/nm610.rwl",
+        "sha256": "150acb88ec0f94780a553c7f5a2767a5d80b7da89d788f7516d8f4ff5207ca0e",
+        "evaluationClusterId": "d8a6fc1b8831864eaaa0ad78010112f15f19356e6f1766f518367ae0c5439165",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/nm611.rwl",
+        "sha256": "6286bf675806108cededa7b3906d08fa51a291e35d3f450aa767de8623772342",
+        "evaluationClusterId": "4f4268d8a8fef7928991c49cd78ce9d5dd8ea5c6b2879b16fada5fd30b690e86",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/nm612.rwl",
+        "sha256": "43cb13b79e93dc5fd676e50a8e28449e423cc42148a5e6811f8dff12a59622ac",
+        "evaluationClusterId": "783f21313fe96043a9cce5ae09c06aadaf14b6ecfe693f527dd76fd029098a91",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/nm614.rwl",
+        "sha256": "f1a6c86c30979057ee2338d79564cb2aa8c9e5aa289fe83ac9826933e0b7dee1",
+        "evaluationClusterId": "7e3911d3b9d9257645f18e9de1e53b3ef3b2ce5de97dab2e97710fb704e6239b",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/nv052.rwl",
+        "sha256": "c38307b17404084fc84d70355552cb69bafd30b95e2545a9cc758e16dec6a7b6",
+        "evaluationClusterId": "10947e6f833d092d174f2db25f611801d25bdc68120b1cb5b6f43118b137b49d",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/nv506.rwl",
+        "sha256": "9c937025d3b39a9d04af1cf4bab2cab9f6cba20c511a8990da1691e0fe8d8559",
+        "evaluationClusterId": "d3a703a2f30b896d04e2dd3249cb1c9a0d16a5cc8b5d28ec818472d16e9c424f",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/nv510.rwl",
+        "sha256": "15082f8d836fd4465c781bb970ef45f37553d6ad8c411e94b1ec52e7e598e894",
+        "evaluationClusterId": "06e523f9f67d4211bbdca9b98f65fc949dc66a51e8cee2f6c6e998b3923fb803",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/ok025e.rwl",
+        "sha256": "507595f1a08c767dc15592e11ef983370ab82a7cbc327a7c54148286591291b8",
+        "evaluationClusterId": "25d1f7a09e676d246e7539654814ef765b7c9ec613d34ea907a4f1b3e73eeaab",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/or015b.rwl",
+        "sha256": "88a60e74f33e47b881d3b73e10c7fe7051fc809099596bfdf05393581813d005",
+        "evaluationClusterId": "4e454a3492e981c575b19a4cdd896bb4e9558d670fabacc0c288eb2d9d896424",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/or051.rwl",
+        "sha256": "e0295627021d241e96c1ce7b93634164a6be677ceb2e91fc8aee377d9237e76a",
+        "evaluationClusterId": "da3b36772d9932031c8198e1a0b93e96fa2ffa963debfac1901d8a3ff13e46f9",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/or085.rwl",
+        "sha256": "9ae360df4561318e2fd30235c2be715f3df2fa3a5ae17f7d28935d485cc9f341",
+        "evaluationClusterId": "bcc832198b11fdea98c2db80f8290950eb33e7c7c5989f02bd5f04de1a9c973b",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/or102.rwl",
+        "sha256": "9e9c09fff08e13441bbac354169a549c2c0f75fb5ebaee7cac08c9510f6bd867",
+        "evaluationClusterId": "656ba696fe0f6fb7f1efb947d9ed206d38ad097a82ff702ccc93ac36851eaff6",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/pa005.rwl",
+        "sha256": "a745ea74de0bf97a84b7842496dfbd5f2aab59a0b565938733a20e7b8d0b42b0",
+        "evaluationClusterId": "e7a593ade13f07602d09e049cc87dbad1c60ba7b3ca86fea4a8fa0aea8db7f4f",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/pa008.rwl",
+        "sha256": "786d51bf62eb8b1a6d20da6f62f2213ed4b3b1c07e2979f00b50f01a82113e5e",
+        "evaluationClusterId": "d686caf360644a2cfc8b61aea0dd9b2882e245ca233393c43fb26f8e9598eeb2",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/sd004.rwl",
+        "sha256": "b6baafaa1c934bb7eddc13a7ec3b562e0abce9b5dd2479f21a218f44ec417cea",
+        "evaluationClusterId": "af444e04e0adfc329d5c7dc6e904cc00adb5b2dd251f1b3bac5d511f0f5616b9",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/sd005.rwl",
+        "sha256": "b81153501ced976fac9c49f2c2805478a54a438f2223b677eed62a4fa9c334fa",
+        "evaluationClusterId": "a1c69581b98f1100e39218884ff1d701deeada3566b5431025b06f500cf8e082",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/tn.rwl",
+        "sha256": "2c0015841524a34f2e002d47482d88d496c860b207b38867f62d9f0efbacc5ee",
+        "evaluationClusterId": "3b0213c4b2fbc33b3b51e7364b871f457330d66cd42a20320f228267ce590a93",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/tx046e.rwl",
+        "sha256": "f649ca89b9801a8335651b61e788be85ba059d6f8e733cfa75bd7a62547b95f9",
+        "evaluationClusterId": "365f56101dcf86b255c1584cf0f762c8da6d622e519e5a49ee894139eabe7fd1",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/tx054.rwl",
+        "sha256": "600e5a825fb437867252a6989d1dd856ebeb3e612ba57c4608f5cf7ba225b3ae",
+        "evaluationClusterId": "ebf2dc717c73b8ce70d3226c98a756ffa8aaa1a1ebcf834b0f2e7426256adc5b",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/ut021.rwl",
+        "sha256": "c104181dd7984b3f3a03ca57ff60c25fbbe48942a7b137bc41f443895d1116a7",
+        "evaluationClusterId": "14e5b152d48430dd111f3e79b5e91972f32d3fd7974c09a921a39bcf980ca08d",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/ut517.rwl",
+        "sha256": "a89c8c922a4b19f732a08320e6312cfc64dba1915921dafe4e3cddafd4b4b5b7",
+        "evaluationClusterId": "576e3f825f97754def648192c49e9340618dc3b2f507e7190f713396a3970485",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/ut520.rwl",
+        "sha256": "c68e27dfa0a989bc2562592d2c1c189b82df0bed97bef1b66a04c6d8005b4f62",
+        "evaluationClusterId": "933d18e2605a84e3753b9be426cab99cea390e5566fa6a7b7a361a387341d9b6",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/ut543.rwl",
+        "sha256": "dc91cbe09af2af123e37882a8518e747e92f08fca6756a0e3e76e59c810aa75f",
+        "evaluationClusterId": "818d16b1c19678881c3d60d433152c4de8e90739ce7e085bba53519e16d847c9",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/ut586.rwl",
+        "sha256": "bff0828d6909fe1ad70c08566384a44c70989586afa3751dda693e19eeab25e9",
+        "evaluationClusterId": "5bbe5f3c842a09fd4c4444623f8e9587fb1fd2979050a9f20d3beaec77630b30",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/wa045.rwl",
+        "sha256": "2197c7977e40caeca1cd84063a1b03b8f9255f817b935b1175da7f0d0f6d0fff",
+        "evaluationClusterId": "1ac3190069fb1d8ceda380d008b57699360cd47bbb9782c20ccd2f925e982d88",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/wv002.rwl",
+        "sha256": "2a8ca72ea23520c86e8bf6d086ffbbe6ab5ddec24b74376427c6a16aaf77a8c1",
+        "evaluationClusterId": "feb7a1f62a5e514a290693b68af8fa9ec4603427778b7eaf81d809a72bbe21e0",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/wy005.rwl",
+        "sha256": "ff7e0ef6acafa17576ac827913be430b05b33c707e242600796da2a8dbab15f1",
+        "evaluationClusterId": "6573c3b70a40073c98490b38d031a8b39aa10001659291b03224671a07f167a4",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "paki018.rwl",
+        "sha256": "78a9b60ecd4da065f8f9eba60fd990ab66d9c41edc3d182abef31dbc87e3a27f",
+        "evaluationClusterId": "410cb04992065f2747a18f629b873d90632f7bfbc56bc09af3ff80ac41509afd",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "rus326.rwl",
+        "sha256": "9767c61b239f72a9fe50bba1906b2ef2110d83024af90fadf04f523f2c75313e",
+        "evaluationClusterId": "31b0258838bba71fb031ed73f70fa30de1fbd99de1571f71a635b4a752bb06df",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "rus343.rwl",
+        "sha256": "a8340fcc59576f8ff77d7dd6b798ee09c33fc4dd65e3c4c138ae0dea947d59f6",
+        "evaluationClusterId": "618567d93eafea88c180c571e5c82d22c36ecf6638a3cf462c009258f3f0a72c",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ036t.rwl",
+        "sha256": "77e18d99ead714a3215766695728c975aaf8361885e1d8849214fb34ae4fe544",
+        "evaluationClusterId": "c86101a8e793f1bb93510162bb056675175b3ed74c35b747611351b40febed2e",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ047e.rwl",
+        "sha256": "e8abfc0aacd53352baac3ae5c586f76034cc0ed1184da2113a6dfd519dfafb1e",
+        "evaluationClusterId": "f6b3eea064025f254049297acafe775f5cf6d7bb8c8d7712c22408caee8ded4a",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ049i.rwl",
+        "sha256": "791508e365036fbd1083ba6126e6431e18d18200086c7c34376306bcaa23f282",
+        "evaluationClusterId": "f28b47626dc031c97cbb9736e27dc3f52abcf4aa5a08f20b93cc079c2cd4553c",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ068e.rwl",
+        "sha256": "4892d372f585512b1e05e81e1486f54d09b7097ad56b853d4b6ef3bd6b549542",
+        "evaluationClusterId": "2b0203acce7b9f644f0d071fde62ea3c8f794cad66d9d49a81e4e46b337e394f",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ072i.rwl",
+        "sha256": "42d63242568beb4d318d07fcf14de4a00c7384b819fe3130fd4fbf002be1de88",
+        "evaluationClusterId": "2a56209b63bf79bc174f5977d97c578c5d30742b26e09e089e768ccb3e874a09",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ078e.rwl",
+        "sha256": "60c5c61edcd6dce6f84b6bfdda8edb305ff0e05fbbfb90f0c16a4ef8611dee2e",
+        "evaluationClusterId": "582d84bcbe4441a762fa8f7900b6a1891d045ee1f823b7e1ef7642921ae64157",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ078x.rwl",
+        "sha256": "bfe7461babfe60555d780cc83eda6e4426f9599b21ab58b0512b04d23e45d3af",
+        "evaluationClusterId": "b7a2ab286f27724f92c906d8758f68b28b31d2fafa5c107d1eb63bbac6b1a12a",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ080x.rwl",
+        "sha256": "781cc71ad4b37df3aa44d2c759097b8061ca0ddac8de38a7f72fc4ed9b7233ac",
+        "evaluationClusterId": "79284d4be6f9c980e3e73539e04bf1a6cbfe7d6e530b68e300997e845c988a9e",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ081e.rwl",
+        "sha256": "eb29966bf292338afa426a2cc54211eda982c20ad782c6c5ae20467f192fb563",
+        "evaluationClusterId": "339670fd7733b852d16fbb0624e4f0577c65574883330942ecc19d62fbbf7995",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "russ090w.rwl",
+        "sha256": "f572a6ed5a2ce4ef66660ed7bec9f19dd1a6a8fc61ea6de5778d48a299c42c9b",
+        "evaluationClusterId": "77e818fd86cfb418ceba6071af900426bddad04c36bce14195b1c77e7b570e52",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ096w.rwl",
+        "sha256": "a98264095f42c12b428e647df39751f206bea1991479573312aef50fabfecd28",
+        "evaluationClusterId": "77a06e6ea54269e3bb52dfdd02866ea102299f750eb5d429813767684e761006",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ105w.rwl",
+        "sha256": "73094d949e97a0e51abde9a82914253c8fabe63b18741f20fa4705a215e7041d",
+        "evaluationClusterId": "6d697968737947b3b50f71a6cf152a82261708b55f3d3fbf5974955d8a9c4d3f",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "russ107x.rwl",
+        "sha256": "cecf6a4ee331d856284ed5f99fc98eff23b47ee379eccba2a64953e4f738251c",
+        "evaluationClusterId": "9c8009698ba603c81f8b8f954637724d46e62ac82adb8077a1550987c53adc0a",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ109e.rwl",
+        "sha256": "9fbf61507cc0e0795a6828602b2fbd59160b362757cad2c0e5c0752c49af4ffe",
+        "evaluationClusterId": "b8f7b2376617a6c9afa7fc7cd1399849e7f8ce6bad1df57faedfea4f5d0323ff",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ109w.rwl",
+        "sha256": "4f88bb05fac4fdf9e6e60f54fbe63ebea2b7100dc0b876484b179cf3b5824f2b",
+        "evaluationClusterId": "20d72f516e46d9a2dbab5fce0afa1c0a2847c377926dad497c1f28ed3d16ab5f",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ111e.rwl",
+        "sha256": "240a9890023725cf17a7b03160d425f182f1188b76e338069379a5f52e135860",
+        "evaluationClusterId": "9ebc44e6e190a4b958e511b8e5a32ae207158aa6e07c36c70bdd393e99b18e48",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "russ111w.rwl",
+        "sha256": "ad7ade7f61c3568eef16fe1c005aa329aa4c8f407f3fdd5888e5d0dd117e61af",
+        "evaluationClusterId": "04cf27fbd08f12f12422780badfe3b7dc94a15e02caae03c97d309472245e3df",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "russ113x.rwl",
+        "sha256": "63a6e4a90084b4e0287a3efe3574d98205fe8cbef7223bc10c665f98c5bae9f9",
+        "evaluationClusterId": "b7093798ef874cd18ecdf767f372a3eb4b2be9c9f3267532c5b616af33fe6677",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ114w.rwl",
+        "sha256": "5b9115bea3d6a2d690766b5c4c7e647a2d57b56266f1f5ba1df44e30426718a3",
+        "evaluationClusterId": "ccf696db49b8c979153a196bed2e582180680667e37510069f8011ee8b06f3d3",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "russ119e.rwl",
+        "sha256": "74e0b7bbfbc8602d2cf84e2382412cb1e01be644c755bf9b4a39f26ccb68afc2",
+        "evaluationClusterId": "51fda383af81d26f0d423177d9328dee829b5c68d03fd0cd5ad680d8d6eb31d9",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ122e.rwl",
+        "sha256": "cfad44dc8affb9b5c45d4b2105a15b989ce3b21405c32e10207c692d9504532a",
+        "evaluationClusterId": "ad90ca3c71fa51b35dfef1b404b1bdf0aec96aeefc75c1fa7f5a04989b6fc852",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "russ126w.rwl",
+        "sha256": "fc2b7ce1b2641afdccb38bd49d71c64ceff48a5e40874a3561c343020d081dca",
+        "evaluationClusterId": "32b975aa45f02ec1f3aa83a6ae2aee0b6b14acea9b9d5abb270bb3fcb0da0ba3",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ127w.rwl",
+        "sha256": "bec26db8c01d75cf4f59e15a388466af8674ad8a610b90111b3dbf991e455c40",
+        "evaluationClusterId": "7b454232e2cb304d88400baeb3ddd38c742f8d19bcea66170609de49bc039c2f",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ128e.rwl",
+        "sha256": "5737817d49f0ae88a35ecf5de126259ad5359135ac7942aac2636f2750923336",
+        "evaluationClusterId": "59f9c20caba64e856fbefb6ba75fe780834d105f57e9b046ec52dea8c3907ff8",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ142w.rwl",
+        "sha256": "960be3c7f2521191f5b8140048a3deefd566aed9a7b63d7e086b549c7443084c",
+        "evaluationClusterId": "1c25c74b6c9ce23dfea7a9125afb67cf1eff9ee748f697018fa0d47b47e6d11f",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "russ144e.rwl",
+        "sha256": "7789e4d67db3b6e8c38f6d29df43efbf554f0fdbec1e31a0b773298129023136",
+        "evaluationClusterId": "3e0b62b9c34f8aa028209f2977493be5852d652e150326b5828728dbe33177eb",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "russ155w.rwl",
+        "sha256": "023b700ec5004a6af5ee2b42b3fdadc22066e17f099e9d73ea804e1f22127866",
+        "evaluationClusterId": "d015c854006cfab6751592d10561da55c88de5938fdb89a8174529a8b7c4baba",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ156e.rwl",
+        "sha256": "b99b70f8e7e7a345fa5d08c9776e16210a0fa9ece32dba43558cea51817c6e2f",
+        "evaluationClusterId": "4ed2cce1f52d7405854a4db0e35cf57e2b4aa7103c39a12d0582bec05080cfed",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ185.rwl",
+        "sha256": "7d4dbf6093f8cf0d098ebd06c6c161750c6738eed2d3e04a2ae50853ae67a138",
+        "evaluationClusterId": "49335775b1c09d476e0dfd6cc7fc5312a27c2cfbaf15fb6dc5c4520214d40e68",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "russ194.rwl",
+        "sha256": "ba2346c2c8f693c029893bb8c0528266ba4be4f06ebb4a519c718226879b0f3d",
+        "evaluationClusterId": "b2af88be327b2fa7307cbd0150a905f1cdf84aae98e548f2cc34cfe771e1280e",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "russ211.rwl",
+        "sha256": "b42ec344e93e10f45210fecf5864f8cd171e3fda9c69b1e885decae4a2f21386",
+        "evaluationClusterId": "4b0486c91871e32b5c5163958ea73f5dc1986429b1d2796ecd48c693f33204b7",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "russ213.rwl",
+        "sha256": "944295f3aec969a960bf1ee14f5dce384b39fbdf81ebadf07015daedf2ea9014",
+        "evaluationClusterId": "e7d9126c31fd2110cef0309e4ba5e2c3a872a1a4c76a668733b12ae4d6ff190c",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ258.rwl",
+        "sha256": "390a37af02fe253b9fe4c4a31eb428014e5d09868832eb428b11ad7d7cf3fc7a",
+        "evaluationClusterId": "89ebbf358c9a07be0fab3669594c2aafc58feca4a5751fa9aea2e45cca59186e",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ303.rwl",
+        "sha256": "735c1d8f5be0024445508cdcf70b5be4068e146c9db5912e2168709fcb22a39b",
+        "evaluationClusterId": "754439b1464dd32228fafeb5abc46e04e9c3f04033d457ee1f32fbd411704209",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "southamerica/arge072.rwl",
+        "sha256": "2c2f31a35ec56306b16ecf85cd9d45f51a8b222115eaa13aed49e9e6fd748d7d",
+        "evaluationClusterId": "c1f39d21959f396286b1262f377a3a3000e3e539e9965aa924d445e43d24fbee",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "southamerica/arge074.rwl",
+        "sha256": "43d85cbba2ad33640ce9761b3bcaa9a7bfeca24dc565b29f2672a0763cec1d2e",
+        "evaluationClusterId": "52a5d91acaa28afcb99f50b225e77dc552fdfd6712be33a3953bc1a25f62c398",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "southamerica/arge078.rwl",
+        "sha256": "10f2dee5b6ea2584faba2787ea6387b7adf585541ada644fcc780923c5163bdb",
+        "evaluationClusterId": "76c6f09834f3c097c5acccd39af093805096a5cd607e2bfe493ed5f8ab47da61",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "southamerica/chil011.rwl",
+        "sha256": "e51f4df5b34fc94b501bce13d02cbf893fc201a15072350c08cd4ed79a7b9c6d",
+        "evaluationClusterId": "37b40334a2959f303a6126a78107832982b126dd34482f2702b4b6f99dc234e5",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "swed316.rwl",
+        "sha256": "0dd4fa191de5ac2fd50540956ecde6f8635094d939624aedbb25897c677c6acb",
+        "evaluationClusterId": "45bff17d95d9c52ec6c6cc840529f63299a723c346b06aafeeb02729bb36c405",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "swed330x.rwl",
+        "sha256": "3f8bb3fef7cbcfa43c57e7f48b009ce7a74487cfa1fd27f93572fa9dd9f623d7",
+        "evaluationClusterId": "ce5f94aef044abad7e2ad21c9f7ce9fddec5c70ad16a1a42910967809b9a6b85",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "swit174x.rwl",
+        "sha256": "4add1981996049293c28e3a8d22f04dc78b0e8ee3404ed4da8456bc36030e268",
+        "evaluationClusterId": "f543a80420e14799c038b764a2bbf9dace021e0e670e451616bf55aea604d794",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "swit178l.rwl",
+        "sha256": "840a77226ecbeae488500fd3316c49e4699137059bb98327464de25bd98a3b2f",
+        "evaluationClusterId": "27a3f9a7cb5ea5f08ddaebc6a3c84a5487ed1a5afe83419a11fe401df11c38fa",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "swit185.rwl",
+        "sha256": "0e4cbed1c885488abd7637665f4964d129027a8f26a4099ecd3c2a9b26aede3b",
+        "evaluationClusterId": "cde7a483e8894083f10179ddee6f9e9dfa335b764ee1325d9d583614d1710cc3",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "turk052.rwl",
+        "sha256": "02ef3c33ae1c7a85757dcb0a23e00215567ac2046eb1ec038ea851de5cc44c9b",
+        "evaluationClusterId": "626560277ac2157603efb53e573f6f4e1914a9804f3e7426d8c20155d43bcfe6",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "turk054.rwl",
+        "sha256": "8350ee048c416ae28f349e8f00ea8f53e30cc232c50d2aff0b9cbe770786f3eb",
+        "evaluationClusterId": "f7cd6fe37cdc12b88c736da4f9a12e2948c018e3e269aaa6fafe9f5be18df6aa",
+        "rBin": "0.60-0.70"
+      }
+    ],
+    "development": [
+      {
+        "relativePath": "ausl012.rwl",
+        "sha256": "2c6e4462ace9f0d86fc48dcf34f64468964deb9e5eb1ea11bcb85a57711cb5ae",
+        "evaluationClusterId": "0b8853ecb6243b49c10270094fc5c850d574cb4f274e593399e538d0ab775ff8",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "ausl014.rwl",
+        "sha256": "585852878cf1eb0d3e2ab9c693ef436c87443e808716dd25c98c09758678b72a",
+        "evaluationClusterId": "da4aaccf26c4d270b92329c71febe987587aee6ddf76072f76f696b29fd5da73",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "aust111l.rwl",
+        "sha256": "e156b87b12ddcda16af8a0fc8659715c5487f446ea348c10ecf3cd48ad44bcba",
+        "evaluationClusterId": "0725cee09d523e43bf43bb3405819b3f1d10f0fdc25aadfcfb78c9271b8e8f92",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "blr001.rwl",
+        "sha256": "863d88f7758a33d3fdee0fe19cb9ead14f3044f86505ddc007bb11999745ddef",
+        "evaluationClusterId": "8afc26238bc63ca5e3b2c49da838cdfcfc9e6d02b618f310a89cad3e1e1eb9e5",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "brit015x.rwl",
+        "sha256": "f5986d2b422c6a99b541934f765a16652e95114b8ebc5c331739c600be14b817",
+        "evaluationClusterId": "ad0f15943e0c71f9c0d5bfe2bfad78a8048d2ffa29c3af447a4f9b31db18a212",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "che464.rwl",
+        "sha256": "54b793de86ec16d0b8a622bbf450d0637b38de153f24a6011942c71e47e5baef",
+        "evaluationClusterId": "d14673f34cf588359dafbe3ff00b20dfb17277f5f452eb065084e540d1a81675",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "che509.rwl",
+        "sha256": "9870781109560c65d92161da0465b31c804aec5d85528c52192db986132870f1",
+        "evaluationClusterId": "4388447ebefa04fa7c72837d5decc6d1868efc0e23c1f67d77b9105a701647a6",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "che527.rwl",
+        "sha256": "04700f6e668b30ef872af65ba85663178af29d9bbad39f53130f4d56b24882e4",
+        "evaluationClusterId": "a9085945600921d4212b369849351c7dd8fb83073871445a795bd79c04817fe7",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "che603.rwl",
+        "sha256": "6165ffe68b03f4b24363ea92f1ba078c894ca22c61f6cdfce92beb927449affd",
+        "evaluationClusterId": "7c77d7b2e685016a4a2abc4a1e595e2a5bf32b9f692547c23d52154dd59e56d1",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "che611.rwl",
+        "sha256": "413291eb3f3d474b4ec9687084af8a4c2c444fcb62a5ddfad831f97aefd4a0d9",
+        "evaluationClusterId": "43d5faae18c3ab07e1207bc1a56cc2230184c43830094662c1a3e329c7145e51",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "chin029.rwl",
+        "sha256": "d09a1ad16af20aacb3a43ef8f2196b50893d6cff1700aa4228b8e368ba710fbd",
+        "evaluationClusterId": "87344554c5b1a246768c69d2528ea780ab4dea01a59ee2c906f18676e519f3cf",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "chin051.rwl",
+        "sha256": "fc2aff062ee068fedd98b8f0ae7b2a92a7146ab82e37fd18513c5bb4aeb484a4",
+        "evaluationClusterId": "0dd2553a13100210db6959b23a8e8d1ad8964c9935d70579e89eff85235ed4c2",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "chin061.rwl",
+        "sha256": "6496740f54e2bb0130e44cd198a7bbf4560e62c4ebe7e1a9614cc2d41390dfe6",
+        "evaluationClusterId": "15b41cc479bdd78593f1d59dc1a48920861068e2fb47924307b94646dc27a56b",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "chin075.rwl",
+        "sha256": "aaf77be3fc478794e8674e964845174837ea894289bb6f2079a4061d7a4685af",
+        "evaluationClusterId": "6f3e309c93b94f474a44ad2500e2a5500bbc605ebdbc82a2cfeca16f258e9c2c",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "cyp022.rwl",
+        "sha256": "fd20740794384bea3ba198853bc404c85021abc45a4d245a9e96b621a5a7ec4f",
+        "evaluationClusterId": "c8a5680a384d63f5c93bd88b9949bc702abb2cfab2fb7f97947bbd1f44cd21af",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "czec001.rwl",
+        "sha256": "bc50b11dc75936b4599f10626ae616c1332ef9595608c75ed5819cf021013140",
+        "evaluationClusterId": "bd3d8766bd4cf750749c54a9fa16db55cef4fd1e6a87cb38ad0dad01152ef080",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "deu315.rwl",
+        "sha256": "6a90b26569847a2e392081282ecdb08464ae8ce2327141c9fe18e7934bb25f27",
+        "evaluationClusterId": "38773ec5c9fed2ff4ad98152b1e4e82439c8b76a4b5884c1e63b7e0b7f438755",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "deu338.rwl",
+        "sha256": "06a7314219150e751d748e070419c52c5015926843eb1a33fd0b84b11c5772c8",
+        "evaluationClusterId": "f9e5d72f9b6da61a6c158cd3219e5199868dcce92e6265c8e0ed3e39474453f2",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "dza016.rwl",
+        "sha256": "d1413fa690d28a63746c44378e08122d7feaa27a855a9d31d9b3e540ff570d45",
+        "evaluationClusterId": "f36ce34c837a715dcb797d3f7a2ee21c3c640d0de8860c8f8e20f2fd080f2e5f",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "fran038.rwl",
+        "sha256": "8742cff9f2d2ba27186b4eb54e6d583cd4de07407d490f0f922f56cc4e41e5d7",
+        "evaluationClusterId": "9fb1ff56218e731455a3d9fe75d3dc0ac690254ab68d78fbd22debb569310ec8",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "fran044.rwl",
+        "sha256": "1a3078c0d4294c520106c38a1a2ee3e0af6585130043fd5b91f5e813d6b33b34",
+        "evaluationClusterId": "98e098abee34d8881e3015a717947883fb018681c5528d22671b176efd275cb6",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "germ020.rwl",
+        "sha256": "bbd29c4018289786d08c4d7416109f1ce55d3b728b8bc7b7c61494b50cf4103f",
+        "evaluationClusterId": "937ddfd84d693a28cf820cebc55e23f08c4ad31b92c6887b8fb8fadd4d3283c4",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "germ052x.rwl",
+        "sha256": "8034a666822a52a54c25dc0a7279a660f38fe931a848e212c563feb8549048e4",
+        "evaluationClusterId": "82e837cb2e48eeedffb94a5c44068c9b3f22e1a49572db9f49afa0d8c670504a",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "germ152.rwl",
+        "sha256": "cd2f83b0f1ff3025db244b579f5818df22c431d97e7a76cf04a6e2b46506e88f",
+        "evaluationClusterId": "9fccb659941c2abbb90c80a5775a46e6c3d676401f52775fddaaa04a9e11ca4b",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "germ205.rwl",
+        "sha256": "2f691cebfa9fd4acf119e41eaf2d4705809417c63b9b944f4f84f14a6e523d3f",
+        "evaluationClusterId": "b81cd04d26524ae8ee7f874dcdaa5fe57f421774d80ea00c6796bc555468c5e1",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "germ210.rwl",
+        "sha256": "b86479f1c1a7aef67e9aa04db390ada205fdf20084a2f06f19c044429759b949",
+        "evaluationClusterId": "1cc86b8931c2d1f6b5db7b80240d0d12e77b550ebe54b87b2443408d857e0584",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "grc029.rwl",
+        "sha256": "b973ee2e3cdbb740c003730512374e3bf220de931ab174596569202ef9432c75",
+        "evaluationClusterId": "c8f283b6be95218f0fdb7bb9bf0828cd9b0652c6db9e1b4a9d7f8fd6e024d215",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "grc050.rwl",
+        "sha256": "5c8c1dc47d54e7ab7911cdaeae3be21e05fb07825a78757da2d7f1303549cd03",
+        "evaluationClusterId": "27b59299bb2e0db92f2bc7d1b3ca93951d6ab69f94a3ddaf9d4f1034e09e861b",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "grc051.rwl",
+        "sha256": "b9c293cb3c1cd3bfa4e608f7e6afb6dfe3cb753dfbf0241bc918322950e7db4f",
+        "evaluationClusterId": "7364841177997c99706289a052292fb290bbeafcd275ad8517252564219755d3",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "gree020.rwl",
+        "sha256": "74b50eaecab628a6a22c86df50806f6125b1ce9520769c03ed98c8405d40528a",
+        "evaluationClusterId": "f5f3e26dd343bffa6860de122f2b345b571d19e3573519ee5cf47b2e9be90f06",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "mar040.rwl",
+        "sha256": "397ed270c7ec020d9ea8f9bd1dce8cea2b277d6bed273dbbd5a3a425c6eba186",
+        "evaluationClusterId": "337d8f74d2a368cb66b94cc9223d1202ade6531958cfb966647f2f6f528ae01d",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "mar044.rwl",
+        "sha256": "7d6792e4a7fb3d9ab1367eab17be6404b6928208f7f71070bccbb280b0668cad",
+        "evaluationClusterId": "9effe85a3f65ab2bec075d14b5bffed344b82fb4626242d4e3687532b45dc459",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "mng045.rwl",
+        "sha256": "ed86516f66172f9b704d88d57ddf2cc89a32180991a3ef1d5a61be1188349e62",
+        "evaluationClusterId": "0e9e7ee8d1e94b77bd086d0f8987262235cecfd3faeabbda2ece633345a7d1c5",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "mong008.rwl",
+        "sha256": "1cd65f0fe858b0d2a1ec223d5ba85e5fceaecdf8c65707364abd0e9d70086014",
+        "evaluationClusterId": "e4deed3fa2e40460bcb078297250000f212bacfcc294e8fa7eedd4e417af0ff3",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "mong010.rwl",
+        "sha256": "012cc928b5ad56190aeafd7371da83a946d7982562b045881f2d8f6f5f000a92",
+        "evaluationClusterId": "5e40d01726999e17fe783f9f69399b1d5417e54ad4031eff93ec883b44665d94",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "mong016.rwl",
+        "sha256": "1e4e52f5898cb7c3f63e33baa73d11cf1fc59734f193ad9d6fc2f95a528f6f03",
+        "evaluationClusterId": "c46c99a4f4ca4bc4251bbfbaeb7689d281f7d9a9c9034e23c91dfe15fb23c183",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "mong018.rwl",
+        "sha256": "ab44306609a55acaa116c2058cd4e46089a2c6c4974908848420163594d8be91",
+        "evaluationClusterId": "1f417cac60eed146cc9e14d452c0cd0430b0511a5a3e3b6e3eeff5c0b2d42aa7",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "mong020.rwl",
+        "sha256": "102cc2191ae8bb5d2c1b86714e950c203b8ba6d5a771e75a5c2225ad82e97632",
+        "evaluationClusterId": "087a14beb6cf110cbe039b87e8218a218ad9f3e916de6dc2b02d75f08f0025aa",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "mong024.rwl",
+        "sha256": "de914025c811fa641b550314dcf683a33b7f59494c5db88676f71fa828c15df7",
+        "evaluationClusterId": "8913147429e8d46bf691c57fdd8bd69361b103516d2e023597f9111275de180c",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "mong027.rwl",
+        "sha256": "51300d1f849e7c75f4ab05ab162bbc30563bc0b73cf200b0d573240d8eaa9719",
+        "evaluationClusterId": "a89bbe055b154adbf708a8faa7be2d76539c5a7c0222d75003d83a8630e77f2e",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "morc020.rwl",
+        "sha256": "3eb17487348667339d377bdcbb0e2a8f26e0d99f92102b4355516626ddf1ac55",
+        "evaluationClusterId": "170b0cdbf838669e20144b5a70fca92d72326ac6e5eee5063c311dfb30e2dce4",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "newz036.rwl",
+        "sha256": "2d74635ae40396b6db994ead217c142aae4d4b395a75bf2d15edbd195dba1f84",
+        "evaluationClusterId": "9faab4d55e64b4d5640f0a6c6d21824fc75112acc9ea310b2dfd10a01728b99c",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "newz053.rwl",
+        "sha256": "3b778aead7f2b254b26fda2eaaf532d92bfda59d44bb41fa3f84fdf3a686bcd4",
+        "evaluationClusterId": "7b7b2c48e1b7d9e0a6e1a4448a0f9c11587bb16db9eecb2165bd02b07d29f758",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "newz078.rwl",
+        "sha256": "ef47b59c5c083213e185aa08201b41735c325796b29bdd64789746e4da6055dd",
+        "evaluationClusterId": "afa8eafa283b7918101c7d27b78f6b33aab02f4acd33a8ee341b85f06715ffab",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "newz128.rwl",
+        "sha256": "1f9c89bcf8c756cfdbf811c6d8426a06e811760b168a650ee82fc2359b05f113",
+        "evaluationClusterId": "85ec7a789537dfd55a6e945855a3c1169d2490256243cad06044490858078444",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/canada/can708.rwl",
+        "sha256": "579e4188308564f0fc8ed39f9612c702ae010a756383d77efd46bddf10f044d5",
+        "evaluationClusterId": "40b207344f2b4951a6f47aa989d85dcd23fdc542220419a79f4046f79d1426a8",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/canada/can713.rwl",
+        "sha256": "3f4a2bcb95f92cf6454230084272145fb6be0e46142a13aa99ec88e929cc588b",
+        "evaluationClusterId": "8ae465e4f362c995ceef9d75bd88b1b56ec13963969b92f9697b8bc1ed4737c2",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/canada/cana026.rwl",
+        "sha256": "39e22321452fea3a534e02784564de133563a13625fd159e7c01173efbb043a6",
+        "evaluationClusterId": "cf580d8dfd0556364edf812529456c888f2b56092e52515d736d562423239b97",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/canada/cana234e.rwl",
+        "sha256": "7d8070d00ad9a666cedb318f0e38dd2b1004117f679b061f69da09c32319a54a",
+        "evaluationClusterId": "692a39cf3054f8d7d797fb39e73ce2a06b059387930ffbeb60516909118709cc",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/canada/cana246.rwl",
+        "sha256": "46d8b69ab2d01344994b81f7101e6eca35e8a329445d1202bf3dc01613942669",
+        "evaluationClusterId": "41471e5cd7af211f5d8411fbd47fee1a23a42e960d6811bbfcf352e779033068",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/canada/cana254.rwl",
+        "sha256": "c286009427f653d294dd0bc27e5c3dec17730956e6e10fc8b1c09cafbdab81f3",
+        "evaluationClusterId": "a5e87b4ef93d44e92b1f44aa54c4ca7a98668cad7022fc41f5436909efc92974",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/canada/cana334.rwl",
+        "sha256": "a2c2de22fbe683837449ee134c36c33e0fc10bc8413c44e108eb9e0d04a35ece",
+        "evaluationClusterId": "56d016068c3b6719b0026ed1b2a74eaa07cca5a444a51458375a074ecffb7901",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/canada/cana386.rwl",
+        "sha256": "df73bff4e07eee920a2ebe46ab109f1ad3c1b9184786d5674f59b1153bd8874a",
+        "evaluationClusterId": "a58e7e7578f1de8348e4fe047d316c5002e3d3620e929be4362dc13068a67330",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/canada/cana4.rwl",
+        "sha256": "5a147f65ab8291aaca3f8233a4800ebc01bdd4c177db26257126a5a2cd31e9bf",
+        "evaluationClusterId": "2fd578ea0a64c99aafb387c4701e56ef2bedbc9b8a074af890d215f94b99a5ec",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/canada/cana417.rwl",
+        "sha256": "5ea0eb2b4196240e248258835ea7305c611cca72ae730113d7aa76221a4614ac",
+        "evaluationClusterId": "28b914a7e00f0e141f58d80ebf7f74b3385faee4c0c7bc008ab80af69ae93439",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/canada/cana422.rwl",
+        "sha256": "a7a2dab3b84f1d17d1660b5a026ac55edbe89081ceafc321e6e0abac38c993a2",
+        "evaluationClusterId": "b14a96fc91bf9f57ecbb5dc09905c5398859a49dfcb5bc626d251b2f2c0f5ec9",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/canada/cana427.rwl",
+        "sha256": "f7e85205fd80d84d4a154f4c907cf064812e0fc188bce078c6c57c4975e18e51",
+        "evaluationClusterId": "03aafca6b4887783b11784abd9ae15c4be04a28ea95c7488a60de2be2aecada1",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/canada/cana518.rwl",
+        "sha256": "8d9b4176d1da4bc2ec9b503ae392c8bca71c2f85740e554b1419ddcf436a88ea",
+        "evaluationClusterId": "684bb31c09401d3145832d2a18bbd5ae1c0e189b154e0e928d2efa7a0a7f4d9f",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/canada/cana572.rwl",
+        "sha256": "4667cf8f9bfd80b390db11e765b119d286e76909b15b4117507938762da9a842",
+        "evaluationClusterId": "8320f2fa33cb7a92a629c2f4138912ac9c6a37c728a55520264f9fbe7bf8f42b",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/mexico/mexi004.rwl",
+        "sha256": "e4bf9b6522376f15c011e34888a49bc17beb6931b4229a1e13bec054667d26de",
+        "evaluationClusterId": "da177a352d0b421c73187ce4413b650e95242f9a84135002ee60eb3cc454c1ba",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/mexico/mexi023.rwl",
+        "sha256": "91a08de9527c4999d99a878e295e0908f6cb866b04db0095d3954b957464cd40",
+        "evaluationClusterId": "1aa558a76128ba963b9637dc29f062e7d8fb719d6e332b3843360d195ad98a1d",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/mexico/mexi028.rwl",
+        "sha256": "f31701fd802d6e2113d428ce8680c421ef3401a93d40807dd6a1bef6dc974850",
+        "evaluationClusterId": "96fa75784032c97b8a95592fc41058544c2911048e67410aa3833ba653d05143",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/mexico/mexi030e.rwl",
+        "sha256": "ca7cdea8223bdab0cea4722c406029b4adb510cebcc958f20205a271e7126bfe",
+        "evaluationClusterId": "ae9630bfab4d29d4d56d0c8ef720f3b5579a4e86f2f0bcf5c43de5769f055d80",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/mexico/mexi044.rwl",
+        "sha256": "72e5785c5bb7bbf2a653e81373257ac01a795f559bdf0855b2a44871a63724ed",
+        "evaluationClusterId": "2f5e214d97fad514cc856fefdc260a11f0e4607a2b756468366331929e6e188c",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/mexico/mexi064.rwl",
+        "sha256": "89b5e54902a64edf794afc76112b63567e0710288ff3e7983b8cc636ef0840d8",
+        "evaluationClusterId": "f8dd4c9fff3eb8a2dd22b4a5abaa3f142a086e7cc125261c97107d1d6048e70b",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/mexico/mexi074.rwl",
+        "sha256": "ae2db3dcde7d1cfeb10eedb9d65101219d83d35b4027359ed883f96ecec1ed24",
+        "evaluationClusterId": "4e8ce8286398008dd8024e04d15038a059ef3d2a91d7638c323ab2ff96d8179a",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/ak024.rwl",
+        "sha256": "da0284ee58ef2e173cdb53186a8494f32fa7c50a53bb20c3f7c53341ab18e704",
+        "evaluationClusterId": "838c8bddfb228a9a0fb74f4db679842aae23f07132b87c8231db18fb8a490ffa",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/ak068.rwl",
+        "sha256": "e7ce4b523f4b71aaf61a45965ff0231786417ec0229ea994fd4074e900d213ca",
+        "evaluationClusterId": "ab421e0cabfafd38db7a2ea5863930c1851a1d4879719b2faa16d273c393717c",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/ak13.rwl",
+        "sha256": "6a42c204ac9494ad1079104f544ca29e63e55ce6b50724bede49048c7896ee86",
+        "evaluationClusterId": "ce908f692c0c242805930160543bf0cfdb318b4dd3f231064407500641e237a8",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/az044.rwl",
+        "sha256": "981f4a45e8540346f1c44a6a6d33211c1ead2cb0566a58e5cfb4596e8abdd8b5",
+        "evaluationClusterId": "1fee8b19ee775083625223e44d9122464613c96db61895ca32f9bc6c29f04402",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/az046.rwl",
+        "sha256": "c7c9d2ff7b7d4a6dc7dad50ba500165faa5a8ad1d4c5bdff2052419176b1f3f8",
+        "evaluationClusterId": "0677a693897d2533688d022ca0b5bb18e08ac4288e3a3fe37f80f4666e25052c",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/az047.rwl",
+        "sha256": "eb36c17873914c63438ba0402a3c2e85751f23e0a854381eec625c486e166946",
+        "evaluationClusterId": "73ff5eda2109aee51e41ac82ff979919844d924a8fe27b957336b185bf76eb1c",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/az066.rwl",
+        "sha256": "5969abc0ee8bdfe01f8ebeeb1fde51badbbeb5a6a58e98148470c7f15eb257de",
+        "evaluationClusterId": "b13ce62748fd889acc3f6189caf0c778c765c6b60a623579fa515d14aefa94d6",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/az079.rwl",
+        "sha256": "17a8935656f94011005a8ced7cb7c945860a573ae3cbd0534825e07624cc7802",
+        "evaluationClusterId": "249b35358bb03df3c3dff2eb880af94b09ff4a917857f45e8745ac76631161cd",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/az081.rwl",
+        "sha256": "49cb26bd7b24975c012d735373ff4085db8ad5575a388bb2cac4aae06b016f13",
+        "evaluationClusterId": "b52af8d7026ee16b7526af54399e9df7cc0011efbbf83e3e441f36bb2791869f",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/az091.rwl",
+        "sha256": "73b46df8a8949ab532e67345f9fddfa47d846d5e7bf62ee14f971c99dde186ed",
+        "evaluationClusterId": "c02de6079b807dd2d08517b16a9a51a123dea068efc0a3d22e36e59f56fe45df",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/az503.rwl",
+        "sha256": "65c08b2338a53accd4afc9e20da51e22e531f8b37ccc6bb21a587b18b97a5660",
+        "evaluationClusterId": "9d78e99293a03687b4a61d3bdc2b7c89ca9bd4e0e8692ec3e0f3a54456dcde8d",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/az512.rwl",
+        "sha256": "86794ebea3d2ad3c7c5f3d36eafb02f37e7837c7737a8f016c260d07d3d3e61c",
+        "evaluationClusterId": "550a87d9f653b0c0a5ef6a11b4cf5587f641a15bbb2714a215cd2c1221f79ac7",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/az536.rwl",
+        "sha256": "a2a12d1260b54e494a646eed12421cbe3903c41c6bbe1ad21e1b2b2b2e89ab54",
+        "evaluationClusterId": "35d9bfed3594e172ebd322a3fe46c2736f1d911759df0e72decd03b171fc970f",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/az547.rwl",
+        "sha256": "f82803c29398a0b64f718aa030f89ecd50b6139104a53fc9ab282c513ba2a9a4",
+        "evaluationClusterId": "8e74c8513b1a927564740b74a909626d37fa198cbe5430cfc1824923c0456ccb",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/az558.rwl",
+        "sha256": "0cdfb2912417a2479432767c09cd444961d93b7d5ea5e681ae7637b7cf9d27f7",
+        "evaluationClusterId": "ecd5c9b448011d0d1175fb2cb11d62d4c09b44b97f80b62f71e44bb6104807dc",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/az568.rwl",
+        "sha256": "763a0b21f09ad44b9b13dadd59d4b7f6a3206ec77bd6742e4f54be8696e4cb58",
+        "evaluationClusterId": "0bb45d1a0733f5a5006d1568f629dcb6a3018098ec66fb0095b71abdaeac9770",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/az579.rwl",
+        "sha256": "2b83c5e689cdd6d135409ed070bf7490b038d5b06d0c38ab0472c0e07db6d075",
+        "evaluationClusterId": "6502dae444119ee863150a4cbba6a39da1c417ad5107d47cb28a1e2150044d33",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/az606.rwl",
+        "sha256": "7b048142440bcb51244f9366095ac98725412e3758013df988ae4639676c4ced",
+        "evaluationClusterId": "f69099a147c47ab2c358cfec77c19d4e7f9e26e1753649742c30cca419115269",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/ca520d.rwl",
+        "sha256": "f3b54a0833c0cb781355c9cee652c8bae4a7dc2944fa336f22b406fc5a0ffb0c",
+        "evaluationClusterId": "685090da4c7f6c910d65ad4d296030e4b43b1124318d29dbd8deb0ee05746f09",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/ca553.rwl",
+        "sha256": "16551245de3b7e2698daed079f6eb8027b763e13ff1825d41ab4f5fa16b84ed2",
+        "evaluationClusterId": "9daebc31df648106a483b91b8d69af91c19b5e2c19da2f61ff744ee5fd867c7f",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/ca679.rwl",
+        "sha256": "dbadbd9e912b3814761e845e1b818c684eec0be9e81bb92e32904aff535663c7",
+        "evaluationClusterId": "eccd1759b7fe96cdbcd2b0df13254b644c536d3b4c6ea8a819b0dba2857f39dd",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/co043.rwl",
+        "sha256": "9ef2319354d373ea660eb0020da379febb7a8580c6b94ca0e2fa5c3742631c2b",
+        "evaluationClusterId": "9e9a7cda847dfcffbb43e84469f21315a6572fb83c507d7a0b2f7caafecedce9",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/co046.rwl",
+        "sha256": "81176aa002c8742c07247fcd3810d5cfbcb1863ed143a194f5d27ad05492a78b",
+        "evaluationClusterId": "39d12c53d2cbc39543d8750acd1d1feed733a00a4bae496750a1c5b183e959f3",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/co055.rwl",
+        "sha256": "c68ea94cfc320390daac801e217ab5c2f373e5ec0f29a3d1688200a832832751",
+        "evaluationClusterId": "273423262746ef4c425f81478f69e5c3332d21bf6a4082f442b44dd5787cfdd4",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/co076.rwl",
+        "sha256": "0e6d3ce76d21f147082632f9ab7955062b16dd7a4e4b70304a709ef87e5626ff",
+        "evaluationClusterId": "95895e149acee6e809c764a8a50d707866986c04a17c1bbb1888de1e5bb89e69",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/co526.rwl",
+        "sha256": "8d38abbd8f9b092f539a36fa960be4c6ce5a38e8c26ecd410c44eb66361054aa",
+        "evaluationClusterId": "3b219d659815576537e717dc74e555fe1be75d2984af302ba7351b11cea428a9",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/co539.rwl",
+        "sha256": "2258b9d671ef8ed826cc88e8706139146e0713b6fc70ce8c1a0648c4491b2812",
+        "evaluationClusterId": "03ca6f71c4bcee095920429b3b97f9187de8c842dcc0310c92351798703ea4f9",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/co557.rwl",
+        "sha256": "ce81c255cd1a02b933bbf6ac196b75dc04dda733a388923c6f1cc9ccb99c9cab",
+        "evaluationClusterId": "7f5e0fe6088fcb32bec1ded46b923366d5dcdd237f6ae5e69a1f7e2cd3c4356a",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/co579.rwl",
+        "sha256": "f7cb5efeb10836c011e5f0e8d033f3f3f57a19801c87f44a7d950cb6dfaac348",
+        "evaluationClusterId": "8b761c74e94c2e1d233a2c867c30c2792f0a1d0cae4f6513bed40bebf30ffaca",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/co580.rwl",
+        "sha256": "eb5cfcfb5da14c040f3ebb712ba336fecad18e94e95c96a1be8dd0200eb7e041",
+        "evaluationClusterId": "75ec55a0d6147f7022760af1122042f13f9a0f7ddad06e27dbe45477dd5f6f9d",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/co608.rwl",
+        "sha256": "06b55cbf7c7e15843ed664e8d9ebea7a6fdd55b799411a6e23bf6bdef6715d19",
+        "evaluationClusterId": "b087ebb3820bf22fe98ab22e3580ee77ca7d3b6a42332f60812e747313982e72",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/co620.rwl",
+        "sha256": "6f7340bf7b237de5c985fd75defc50a476d5ceaadd51a58fe287f2e20b742b5a",
+        "evaluationClusterId": "7e82eccd497b55577a68591715716ae8664893d1bafdd414d8bef7f6e01832b0",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/co652e.rwl",
+        "sha256": "9b992863250d71911c4ae840f37b5a939571bb9a483c9b83452420ebe9c9fcb7",
+        "evaluationClusterId": "dcfcb9e9ea01b724f30581a433d960109e0aa5dc21c5c781fbd54c6ca2cf6367",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/co654.rwl",
+        "sha256": "797e3c545041eab12377ad712179d2dd862b90d29ee07b7ddd83d7ae482747d6",
+        "evaluationClusterId": "85fed29cfc417685863b3563683cd90e24d1d46b7448a9924b048d5e95224612",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/co660.rwl",
+        "sha256": "8e48110f6f7306d61ec60c63340f9993b734804f3236472392c12c86868e13b9",
+        "evaluationClusterId": "9b9f5b2ecb01902c0e2ebe7d9aef46679dbf4fbab89d5256f5e244e1867d1999",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/co667.rwl",
+        "sha256": "6f73a52d8bef629b06464239154b09cf9162678ae2cc39b5da520bc1e46e43a8",
+        "evaluationClusterId": "75ec55a0d6147f7022760af1122042f13f9a0f7ddad06e27dbe45477dd5f6f9d",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/fl001.rwl",
+        "sha256": "ac6e8e300f4fb4dec2119ab014051e76b3cf7a5c8b53accd670c7a7931d7160b",
+        "evaluationClusterId": "9621ea1c5bfec8dfa2f3fdd8477dd4053cb2672d1b07d0eb278f42a47050919b",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/id031.rwl",
+        "sha256": "86548f0e1058f92979ebb3290e756ceb8e1f8f799558642fd3917f220fd98be4",
+        "evaluationClusterId": "f396d122d3cea7f912e99060da30dc820f75991a90fbfc2e7f8c688e01a4ea46",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/id045.rwl",
+        "sha256": "aaf77a650b1c3d051e289a439ed266a77e50c20431cbcfff9056d5618e306428",
+        "evaluationClusterId": "564a174d6d549a90b427944f9de6d092de12fa4e5c81a6d5cdfe5866baac5e3a",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/ma029.rwl",
+        "sha256": "05a4e4f55740658ca4d92613092b32991db4ed30ab1e2d62de0b224623e766b7",
+        "evaluationClusterId": "cdf6c90a53b0f3113dd0cd816ac46c4520b9b4b2cb583e830848824e21abf29b",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/me010.rwl",
+        "sha256": "69b263ec9f1f33c863be99589f31d31d27fbeaeec8335d9688434d8cb992413c",
+        "evaluationClusterId": "7ee945fbc91b3b2e3bcd31e511fe7d69bde607414504e3e89bc7e45716c6d2f8",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/mo006.rwl",
+        "sha256": "0dc03723c894f33e5278012790d633fcd05309a3453a4224ab77f756b92b9a54",
+        "evaluationClusterId": "01925d4c439b8ab88364ba9ae651b9a61ce0caed2779d309faeb726006167170",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/mt006.rwl",
+        "sha256": "c3eb563866f8c649c70870b7a74e6950d104c0db4b5579129ee3df6f801c1b6b",
+        "evaluationClusterId": "99d97d0f97681d5821ffb4d2ff607902e2a51046053007ba34fdc768bf2103c2",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/mt104.rwl",
+        "sha256": "e5e71ed64cd015e2a7bcc3a7a817b47e3c04195496a22f40d45f89cf1e144783",
+        "evaluationClusterId": "3f4e93a44400c2a09c754046edfa6af4d856a2486ca4441a1bfd1d23584e2c32",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/mt132.rwl",
+        "sha256": "633445120a7e8bc1dc3a8adf4560b2175882a1cbd008e3de01d013d23861396d",
+        "evaluationClusterId": "4ffdf4a7945259cde4c37cf42fc145bbf9c3ba29a268f222822b6675e556992d",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/mt133.rwl",
+        "sha256": "e870b2f7b723b26fbdd1611fdfbf7304b82824fb4b905a64892f6d529cf50695",
+        "evaluationClusterId": "357c921fc4c41438db98f2e97a99f552bb54b8443105ff85844cc42a380ef52e",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/mt148.rwl",
+        "sha256": "da9d3729424626884df7a9bbc1a9416216990cd6f2f05d6f288689c9cbe95877",
+        "evaluationClusterId": "04b5c7c716478799b6f675412e0f11cdd2de82f5defaadbbcff3a7d5f95ce403",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/nc002.rwl",
+        "sha256": "db4072818bf50a167cae659f50f20a7dac18bd587f2a2c0a523bf4d0b7e37024",
+        "evaluationClusterId": "d93e143821335de57225cc2388a46319c410fb8af2564e1e7337e55b97b481ac",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/nc008e.rwl",
+        "sha256": "a4bb14a0e4e81ce17219643f753e509dd354014546fe25a49baadf9ebdc3457f",
+        "evaluationClusterId": "4ebda44507f2a49465716599c1173551c20152f9a47d714148f18bf75d987bf5",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/nd001.rwl",
+        "sha256": "a385a714c24dd63396523b71b8830b96adada440ca4f8853e2446dcb3392f042",
+        "evaluationClusterId": "385384c29eb1da3d355be1b3566d19c4f6740095d1fa6aae7f2e7085e9ef16b1",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/nd006.rwl",
+        "sha256": "1acefcdd6bc820e0de7a94795fda41468629fc8fa17350ca7c41d21e6e95067f",
+        "evaluationClusterId": "c81160d77ed02b6b50c88223f30a41aacc60d81bc7781e03e9a9dbddb7263960",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/nm011.rwl",
+        "sha256": "5b9b334cf9aef181788bb40db30d50d36db6b35d6602e17b76f587be623c0104",
+        "evaluationClusterId": "f6d2e6d9d81530d4bfeeda6c590c28c0bb6a3cdffbd4cc6ff2a79155d304358e",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/nm030.rwl",
+        "sha256": "bd0267c7ce663b7fc31068d403ef2d2a5e2bdd7c16fa39656abbfc362cbe4412",
+        "evaluationClusterId": "6359ec1b7b99c4b4416b24c4a65f0fd594e9a317ed4ff7b822842e3a87330105",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/nm037.rwl",
+        "sha256": "688973635ee0f385ee6a14b3b0451f939236027a3f080cad2937fb9cf5deedd6",
+        "evaluationClusterId": "5c7292d32301848d55bfc3fc780c9da00be39f2c5fcdc29413acdbe0d7466575",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/nm112.rwl",
+        "sha256": "b2519f0d0474c1c44f27e634ee1fe7a3ef8737d9b2d0c0ac3aec6804f44f7e66",
+        "evaluationClusterId": "19643bd0732cbb0e05f2155677059a1339b22405f4ed4035f36ccd8e0717ff92",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/nm503l.rwl",
+        "sha256": "6dd10f262be9c18250132f29629fb540f221a06068bde24d91b1e2407f7eae49",
+        "evaluationClusterId": "fb55f65834a13607be9c6bc6fb2f436b8815d6081d88778b3c9416ace44e5589",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/nm551.rwl",
+        "sha256": "4ac1d8ea426782a67951ada47905b29edd69651600dc514368d0b74354ca7e9f",
+        "evaluationClusterId": "87d3314837199fdcebcf54fe461b6e19419ab6601297946e8a37d37fc1d8b7e3",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/nm556.rwl",
+        "sha256": "bd9d669e580bc5c066313573a4067caaafccae1518804d3b950ad1d413c7b11c",
+        "evaluationClusterId": "044b0495d7b219022c21c3d22f6a602db13ab0018a66e1c25bd64c6fe1e5efca",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/nm564.rwl",
+        "sha256": "6c0e3fdf295365107b99b5924e61350babbb3e3cc47b6a6e9e6297c0818c88b4",
+        "evaluationClusterId": "4464c82c8c8adb8ffa271f231268688754a340081318270a42cb1b283e10b941",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/nm597.rwl",
+        "sha256": "945c9e06ab0a0a8ce05690ab5e6be6194854470fdaccbb3100bb22e139a69153",
+        "evaluationClusterId": "d7e206e90e46b9de5c95f42bd6de6c45b2b5de2ac0ad8c021b7228d06bfdf78b",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/nm603.rwl",
+        "sha256": "bb1e0b852e954b4a15847e9479d3c020359856829eb434a9e047a04ab90347be",
+        "evaluationClusterId": "6a55c8ea210cfbedaf81dfcc0da6ea92d8e99758775ea26be8063b78cd8e9a11",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/nm615.rwl",
+        "sha256": "d7f986f9e5984cf8e6328da98bbeea0a32cb4089a5a169daa4f87be20539a5e5",
+        "evaluationClusterId": "62a273b92b4e7e20b7872589aa9c397088719a05d02c11be2537e7607a0451d5",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/nv048.rwl",
+        "sha256": "d6f1c763bfb26999d728ca6039bcde8ac0a08378ffe69f1e5afadc11af47dfb7",
+        "evaluationClusterId": "288cd2a233f347c23ace64993012faf94f99b061fe85af5cc5938e5339595a7f",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/nv503.rwl",
+        "sha256": "8b37ceeff7a4938f82b57b8d9b3afe3766a6e722ee70164d6fc7bb8192feaa4c",
+        "evaluationClusterId": "9b30381c9224469eefef90e9b7fbc7eb2326ec26770d783f46eb9e00b6d56591",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/nv507.rwl",
+        "sha256": "af4a157aca920173adc41d99503cfd55932ee9f39d7352827497332a21188b05",
+        "evaluationClusterId": "e1bd29aaba5cd383261cb3a614e7786c66d4eec3a2ead8ff6da1e6a857507b48",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/nv518.rwl",
+        "sha256": "4841c9a029b85d76d32ffff4c40ea9f8709cd6329405a1f18c5c41cddfa8f7c8",
+        "evaluationClusterId": "aa21cd46f3e6b54ab1d832e0f820ba19a31e7cf49d1f53584e3c27939bfb607f",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/ny012.rwl",
+        "sha256": "ce0889e36af70fb4248040d8415b11f5ab67110771c4f0ffdb758492757ffdb8",
+        "evaluationClusterId": "6eaef5ec5aae5d3ac0082fac5e96addbbdbc7aed499dc9ec486efc79000a16b1",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/ny025.rwl",
+        "sha256": "c0a26a138edbf0abf63bf6374993135101cb774bfd43ac76e02369eedd3e52e1",
+        "evaluationClusterId": "926ea475b0ed032ad5e7254b238463316a58bc9a95c2201e6ce8cb156b047188",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/ok049.rwl",
+        "sha256": "20f747af00b13320df78eb388a2dca32961d634b05cda8a9d706af0464bf55f0",
+        "evaluationClusterId": "e36b94a9a497c5fa5a10c8dcdd591bc2f6bf4825ce2be073655cfb46d227eca1",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/ok049l.rwl",
+        "sha256": "5d0066d22916d1db687e51c589e8e7c72ee2ceb384639a2e93411c655a73eaa5",
+        "evaluationClusterId": "33b67f6fa7f94be640599e3cb55400c811e86ea71dec1cef895031445446f4fc",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/or026.rwl",
+        "sha256": "829857574deba52c511d5341b01ff348ed3c9b98942699e062206b0cbce296f7",
+        "evaluationClusterId": "b63d607fc9f5deb43c57472350576f3d98e7132b7a97fc8ea9ab2bba2435ce94",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/or029.rwl",
+        "sha256": "c5049c7278ab34ec7efb86b66c9501d3e84e3e569b0ffa321b80f378be0e0a3c",
+        "evaluationClusterId": "995d06b7cd457e82d511b2d99b85361f5c18020ca7a3089667265124981f0007",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/or092.rwl",
+        "sha256": "c22578e2bc718cd791ae85ba562d0f2d0a8434e473f51d12f736e332d6723ada",
+        "evaluationClusterId": "0de0c92491032ffdd1052a73a7b4a330e9895445468f2c3db0cee4e41e5a97c7",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/or094.rwl",
+        "sha256": "ffb8c238353fc116b7624c38534a754d24bf47c75f1e51196789e63be1e5fd7f",
+        "evaluationClusterId": "8f9dbc4f566d1eb3f0a02f3076d1780dc63effcbf04f2e540ca3c555790c207a",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/or095.rwl",
+        "sha256": "6de532fa3b6047637745ddc790b780efd8fdd0b092369381246e9569fe0fbe70",
+        "evaluationClusterId": "57f01b7a69a5f6d76377e2315e6504c5ad91df776a6aabbd27546afbf8842158",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/or101.rwl",
+        "sha256": "1097b305391d3aeafd43bd4af2144b30850270886feeff7fc1eefa5195656e6b",
+        "evaluationClusterId": "3b735777572c874b6eb01f71e5910b5f211af265c42a494ce4588980da77d17f",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/pa003.rwl",
+        "sha256": "35267068695822e2f3f82e58fcd567be3b7df7c6fc551583e3144bae5c5046bd",
+        "evaluationClusterId": "0bfdea430a21d2826edbbc00596ba261b8bbff59144da71cb5e93e761a820b90",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/sc007.rwl",
+        "sha256": "fd27c4f71c1ba7d2fa40908a86661586067cbab00753fb7a2af9cbff9737ea2d",
+        "evaluationClusterId": "47a54ec6fade1a1c57f8ca5e04d07469bbfebcc45c955fc7301f74a8c64fb6cd",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/tx046.rwl",
+        "sha256": "0c10c0db34b300daa1a6972eaa83f21905279705bdf6859c17019478594bd1cb",
+        "evaluationClusterId": "6a6e5e8e23fadab020b59d9b84596745ed4ab521492b5c096860768966eda92c",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/tx056.rwl",
+        "sha256": "29d192cdb60a021d6c26e0260aa74c0ac2057335f7ee030066d3821a7e0f3839",
+        "evaluationClusterId": "5205e56992dadae6f48a1ef51ecbdadf1ad770cf7e24d081b1e85fe24c575f70",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/ut505.rwl",
+        "sha256": "93450ef7b7870b283f61ccc2b4ecb994409a59980b0cd7f91a02928a753238c4",
+        "evaluationClusterId": "586fc50c3e78e5045e147d4d6593f993d5b5ff3f565d25888334bf0f9c7c399a",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/ut515.rwl",
+        "sha256": "fadfa2831968301c9adc7d3e5306e151a65582024850009bbadd2937f232d755",
+        "evaluationClusterId": "203939e0c4c45b1e26570fa4db608b9b5a5ed637df86cf49b500af0ed1244aa7",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/ut518.rwl",
+        "sha256": "bfea5a88622b983301d25ffda710cd06a8e01819e1c16c949e14440fa2794360",
+        "evaluationClusterId": "a8858a59ccc614a9a558ac7fd0f422473173f47208c8834825f9559bd448a054",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/ut519.rwl",
+        "sha256": "dbcf5700fb9459c65b8ce17be267e597199649744b2623b5535246d09282c27d",
+        "evaluationClusterId": "f435c71469ac1ff982792017b53ada8f0280f9da0b246a2b2fdeda6bc36f3877",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/ut529.rwl",
+        "sha256": "feae1d7abb5c9484627ba6a8cf41c8dc5cc6ab496dd03d9e5d31255e6b7520b1",
+        "evaluationClusterId": "510bcbbb182eeff3f3e53e4d7e34bfc209b9676fcf45619302cb514b3ae54841",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/ut542.rwl",
+        "sha256": "54cff65dacfac55c6894cecb350f467cd87392de7792f1b7330c9ceb0376acb1",
+        "evaluationClusterId": "f12c4f56dab429cf2d34ebcad7a6336d841fc9991bbf4d5446e7635c381f2651",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/ut544.rwl",
+        "sha256": "ba37e0e0047e006635ba312c93457770bb35f86fddd1f90e4d047b5ee12ddadc",
+        "evaluationClusterId": "23e0488a0dab0d1ca8ad88d5eb72e0519e0206276b884fa3f0a726f4cb128f0d",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/ut549.rwl",
+        "sha256": "28dd65d24410d887b5500a50dcee83227e5995e389bed09690566089617f97e6",
+        "evaluationClusterId": "ee48784a54f190218c7365a24817c74ae85ac145cd3b50a3eea7ad824e0d6f95",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/ut561.rwl",
+        "sha256": "055209f29512bda4a9e1c3fc5abc4ee268de5dfefb8b4ca4491a64c4145f0d27",
+        "evaluationClusterId": "41f51c9b9ebeb3e7135ed476e6ae48cea0f19358b3060f204dd7b63c3a509430",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/wa043.rwl",
+        "sha256": "058d6dac26912d394c31326082aafbed48f9b77ed58629dcc4494be28b17db50",
+        "evaluationClusterId": "a4c9af5c5e69d9210a5a7945c0ca85fdcdceb80f887f746b37ad462b0371a139",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/wa151.rwl",
+        "sha256": "6889f9f29ad7f894db0b2c01f47597c816ebf3c6b0e0435b45b460a2f45e61af",
+        "evaluationClusterId": "58812b772dd4d95a0afaa4fd1a5566dad92d743c7e9f701021294eae2b9f181c",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "northamerica/usa/wa154e.rwl",
+        "sha256": "6f17d3e5796d55c44ed3ad271d7dfa1efbee5475d66d23bf6677fc56dfd8ea7b",
+        "evaluationClusterId": "aa860fc12760ef7e21b5281644554758dfad43b0fd257947faa06843d0de4353",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/wy010.rwl",
+        "sha256": "d13e6434fb4a728dea46370a75e1f2cbb4b521c59800a21dfd9eb2d653347ef5",
+        "evaluationClusterId": "7770445f5138d3ee8efe6c2a89c799fe245e96f4fcc1c0409e8a88310c3dc414",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "northamerica/usa/wy069.rwl",
+        "sha256": "25be329bfbba2eb93bd3cbe1422c0e524ef767942d8815fa2903ad0dd99b093c",
+        "evaluationClusterId": "c37916d2de3f6cee874037c6b8f5bb0ad7f7bc0b0ba7a644e98ee2f374ffd6dd",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "northamerica/usa/wy082.rwl",
+        "sha256": "aa029780531185743eefca25b61adf9bf626935858b7926e983754e9b553c4b5",
+        "evaluationClusterId": "c7b5a37b725a4bb11e355b1f39e553197ba0d19abb9376c29eb1c41d02aa8ea5",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "norw002l.rwl",
+        "sha256": "d6a2a8c83f7adb3269bf0a1fd321f22c93e19986bc3535109aed0d46cbfd74ae",
+        "evaluationClusterId": "957af2d753c3f44eb1e164eb512b8ec65d5bbb1ec6d6fe1cb3c0b159c2b61cc1",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "pak042.rwl",
+        "sha256": "7a6e260ca3e2170c4d199c370957b880c0040090d2a6d95b461484b0c1fe03cb",
+        "evaluationClusterId": "7f074b7d41fb42cea4887f364434eac78da5886200fd36c8f3fae9ba49f035ce",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "paki003.rwl",
+        "sha256": "460f3ac827f729c8bb5c51d12e82c787cc99bee42af73cb2cc01d51a29e2a7ba",
+        "evaluationClusterId": "321ef66993784fc17e81bf9888000e922a1540198678135323eeac348e837773",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "paki010.rwl",
+        "sha256": "eb9bcf4d8bd9746bb4f3edd7002ef352540fe1409c88a93a958e1fa15ee6e13a",
+        "evaluationClusterId": "799da1747989d5a97b09a288a84b88adbb79054818063eb82cf29866b7378460",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "paki028.rwl",
+        "sha256": "7bdf5a5fa83b6c20fa017679f95acf2805adf6436e0cb4d989beb7f0f228d17d",
+        "evaluationClusterId": "b6b9c53b11eadfe45f245e2348e6de43a2f5b5dd5c62c1bbc09dcac4a07ba9e7",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "paki029.rwl",
+        "sha256": "b1b18dc7670ea5acd7a908b0efe039d0cda639c135dfbd0e9dfffdcd47eb9290",
+        "evaluationClusterId": "7f074b7d41fb42cea4887f364434eac78da5886200fd36c8f3fae9ba49f035ce",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "paki034.rwl",
+        "sha256": "b72acde6b36d0fc4810e3edc1e3914fcea043d526b3192d9a3227bf21770dd8c",
+        "evaluationClusterId": "4a6036c19c595334a2b0500d43c59607a245917c9150d27b725cbeac760d2df7",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "pola019x.rwl",
+        "sha256": "996fd96ddd0a177df3a71e186571980b0a464ef810340b5f51d51bb8de5af169",
+        "evaluationClusterId": "75eb161bdaf9605ecc8faee4199adbd3b9870846d6ada33de89b18e878b58ee5",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "pola022.rwl",
+        "sha256": "84a67eeaf75edea24dc1f0ed5bbf31190458bed2a8f95b09aa602c31582d8c26",
+        "evaluationClusterId": "83734ad8bc334d0c8bdac5428f0ded7d01b01c1e05d9d6a339d8998e6d210454",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "rus325.rwl",
+        "sha256": "61ec109f58260d88848a3ad0691c8661123950b5e6e6b903b7f07f0e9ea08108",
+        "evaluationClusterId": "6ec1b20374fab350092e6b39b0bee37fbe7ce10e482b0c853718ff5fa95c4b4d",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "rus362.rwl",
+        "sha256": "ffbe16894ff9df01a32a29929b3046b0047c3f6185e0cb92caaf6c8f272afc98",
+        "evaluationClusterId": "e372b560d0e9374af5982e740f1a30db25ff759d6e80efc9f0ef9ea460ee01ce",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "rus378.rwl",
+        "sha256": "ec58a43cd63c3dc95dd208442b9f0826d970eef294b28f6151b5d17f90e6eae9",
+        "evaluationClusterId": "53befdc9b6edd0dde208e00654977e7acbe5ec081c39bae71d64a5b4aa4d6fac",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "russ027e.rwl",
+        "sha256": "11089ddb6ec5b2241ac8b965ff4ebc2165c4decfc6ad44668c6c8f87803921b1",
+        "evaluationClusterId": "14708cfe8a3a55f01ea92e364f319e463753bb6480edfc66b2dc319d23a63a3b",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "russ027x.rwl",
+        "sha256": "52c903a8bb1b5d9b6dda6d5519df9ea9e889377705b364f48a79ce9b4ec2cb17",
+        "evaluationClusterId": "8af2d436d8a4be7b5e81f1dce1aa4bd2ab7e0630e486c1dc063e7372eeca9b7e",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "russ028e.rwl",
+        "sha256": "ec8f7607335564e0ca106675ce070578a27627c37f6735113472ce1f49f6a26d",
+        "evaluationClusterId": "fa042fc31fc5d72704873cd53f39044bbef6633540844485bd7697c7211d1ff8",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "russ030e.rwl",
+        "sha256": "c2adc3a50e52dce6a44bdeb88e3fa7ad5ca603e52b3ec9d5bca69d44878e0417",
+        "evaluationClusterId": "79ab7c545a34c364527f0614aa7fe19cd82e832b80c7f418ec90362c0214f9de",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ030w.rwl",
+        "sha256": "7aa3ebcf02d53f6de593f7976d15625b7571294f9cc8e51c0cbb464de81116fe",
+        "evaluationClusterId": "ee9c6d07e7fba2328056488f3c0570f48054686a4e7a9aa288ec5c2905369410",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ031x.rwl",
+        "sha256": "7209cb1abc6a509d182636a8ba513cc9d3b5921dd071601f0a279932024aa19e",
+        "evaluationClusterId": "8e21cd0d309670c58753f8b09aa9a002245f350bc505b20693f60caed2e680a0",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ033t.rwl",
+        "sha256": "c36bebdc139bb9eebad870d9e5969cf46b1142b0728669ea773336141b0d2274",
+        "evaluationClusterId": "5172b08a5c4a07ad806898c4ad911fdd2f667086766dcbd5d540e3df2b28c42e",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "russ038w.rwl",
+        "sha256": "7385f21f5a6dcf9297966ddf6fcfb2e1463b800ae790eb1bfe886819dc761e97",
+        "evaluationClusterId": "860be93916813cb98fb288d6828240cb8c71fcf661679667eacd32521063a6a5",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "russ042x.rwl",
+        "sha256": "68cae6712cde119eff5a5837aeb2dc611ce2ef3af8afcc944420a1bfbd7c7cd2",
+        "evaluationClusterId": "b3f52acf170f6c27604c3b778bd4fd09dc474cf62327d5e288cd6fef7d01633a",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "russ059w.rwl",
+        "sha256": "ccc463adcb7b593c07f0ca565630a93c92a08f2ecc2b8d5b39be8fb699661dc9",
+        "evaluationClusterId": "837db3169533a74d520af521bae1aa5acdd4b94b73c43b7e234cd6dd3e043dbe",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ066e.rwl",
+        "sha256": "231b1708dbe2ef89d2e3a69ee8f2f521d9d88836dc1e313eb26f3ef88e870803",
+        "evaluationClusterId": "1efbeed04a71dc8ce3344a00ae23741255e9cea02531dffabd6a753789a997a8",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "russ073w.rwl",
+        "sha256": "24bad0759388a660cc3beee2a827bfcc7c955fcc013d06da5308a87479d1e1f1",
+        "evaluationClusterId": "d561a60d844df53590f5e023f7108734d45f986ec8792b9bccff24da90365242",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ073x.rwl",
+        "sha256": "75079871cd306c5326572f9ba0fd18ca4e94e63a52cda437f6db89094e8a395f",
+        "evaluationClusterId": "246315938e794face8cc1323ff4595cb642b32ab6c44944deef707e7b8e69000",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "russ081x.rwl",
+        "sha256": "3ec2cf7c05ecc276ac1c146094e7c13d27e9f73e17da5cc3f56e51dfaad0a549",
+        "evaluationClusterId": "2912a2cfdfa2e654f4a888b4eb7668817d7d4c2b1efa21d7529761f5054dce66",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "russ097i.rwl",
+        "sha256": "82c43706e8be6f331103517b502aa62a7c623d04003407e1b2e47e429720ddf4",
+        "evaluationClusterId": "d264958163af7d70713d97ceb588943b64b9b3d7da3a807dd01f499687e4ae6b",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ110x.rwl",
+        "sha256": "6d2155b21692fca68a1bb49523e18e1985fde47377f36512043e345062abb63a",
+        "evaluationClusterId": "55f7bc35143bee69dde23cf6ab3b73e2322a82903d83432aa1e2c032ddfc58c4",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ119x.rwl",
+        "sha256": "9afebe499111381610cc4fcd7193d8a67efa3b523e131340ae1419014d5523b6",
+        "evaluationClusterId": "0296565946551ee6ee550e86abec88d2d73da99268b52d5fd627d7480f8c0fb3",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ122l.rwl",
+        "sha256": "c8d4b60048b5200b4603aa98279ee9afe481ae22a3af0695a020c4128a4823b3",
+        "evaluationClusterId": "8f0c52727f157cd3cdae9523ea6bbc961d6147e9981cebe1527be7ef4f6659c1",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ125t.rwl",
+        "sha256": "6f5c5ee8b39073655730cca9cb5a22b3c41411255f4721e6f14e1f0f51b88ddf",
+        "evaluationClusterId": "ed80ece1c518662256e9abf19480288ade8bcff22eb2a42e695922c480f62e5a",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ126x.rwl",
+        "sha256": "e39fbf9beb3d1ac8824c99688463b255c19a0234cc49c0040284781554ad7d0f",
+        "evaluationClusterId": "d1ee3aa704c7e1e07d00e115182cf1558febb55961ebd4926bed72b5921d5564",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ128w.rwl",
+        "sha256": "2048a6353c46c6ac7525b1fa2bf07909f202c0541d36af276f305518d4b1391b",
+        "evaluationClusterId": "a1e7108f5d666b631d0d40d32b633df1b14f0cc762db93946494b5276088f1df",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "russ147t.rwl",
+        "sha256": "553953ee8dab7ed1f4edc3b721fa5f05e2dc7a974deb76ed115de7941b1eaa4a",
+        "evaluationClusterId": "45fc3f1055b133f36add731a323b5f7038e4b5db322f02e09b1597814b74f538",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ150w.rwl",
+        "sha256": "0cd5fdbb1f658856e99951256550a85abd80bbd7cb822c7c386f7fe7e3cd3748",
+        "evaluationClusterId": "ec47408015442521d041a7c59bb820fc0f41add6b330d29220030ecf335e09a3",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "russ167w.rwl",
+        "sha256": "54d6f3f6449f7366e114937396abb0fb1385abe5e7bc34c8b01ef7bccedac8e9",
+        "evaluationClusterId": "6b1cfab52a82139fe8dfcfe8d93bdc3b729b377d9b2489b231b82414c2b6e212",
+        "rBin": "0.80+"
+      },
+      {
+        "relativePath": "russ174w.rwl",
+        "sha256": "442446b9a5273f8f44e46bcc0cb35195e3f9ceba746eea0318a8379e7a4cc23f",
+        "evaluationClusterId": "8b794f5f63c59529aad9d78ba2bedd9e8fc3187adce86814800575f9524b84b9",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "russ209.rwl",
+        "sha256": "5c4842ff77f41a021a1f31f0e8300aea8c75c3b4fd2ac5e96f6a84c94b21ff19",
+        "evaluationClusterId": "2a0306a2c7f8456b6f94fb96fc239bf97bc8116fe81ac4417878b61783ddbc45",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ227.rwl",
+        "sha256": "9d2f8314877a21211369b57d685fff29ca83fa3c52dca87883f6ddfd82cb2370",
+        "evaluationClusterId": "01f4a35b719b719382e09946539a74a5dbf847a31d85454ee2f33516a804ce3d",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "russ232.rwl",
+        "sha256": "5302594e156fb46237ae89f87ad5e9ef7de951e6eca59560480a2a1d42e5f86e",
+        "evaluationClusterId": "7f41c6b5c0e1f3eb250738a07600bb3450571faaf4795370024b781bcbedc6e7",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "russ239n.rwl",
+        "sha256": "219e7121f9f537d9a30dad72b90e8e73f2ebad8ded274241bd9ad16dd4ba8dc9",
+        "evaluationClusterId": "3f073ac8e1635a899ad8dbe28fdb4ce016dd09653b038d305451be588939645e",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "russ253.rwl",
+        "sha256": "c4e75fc4426a25011981ceccdf22c66c790dcda405ec55644e43a21b474476ba",
+        "evaluationClusterId": "e3257000c620046146a9e9c3357872782eff090d974de4c38f768c23f0e3f597",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "russ254.rwl",
+        "sha256": "c95586a42c760c1e54d382ce1c902353b012d48e883e610e24219a1b0ac45b82",
+        "evaluationClusterId": "89b39d9e50b1a1c634d33c29523a619dab764e05d357bea9963fe1d724f6b4ff",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "russ257.rwl",
+        "sha256": "f0af01443f9142d2110b624c1b5a66b40a5432e7a78b622c3262f2f6a1ffdda9",
+        "evaluationClusterId": "77ba97fc74aab47c03db34e1b04e8c4c5bf329ac14ed99dce6fcf3f1f97ce2d0",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "spai009.rwl",
+        "sha256": "3e4d6e649dfd4577bc5ff38ca463af9bc4b408ae45235f385d7ed7a391c608b5",
+        "evaluationClusterId": "4833c7760a4d5cca0fed5c4546ee0bda345ad3ebeccbe8c215930a9e1a0e2cd7",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "spai016.rwl",
+        "sha256": "5e04a753e86b6a7e1d7ab46a725769cbe2e1fdc39ba6bd7940fc1f1018352954",
+        "evaluationClusterId": "f4079319c3f5f23fe2318bb85dfbc21d535b55899545098a73a8e3d60e98b029",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "spai019.rwl",
+        "sha256": "1df3e56179ece64be7a53ab866a560aad8df46d92c869b082242a6ce39173ae1",
+        "evaluationClusterId": "1fee1f6869ff49fb3a164817b051566af51f319e81feea35a016154b3f7a8b1f",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "spai025.rwl",
+        "sha256": "12cdf07738af0458ab4c013546e30305fbf27fb9eec0cf9f1559e71bdc4e927f",
+        "evaluationClusterId": "eeea732cb15cd0eebae8af4ed25220859232c8af133c812724b1706c954f4a7d",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "spai026.rwl",
+        "sha256": "5d1c4853b53effb9e1d63e0d1bad3a183d0199d363c5c6e13e78473fcc6550de",
+        "evaluationClusterId": "770ad771fc2e0b1746165f3de3c7bdc8475077947865a4769130e69e8e169906",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "spai046.rwl",
+        "sha256": "2f8c9f9162c32f566bbc6e7b3e09930130135b6e68cf9a545ff626dfe009fbad",
+        "evaluationClusterId": "07ec890134f4ba182ba41a7ee797398646d3477fb178240a11b85f4047fd62e8",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "svk019.rwl",
+        "sha256": "b22eede4f915323cfea0fc13a14bc09b9f5ba62c3615f6f692675331ab76d9a4",
+        "evaluationClusterId": "5acea95743435793eb27b44720abff1609e6f8cb3579a03a9b8835bf0baea77b",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "svk019x.rwl",
+        "sha256": "1d3caebae8e747908b924e02d90b01009346a780605e4a5f7f792feb32401ca9",
+        "evaluationClusterId": "79556c36274424604cb9d5c0406c9999099d9f52ab8677b63f1e8efbf0077c3d",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "swed327.rwl",
+        "sha256": "7cd0a36690ddce8268c29776874f0e6b7c78987a15326dd5567f475061c3073d",
+        "evaluationClusterId": "d066ac3748d69819646769015d6cbf365a356d8e10728f967830e9aafc63f5a3",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "swed337.rwl",
+        "sha256": "f455aea69b2d87c99c0114356d042da8645abb0ecf0965ed5962c0ba35aa50c8",
+        "evaluationClusterId": "b17e4924b194da4ee8799409dcfab19cf5c2877994ca1f328c9fe73ff987b7b2",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "swit102x.rwl",
+        "sha256": "97ba07a66bb722a6d23f22e7df99634d46ab43761d686d6d24c11faf7849ce6c",
+        "evaluationClusterId": "0ddca6b626bf92c3e204922b248415a8ee36c957e6740b227638bb4b6fe67685",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "swit160l.rwl",
+        "sha256": "3fc5c044c81c20b6830719aa26b21145b9b8ec69bb2cbfd6029718fe12969a6e",
+        "evaluationClusterId": "0c0a9f0767b6b13ff7e40b88e304f57db2c8493524dfcaa01814204ea7e345a3",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "swit192.rwl",
+        "sha256": "f06296ad0125b1a749337cbed98b7d7281ef7213101a0921cb41f22420e49f78",
+        "evaluationClusterId": "b8cd57b7b830a4383a1cac2a37d31317222ed1bf2252db8a1a787d8eaa5b9499",
+        "rBin": "0.70-0.80"
+      },
+      {
+        "relativePath": "tur064.rwl",
+        "sha256": "093a5c2e4f0e3dbd3ee5c86f6330dcfb1e5cf3f2d63a5392f3fc8e6556585b18",
+        "evaluationClusterId": "26047c4f4df3963b0b4fefc21c481a6de86d047b8e2e0f8f3082406e6b75f37c",
+        "rBin": "0.60-0.70"
+      },
+      {
+        "relativePath": "turk016.rwl",
+        "sha256": "9b546d0aa67bea2340a379a0fa01c63610da291d5768ae446dbe71ca2aaa57ac",
+        "evaluationClusterId": "1c43f5e0c56c8b9e222ae02ed83fce76fc70f5a42577adbc59db510dccd68b30",
+        "rBin": "0.60-0.70"
+      }
+    ]
+  },
+  "counts": {
+    "calibration": 200,
+    "development": 220
+  }
+}

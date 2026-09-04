@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "modelVersion": "v5.0.0",
+  "assetModelVersion": "joint-explicit-global-v5",
+  "runtimeVersion": "local-review-v3",
+  "featureSchemaVersion": 5,
+  "featureCount": 207,
+  "treeCount": 600,
+  "windowWidth": 13,
+  "cofechaJsVersion": "0.2.0",
+  "modelSha256": "4a355af59c22a9cd53e20d233256d94b44b83aea222d7ace55e6cb7e9bbb5c1e",
+  "sourceJoblibSha256": "ea06e86c66cf26eabe9a571a41e7088ca7d5146f217298a4b799df883dbd109c",
+  "trainingConfigSha256": "bcc1aefed28f5121ea097d4e7dc022c7e89f4b0b244b609b525574bf7c8ce805",
+  "splitManifestSha256": "a9e378624e7e4b25785e54656416289797e8236c0e87d28316b9cd7a807cd47b",
+  "sourceRepository": "TieString/Crossdating-Model",
+  "sourceCommit": null,
+  "importedFromApplicationCommit": "f2d48dd0393785cdf456dff78d4977a816626d0c",
+  "provenance": "Imported from the frozen pre-publication v5 research run"
+}

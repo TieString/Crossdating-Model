@@ -1,0 +1,2307 @@
+{
+  "schemaVersion": 1,
+  "purpose": "pipeline mechanics only; not a scientific accuracy benchmark",
+  "sourceManifestSha256": "41b17476e2dba417c43d95441a35784f9fb06a56b9e8eb379b127f91fbc2c74f",
+  "spec": {
+    "top_k": 5,
+    "stride": 13,
+    "reference_count": 8
+  },
+  "columns": [
+    "absShift",
+    "is_false",
+    "is_missing",
+    "is_none",
+    "is_partial",
+    "is_whole",
+    "p50c6Distance",
+    "p50c6FamilyDelta",
+    "p50c6FamilyRank",
+    "p50c6Gain",
+    "p50c6GlobalDelta",
+    "p50c6WindowMass",
+    "p70c12Distance",
+    "p70c12FamilyDelta",
+    "p70c12FamilyRank",
+    "p70c12Gain",
+    "p70c12GlobalDelta",
+    "p70c12WindowMass",
+    "p70c6Distance",
+    "p70c6FamilyDelta",
+    "p70c6FamilyRank",
+    "p70c6Gain",
+    "p70c6GlobalDelta",
+    "p70c6WindowMass",
+    "ref20AfterMedian",
+    "ref20AfterQ25",
+    "ref20BeforeMedian",
+    "ref20BeforeQ25",
+    "ref20Count",
+    "ref20GainMedian",
+    "ref20GainQ25",
+    "ref20Positive",
+    "ref40AfterMedian",
+    "ref40AfterQ25",
+    "ref40BeforeMedian",
+    "ref40BeforeQ25",
+    "ref40Count",
+    "ref40GainMedian",
+    "ref40GainQ25",
+    "ref40Positive",
+    "shift",
+    "constantCorr5",
+    "constantPairs5",
+    "constantDelta5",
+    "constantCorr10",
+    "constantPairs10",
+    "constantDelta10",
+    "constantCorr15",
+    "constantPairs15",
+    "constantDelta15",
+    "constantCorr25",
+    "constantPairs25",
+    "constantDelta25",
+    "constantCorr50",
+    "constantPairs50",
+    "constantDelta50",
+    "constantCorr100",
+    "constantPairs100",
+    "constantDelta100",
+    "constantCorrFull",
+    "constantPairsFull",
+    "constantDeltaFull",
+    "hasWindow",
+    "windowAge",
+    "windowAgeFraction",
+    "positiveFraction",
+    "zeroFraction",
+    "calendarCoverage",
+    "p50c6Offset",
+    "p50c6AbsoluteOffset",
+    "p50c6Overlap",
+    "p70c6Offset",
+    "p70c6AbsoluteOffset",
+    "p70c6Overlap",
+    "p70c12Offset",
+    "p70c12AbsoluteOffset",
+    "p70c12Overlap",
+    "local5GainMedian",
+    "local5GainQ25",
+    "local5Positive",
+    "local5BeforeMedian",
+    "local5AfterMedian",
+    "local5NewerMedian",
+    "local5ReferenceCount",
+    "local15GainMedian",
+    "local15GainQ25",
+    "local15Positive",
+    "local15BeforeMedian",
+    "local15AfterMedian",
+    "local15NewerMedian",
+    "local15ReferenceCount",
+    "local35GainMedian",
+    "local35GainQ25",
+    "local35Positive",
+    "local35BeforeMedian",
+    "local35AfterMedian",
+    "local35NewerMedian",
+    "local35ReferenceCount",
+    "p50c6LocalGain",
+    "p50c6LocalLogMass",
+    "p50c6LocalPeakDelta",
+    "p50c6LeftEdgeFraction",
+    "p50c6RightEdgeFraction",
+    "p50c6OlderMass",
+    "p50c6NewerMass",
+    "p70c6LocalGain",
+    "p70c6LocalLogMass",
+    "p70c6LocalPeakDelta",
+    "p70c6LeftEdgeFraction",
+    "p70c6RightEdgeFraction",
+    "p70c6OlderMass",
+    "p70c6NewerMass",
+    "p70c12LocalGain",
+    "p70c12LocalLogMass",
+    "p70c12LocalPeakDelta",
+    "p70c12LeftEdgeFraction",
+    "p70c12RightEdgeFraction",
+    "p70c12OlderMass",
+    "p70c12NewerMass",
+    "newerSuffixCorrelationMedian",
+    "newerSuffixCorrelationQ25",
+    "newerSuffixMseMedian",
+    "newerSuffixPairsMedian",
+    "global_end1_masterLlr50",
+    "global_end1_masterLlr70",
+    "global_end1_referenceLlrMedian",
+    "global_end1_referenceLlrQ25",
+    "global_end1_referenceCorrelationMedian",
+    "global_end1_referenceCoverageMedian",
+    "global_end3_masterLlr50",
+    "global_end3_masterLlr70",
+    "global_end3_referenceLlrMedian",
+    "global_end3_referenceLlrQ25",
+    "global_end3_referenceCorrelationMedian",
+    "global_end3_referenceCoverageMedian",
+    "global_end5_masterLlr50",
+    "global_end5_masterLlr70",
+    "global_end5_referenceLlrMedian",
+    "global_end5_referenceLlrQ25",
+    "global_end5_referenceCorrelationMedian",
+    "global_end5_referenceCoverageMedian",
+    "global_end8_masterLlr50",
+    "global_end8_masterLlr70",
+    "global_end8_referenceLlrMedian",
+    "global_end8_referenceLlrQ25",
+    "global_end8_referenceCorrelationMedian",
+    "global_end8_referenceCoverageMedian",
+    "global_end13_masterLlr50",
+    "global_end13_masterLlr70",
+    "global_end13_referenceLlrMedian",
+    "global_end13_referenceLlrQ25",
+    "global_end13_referenceCorrelationMedian",
+    "global_end13_referenceCoverageMedian",
+    "global_end21_masterLlr50",
+    "global_end21_masterLlr70",
+    "global_end21_referenceLlrMedian",
+    "global_end21_referenceLlrQ25",
+    "global_end21_referenceCorrelationMedian",
+    "global_end21_referenceCoverageMedian",
+    "global_end34_masterLlr50",
+    "global_end34_masterLlr70",
+    "global_end34_referenceLlrMedian",
+    "global_end34_referenceLlrQ25",
+    "global_end34_referenceCorrelationMedian",
+    "global_end34_referenceCoverageMedian",
+    "global_end55_masterLlr50",
+    "global_end55_masterLlr70",
+    "global_end55_referenceLlrMedian",
+    "global_end55_referenceLlrQ25",
+    "global_end55_referenceCorrelationMedian",
+    "global_end55_referenceCoverageMedian",
+    "global_end89_masterLlr50",
+    "global_end89_masterLlr70",
+    "global_end89_referenceLlrMedian",
+    "global_end89_referenceLlrQ25",
+    "global_end89_referenceCorrelationMedian",
+    "global_end89_referenceCoverageMedian",
+    "global_p50c6_freeOlderPathLlrMean",
+    "global_p70c6_freeOlderPathLlrMean",
+    "global_p70c12_freeOlderPathLlrMean",
+    "global_p50c6_lastJump",
+    "global_p50c6_latestObservations",
+    "global_p50c6_latestCalendarYears",
+    "global_p50c6_priorObservations",
+    "global_p50c6_latestLlrMean",
+    "global_p50c6_latestGainMean",
+    "global_p50c6_latestGainSum",
+    "global_p50c6_hasTransition",
+    "global_p50c6_lastPenalty",
+    "global_p70c6_lastJump",
+    "global_p70c6_latestObservations",
+    "global_p70c6_latestCalendarYears",
+    "global_p70c6_priorObservations",
+    "global_p70c6_latestLlrMean",
+    "global_p70c6_latestGainMean",
+    "global_p70c6_latestGainSum",
+    "global_p70c6_hasTransition",
+    "global_p70c6_lastPenalty",
+    "global_p70c12_lastJump",
+    "global_p70c12_latestObservations",
+    "global_p70c12_latestCalendarYears",
+    "global_p70c12_priorObservations",
+    "global_p70c12_latestLlrMean",
+    "global_p70c12_latestGainMean",
+    "global_p70c12_latestGainSum",
+    "global_p70c12_hasTransition",
+    "global_p70c12_lastPenalty"
+  ],
+  "identities": [
+    [
+      "none",
+      0
+    ],
+    [
+      "whole",
+      -100
+    ],
+    [
+      "whole",
+      -99
+    ],
+    [
+      "whole",
+      -98
+    ],
+    [
+      "whole",
+      -97
+    ],
+    [
+      "whole",
+      -96
+    ],
+    [
+      "whole",
+      -95
+    ],
+    [
+      "whole",
+      -94
+    ],
+    [
+      "whole",
+      -93
+    ],
+    [
+      "whole",
+      -92
+    ],
+    [
+      "whole",
+      -91
+    ],
+    [
+      "whole",
+      -90
+    ],
+    [
+      "whole",
+      -89
+    ],
+    [
+      "whole",
+      -88
+    ],
+    [
+      "whole",
+      -87
+    ],
+    [
+      "whole",
+      -86
+    ],
+    [
+      "whole",
+      -85
+    ],
+    [
+      "whole",
+      -84
+    ],
+    [
+      "whole",
+      -83
+    ],
+    [
+      "whole",
+      -82
+    ],
+    [
+      "whole",
+      -81
+    ],
+    [
+      "whole",
+      -80
+    ],
+    [
+      "whole",
+      -79
+    ],
+    [
+      "whole",
+      -78
+    ],
+    [
+      "whole",
+      -77
+    ],
+    [
+      "whole",
+      -76
+    ],
+    [
+      "whole",
+      -75
+    ],
+    [
+      "whole",
+      -74
+    ],
+    [
+      "whole",
+      -73
+    ],
+    [
+      "whole",
+      -72
+    ],
+    [
+      "whole",
+      -71
+    ],
+    [
+      "whole",
+      -70
+    ],
+    [
+      "whole",
+      -69
+    ],
+    [
+      "whole",
+      -68
+    ],
+    [
+      "whole",
+      -67
+    ],
+    [
+      "whole",
+      -66
+    ],
+    [
+      "whole",
+      -65
+    ],
+    [
+      "whole",
+      -64
+    ],
+    [
+      "whole",
+      -63
+    ],
+    [
+      "whole",
+      -62
+    ],
+    [
+      "whole",
+      -61
+    ],
+    [
+      "whole",
+      -60
+    ],
+    [
+      "whole",
+      -59
+    ],
+    [
+      "whole",
+      -58
+    ],
+    [
+      "whole",
+      -57
+    ],
+    [
+      "whole",
+      -56
+    ],
+    [
+      "whole",
+      -55
+    ],
+    [
+      "whole",
+      -54
+    ],
+    [
+      "whole",
+      -53
+    ],
+    [
+      "whole",
+      -52
+    ],
+    [
+      "whole",
+      -51
+    ],
+    [
+      "whole",
+      -50
+    ],
+    [
+      "whole",
+      -49
+    ],
+    [
+      "whole",
+      -48
+    ],
+    [
+      "whole",
+      -47
+    ],
+    [
+      "whole",
+      -46
+    ],
+    [
+      "whole",
+      -45
+    ],
+    [
+      "whole",
+      -44
+    ],
+    [
+      "whole",
+      -43
+    ],
+    [
+      "whole",
+      -42
+    ],
+    [
+      "whole",
+      -41
+    ],
+    [
+      "whole",
+      -40
+    ],
+    [
+      "whole",
+      -39
+    ],
+    [
+      "whole",
+      -38
+    ],
+    [
+      "whole",
+      -37
+    ],
+    [
+      "whole",
+      -36
+    ],
+    [
+      "whole",
+      -35
+    ],
+    [
+      "whole",
+      -34
+    ],
+    [
+      "whole",
+      -33
+    ],
+    [
+      "whole",
+      -32
+    ],
+    [
+      "whole",
+      -31
+    ],
+    [
+      "whole",
+      -30
+    ],
+    [
+      "whole",
+      -29
+    ],
+    [
+      "whole",
+      -28
+    ],
+    [
+      "whole",
+      -27
+    ],
+    [
+      "whole",
+      -26
+    ],
+    [
+      "whole",
+      -25
+    ],
+    [
+      "whole",
+      -24
+    ],
+    [
+      "whole",
+      -23
+    ],
+    [
+      "whole",
+      -22
+    ],
+    [
+      "whole",
+      -21
+    ],
+    [
+      "whole",
+      -20
+    ],
+    [
+      "whole",
+      -19
+    ],
+    [
+      "whole",
+      -18
+    ],
+    [
+      "whole",
+      -17
+    ],
+    [
+      "whole",
+      -16
+    ],
+    [
+      "whole",
+      -15
+    ],
+    [
+      "whole",
+      -14
+    ],
+    [
+      "whole",
+      -13
+    ],
+    [
+      "whole",
+      -12
+    ],
+    [
+      "whole",
+      -11
+    ],
+    [
+      "whole",
+      -10
+    ],
+    [
+      "whole",
+      -9
+    ],
+    [
+      "whole",
+      -8
+    ],
+    [
+      "whole",
+      -7
+    ],
+    [
+      "whole",
+      -6
+    ],
+    [
+      "whole",
+      -5
+    ],
+    [
+      "whole",
+      -4
+    ],
+    [
+      "whole",
+      -3
+    ],
+    [
+      "whole",
+      -2
+    ],
+    [
+      "whole",
+      -1
+    ],
+    [
+      "whole",
+      1
+    ],
+    [
+      "whole",
+      2
+    ],
+    [
+      "whole",
+      3
+    ],
+    [
+      "whole",
+      4
+    ],
+    [
+      "whole",
+      5
+    ],
+    [
+      "whole",
+      6
+    ],
+    [
+      "whole",
+      7
+    ],
+    [
+      "whole",
+      8
+    ],
+    [
+      "whole",
+      9
+    ],
+    [
+      "whole",
+      10
+    ],
+    [
+      "whole",
+      11
+    ],
+    [
+      "whole",
+      12
+    ],
+    [
+      "whole",
+      13
+    ],
+    [
+      "whole",
+      14
+    ],
+    [
+      "whole",
+      15
+    ],
+    [
+      "whole",
+      16
+    ],
+    [
+      "whole",
+      17
+    ],
+    [
+      "whole",
+      18
+    ],
+    [
+      "whole",
+      19
+    ],
+    [
+      "whole",
+      20
+    ],
+    [
+      "whole",
+      21
+    ],
+    [
+      "whole",
+      22
+    ],
+    [
+      "whole",
+      23
+    ],
+    [
+      "whole",
+      24
+    ],
+    [
+      "whole",
+      25
+    ],
+    [
+      "whole",
+      26
+    ],
+    [
+      "whole",
+      27
+    ],
+    [
+      "whole",
+      28
+    ],
+    [
+      "whole",
+      29
+    ],
+    [
+      "whole",
+      30
+    ],
+    [
+      "whole",
+      31
+    ],
+    [
+      "whole",
+      32
+    ],
+    [
+      "whole",
+      33
+    ],
+    [
+      "whole",
+      34
+    ],
+    [
+      "whole",
+      35
+    ],
+    [
+      "whole",
+      36
+    ],
+    [
+      "whole",
+      37
+    ],
+    [
+      "whole",
+      38
+    ],
+    [
+      "whole",
+      39
+    ],
+    [
+      "whole",
+      40
+    ],
+    [
+      "whole",
+      41
+    ],
+    [
+      "whole",
+      42
+    ],
+    [
+      "whole",
+      43
+    ],
+    [
+      "whole",
+      44
+    ],
+    [
+      "whole",
+      45
+    ],
+    [
+      "whole",
+      46
+    ],
+    [
+      "whole",
+      47
+    ],
+    [
+      "whole",
+      48
+    ],
+    [
+      "whole",
+      49
+    ],
+    [
+      "whole",
+      50
+    ],
+    [
+      "whole",
+      51
+    ],
+    [
+      "whole",
+      52
+    ],
+    [
+      "whole",
+      53
+    ],
+    [
+      "whole",
+      54
+    ],
+    [
+      "whole",
+      55
+    ],
+    [
+      "whole",
+      56
+    ],
+    [
+      "whole",
+      57
+    ],
+    [
+      "whole",
+      58
+    ],
+    [
+      "whole",
+      59
+    ],
+    [
+      "whole",
+      60
+    ],
+    [
+      "whole",
+      61
+    ],
+    [
+      "whole",
+      62
+    ],
+    [
+      "whole",
+      63
+    ],
+    [
+      "whole",
+      64
+    ],
+    [
+      "whole",
+      65
+    ],
+    [
+      "whole",
+      66
+    ],
+    [
+      "whole",
+      67
+    ],
+    [
+      "whole",
+      68
+    ],
+    [
+      "whole",
+      69
+    ],
+    [
+      "whole",
+      70
+    ],
+    [
+      "whole",
+      71
+    ],
+    [
+      "whole",
+      72
+    ],
+    [
+      "whole",
+      73
+    ],
+    [
+      "whole",
+      74
+    ],
+    [
+      "whole",
+      75
+    ],
+    [
+      "whole",
+      76
+    ],
+    [
+      "whole",
+      77
+    ],
+    [
+      "whole",
+      78
+    ],
+    [
+      "whole",
+      79
+    ],
+    [
+      "whole",
+      80
+    ],
+    [
+      "whole",
+      81
+    ],
+    [
+      "whole",
+      82
+    ],
+    [
+      "whole",
+      83
+    ],
+    [
+      "whole",
+      84
+    ],
+    [
+      "whole",
+      85
+    ],
+    [
+      "whole",
+      86
+    ],
+    [
+      "whole",
+      87
+    ],
+    [
+      "whole",
+      88
+    ],
+    [
+      "whole",
+      89
+    ],
+    [
+      "whole",
+      90
+    ],
+    [
+      "whole",
+      91
+    ],
+    [
+      "whole",
+      92
+    ],
+    [
+      "whole",
+      93
+    ],
+    [
+      "whole",
+      94
+    ],
+    [
+      "whole",
+      95
+    ],
+    [
+      "whole",
+      96
+    ],
+    [
+      "whole",
+      97
+    ],
+    [
+      "whole",
+      98
+    ],
+    [
+      "whole",
+      99
+    ],
+    [
+      "whole",
+      100
+    ],
+    [
+      "missing",
+      -1
+    ],
+    [
+      "false",
+      1
+    ],
+    [
+      "partial",
+      -100
+    ],
+    [
+      "partial",
+      -99
+    ],
+    [
+      "partial",
+      -98
+    ],
+    [
+      "partial",
+      -97
+    ],
+    [
+      "partial",
+      -96
+    ],
+    [
+      "partial",
+      -95
+    ],
+    [
+      "partial",
+      -94
+    ],
+    [
+      "partial",
+      -93
+    ],
+    [
+      "partial",
+      -92
+    ],
+    [
+      "partial",
+      -91
+    ],
+    [
+      "partial",
+      -90
+    ],
+    [
+      "partial",
+      -89
+    ],
+    [
+      "partial",
+      -88
+    ],
+    [
+      "partial",
+      -87
+    ],
+    [
+      "partial",
+      -86
+    ],
+    [
+      "partial",
+      -85
+    ],
+    [
+      "partial",
+      -84
+    ],
+    [
+      "partial",
+      -83
+    ],
+    [
+      "partial",
+      -82
+    ],
+    [
+      "partial",
+      -81
+    ],
+    [
+      "partial",
+      -80
+    ],
+    [
+      "partial",
+      -79
+    ],
+    [
+      "partial",
+      -78
+    ],
+    [
+      "partial",
+      -77
+    ],
+    [
+      "partial",
+      -76
+    ],
+    [
+      "partial",
+      -75
+    ],
+    [
+      "partial",
+      -74
+    ],
+    [
+      "partial",
+      -73
+    ],
+    [
+      "partial",
+      -72
+    ],
+    [
+      "partial",
+      -71
+    ],
+    [
+      "partial",
+      -70
+    ],
+    [
+      "partial",
+      -69
+    ],
+    [
+      "partial",
+      -68
+    ],
+    [
+      "partial",
+      -67
+    ],
+    [
+      "partial",
+      -66
+    ],
+    [
+      "partial",
+      -65
+    ],
+    [
+      "partial",
+      -64
+    ],
+    [
+      "partial",
+      -63
+    ],
+    [
+      "partial",
+      -62
+    ],
+    [
+      "partial",
+      -61
+    ],
+    [
+      "partial",
+      -60
+    ],
+    [
+      "partial",
+      -59
+    ],
+    [
+      "partial",
+      -58
+    ],
+    [
+      "partial",
+      -57
+    ],
+    [
+      "partial",
+      -56
+    ],
+    [
+      "partial",
+      -55
+    ],
+    [
+      "partial",
+      -54
+    ],
+    [
+      "partial",
+      -53
+    ],
+    [
+      "partial",
+      -52
+    ],
+    [
+      "partial",
+      -51
+    ],
+    [
+      "partial",
+      -50
+    ],
+    [
+      "partial",
+      -49
+    ],
+    [
+      "partial",
+      -48
+    ],
+    [
+      "partial",
+      -47
+    ],
+    [
+      "partial",
+      -46
+    ],
+    [
+      "partial",
+      -45
+    ],
+    [
+      "partial",
+      -44
+    ],
+    [
+      "partial",
+      -43
+    ],
+    [
+      "partial",
+      -42
+    ],
+    [
+      "partial",
+      -41
+    ],
+    [
+      "partial",
+      -40
+    ],
+    [
+      "partial",
+      -39
+    ],
+    [
+      "partial",
+      -38
+    ],
+    [
+      "partial",
+      -37
+    ],
+    [
+      "partial",
+      -36
+    ],
+    [
+      "partial",
+      -35
+    ],
+    [
+      "partial",
+      -34
+    ],
+    [
+      "partial",
+      -33
+    ],
+    [
+      "partial",
+      -32
+    ],
+    [
+      "partial",
+      -31
+    ],
+    [
+      "partial",
+      -30
+    ],
+    [
+      "partial",
+      -29
+    ],
+    [
+      "partial",
+      -28
+    ],
+    [
+      "partial",
+      -27
+    ],
+    [
+      "partial",
+      -26
+    ],
+    [
+      "partial",
+      -25
+    ],
+    [
+      "partial",
+      -24
+    ],
+    [
+      "partial",
+      -23
+    ],
+    [
+      "partial",
+      -22
+    ],
+    [
+      "partial",
+      -21
+    ],
+    [
+      "partial",
+      -20
+    ],
+    [
+      "partial",
+      -19
+    ],
+    [
+      "partial",
+      -18
+    ],
+    [
+      "partial",
+      -17
+    ],
+    [
+      "partial",
+      -16
+    ],
+    [
+      "partial",
+      -15
+    ],
+    [
+      "partial",
+      -14
+    ],
+    [
+      "partial",
+      -13
+    ],
+    [
+      "partial",
+      -12
+    ],
+    [
+      "partial",
+      -11
+    ],
+    [
+      "partial",
+      -10
+    ],
+    [
+      "partial",
+      -9
+    ],
+    [
+      "partial",
+      -8
+    ],
+    [
+      "partial",
+      -7
+    ],
+    [
+      "partial",
+      -6
+    ],
+    [
+      "partial",
+      -5
+    ],
+    [
+      "partial",
+      -4
+    ],
+    [
+      "partial",
+      -3
+    ],
+    [
+      "partial",
+      -2
+    ]
+  ],
+  "rows": [
+    {
+      "role": "development",
+      "protocol": "real-edit-frontier-explicit-units-v2",
+      "stateHash": "000eb59c776cd011b7b0fd3962bb82c3e2845a94ad6a7974783fbcd5ce4b25d8",
+      "caseId": "tur064.rwl:BOZ13B:Clean-broad-v7",
+      "stageIndex": 0,
+      "relativePath": "tur064.rwl",
+      "fileContentHash": "093a5c2e4f0e3dbd3ee5c86f6330dcfb1e5cf3f2d63a5392f3fc8e6556585b18",
+      "targetId": "BOZ13B",
+      "fileIntercorrelation": 0.6563210487365723,
+      "targetMasterCorrelation": 0.6071988940238953,
+      "category": "Clean",
+      "binName": "0.60-0.70",
+      "distanceBand": "none",
+      "placement": "none",
+      "truth": {
+        "kind": "none",
+        "shift": 0,
+        "year": null,
+        "barkDistanceYears": null
+      },
+      "remainingTruths": [],
+      "remainingEventCount": 0,
+      "remainingBand": "1",
+      "candidateCount": 152,
+      "operationCandidatePresent": true,
+      "validCandidatePresent": true,
+      "positiveCandidateCount": 1,
+      "evaluationClusterId": "26047c4f4df3963b0b4fefc21c481a6de86d047b8e2e0f8f3082406e6b75f37c",
+      "primaryABCD": true
+    },
+    {
+      "role": "development",
+      "protocol": "real-edit-frontier-explicit-units-v2",
+      "stateHash": "001750d53feb10ff3bf54a98c914c36a3cb6000b14484238fc002e37c1d7e4bf",
+      "caseId": "northamerica/usa/az606.rwl:RMP072:Clean-broad-v7",
+      "stageIndex": 0,
+      "relativePath": "northamerica/usa/az606.rwl",
+      "fileContentHash": "7b048142440bcb51244f9366095ac98725412e3758013df988ae4639676c4ced",
+      "targetId": "RMP072",
+      "fileIntercorrelation": 0.7940768599510193,
+      "targetMasterCorrelation": 0.805467963218689,
+      "category": "Clean",
+      "binName": "0.70-0.80",
+      "distanceBand": "none",
+      "placement": "none",
+      "truth": {
+        "kind": "none",
+        "shift": 0,
+        "year": null,
+        "barkDistanceYears": null
+      },
+      "remainingTruths": [],
+      "remainingEventCount": 0,
+      "remainingBand": "1",
+      "candidateCount": 285,
+      "operationCandidatePresent": true,
+      "validCandidatePresent": true,
+      "positiveCandidateCount": 1,
+      "evaluationClusterId": "f69099a147c47ab2c358cfec77c19d4e7f9e26e1753649742c30cca419115269",
+      "primaryABCD": true
+    },
+    {
+      "role": "development",
+      "protocol": "real-edit-frontier-explicit-units-v2",
+      "stateHash": "00121558fe78ed25d1c8d53051839f941aa9ed69a01f5e1956f29b6c63080a7b",
+      "caseId": "northamerica/usa/nm564.rwl:AFN071:A-partialMove-3-broad-v7",
+      "stageIndex": 0,
+      "relativePath": "northamerica/usa/nm564.rwl",
+      "fileContentHash": "6c0e3fdf295365107b99b5924e61350babbb3e3cc47b6a6e9e6297c0818c88b4",
+      "targetId": "AFN071",
+      "fileIntercorrelation": 0.8461329936981201,
+      "targetMasterCorrelation": 0.8550745844841003,
+      "category": "A",
+      "binName": "0.80+",
+      "distanceBand": "35-69",
+      "placement": "middle",
+      "truth": {
+        "kind": "partial",
+        "shift": -48,
+        "year": 1948,
+        "barkDistanceYears": 38
+      },
+      "remainingTruths": [
+        {
+          "kind": "partial",
+          "shift": -48,
+          "year": 1948
+        }
+      ],
+      "remainingEventCount": 1,
+      "remainingBand": "1",
+      "candidateCount": 202,
+      "operationCandidatePresent": true,
+      "validCandidatePresent": true,
+      "positiveCandidateCount": 4,
+      "evaluationClusterId": "4464c82c8c8adb8ffa271f231268688754a340081318270a42cb1b283e10b941",
+      "primaryABCD": true
+    },
+    {
+      "role": "development",
+      "protocol": "real-edit-frontier-explicit-units-v2",
+      "stateHash": "003008b255721c30adac927cff4c9b639871cb21fe4baa2ab6bb7cfe6fca70b2",
+      "caseId": "northamerica/mexico/mexi044.rwl:CLP60B:A-wholeSeriesMove-4-broad-v7",
+      "stageIndex": 0,
+      "relativePath": "northamerica/mexico/mexi044.rwl",
+      "fileContentHash": "72e5785c5bb7bbf2a653e81373257ac01a795f559bdf0855b2a44871a63724ed",
+      "targetId": "CLP60B",
+      "fileIntercorrelation": 0.7347981929779053,
+      "targetMasterCorrelation": 0.7080338597297668,
+      "category": "A",
+      "binName": "0.70-0.80",
+      "distanceBand": "none",
+      "placement": "none",
+      "truth": {
+        "kind": "whole",
+        "shift": -79,
+        "year": null,
+        "barkDistanceYears": null
+      },
+      "remainingTruths": [
+        {
+          "kind": "whole",
+          "shift": -79,
+          "year": null
+        }
+      ],
+      "remainingEventCount": 1,
+      "remainingBand": "1",
+      "candidateCount": 161,
+      "operationCandidatePresent": true,
+      "validCandidatePresent": true,
+      "positiveCandidateCount": 1,
+      "evaluationClusterId": "2f5e214d97fad514cc856fefdc260a11f0e4607a2b756468366331929e6e188c",
+      "primaryABCD": true
+    },
+    {
+      "role": "development",
+      "protocol": "real-edit-frontier-explicit-units-v2",
+      "stateHash": "00285e4f30ebdc5f1305ff2050d4c85372364eeb03f2c4b73e03d3ad4f46913f",
+      "caseId": "northamerica/usa/co667.rwl:lan221:B-broad-v7",
+      "stageIndex": 1,
+      "relativePath": "northamerica/usa/co667.rwl",
+      "fileContentHash": "6f73a52d8bef629b06464239154b09cf9162678ae2cc39b5da520bc1e46e43a8",
+      "targetId": "lan221",
+      "fileIntercorrelation": 0.6676275730133057,
+      "targetMasterCorrelation": 0.6341858506202698,
+      "category": "B",
+      "binName": "0.60-0.70",
+      "distanceBand": "70+",
+      "placement": "middle",
+      "truth": {
+        "kind": "false",
+        "shift": 1,
+        "year": 1819,
+        "barkDistanceYears": 181
+      },
+      "remainingTruths": [
+        {
+          "kind": "false",
+          "shift": 1,
+          "year": 1479
+        },
+        {
+          "kind": "false",
+          "shift": 1,
+          "year": 1511
+        },
+        {
+          "kind": "false",
+          "shift": 1,
+          "year": 1559
+        },
+        {
+          "kind": "false",
+          "shift": 1,
+          "year": 1578
+        },
+        {
+          "kind": "false",
+          "shift": 1,
+          "year": 1617
+        },
+        {
+          "kind": "false",
+          "shift": 1,
+          "year": 1631
+        },
+        {
+          "kind": "false",
+          "shift": 1,
+          "year": 1669
+        },
+        {
+          "kind": "false",
+          "shift": 1,
+          "year": 1686
+        },
+        {
+          "kind": "false",
+          "shift": 1,
+          "year": 1731
+        },
+        {
+          "kind": "false",
+          "shift": 1,
+          "year": 1759
+        },
+        {
+          "kind": "false",
+          "shift": 1,
+          "year": 1819
+        }
+      ],
+      "remainingEventCount": 11,
+      "remainingBand": "5+",
+      "candidateCount": 377,
+      "operationCandidatePresent": true,
+      "validCandidatePresent": true,
+      "positiveCandidateCount": 4,
+      "evaluationClusterId": "75ec55a0d6147f7022760af1122042f13f9a0f7ddad06e27dbe45477dd5f6f9d",
+      "primaryABCD": true
+    },
+    {
+      "role": "development",
+      "protocol": "real-edit-frontier-explicit-units-v2",
+      "stateHash": "002f628fe9619c42a13329ba728bf698f2f3d0f3b6d4b5e83c83b3188cd51a95",
+      "caseId": "paki010.rwl:epm0211z:B-broad-v7",
+      "stageIndex": 3,
+      "relativePath": "paki010.rwl",
+      "fileContentHash": "eb9bcf4d8bd9746bb4f3edd7002ef352540fe1409c88a93a958e1fa15ee6e13a",
+      "targetId": "epm0211z",
+      "fileIntercorrelation": 0.7428507208824158,
+      "targetMasterCorrelation": 0.7336100339889526,
+      "category": "B",
+      "binName": "0.70-0.80",
+      "distanceBand": "70+",
+      "placement": "middle",
+      "truth": {
+        "kind": "false",
+        "shift": 1,
+        "year": 1868,
+        "barkDistanceYears": 122
+      },
+      "remainingTruths": [
+        {
+          "kind": "false",
+          "shift": 1,
+          "year": 1801
+        },
+        {
+          "kind": "false",
+          "shift": 1,
+          "year": 1854
+        },
+        {
+          "kind": "false",
+          "shift": 1,
+          "year": 1868
+        }
+      ],
+      "remainingEventCount": 3,
+      "remainingBand": "2-4",
+      "candidateCount": 221,
+      "operationCandidatePresent": true,
+      "validCandidatePresent": true,
+      "positiveCandidateCount": 5,
+      "evaluationClusterId": "799da1747989d5a97b09a288a84b88adbb79054818063eb82cf29866b7378460",
+      "primaryABCD": true
+    },
+    {
+      "role": "development",
+      "protocol": "real-edit-frontier-explicit-units-v2",
+      "stateHash": "005f1d8305db53a3ec7ef9132a10cb45a70f98fda234b150cad1892aa58af4d7",
+      "caseId": "northamerica/usa/nc002.rwl:100111:C-broad-v7",
+      "stageIndex": 11,
+      "relativePath": "northamerica/usa/nc002.rwl",
+      "fileContentHash": "db4072818bf50a167cae659f50f20a7dac18bd587f2a2c0a523bf4d0b7e37024",
+      "targetId": "100111",
+      "fileIntercorrelation": 0.6094218492507935,
+      "targetMasterCorrelation": 0.691706657409668,
+      "category": "C",
+      "binName": "0.60-0.70",
+      "distanceBand": "70+",
+      "placement": "middle",
+      "truth": {
+        "kind": "missing",
+        "shift": -1,
+        "year": 1876,
+        "barkDistanceYears": 107
+      },
+      "remainingTruths": [
+        {
+          "kind": "missing",
+          "shift": -1,
+          "year": 1876
+        }
+      ],
+      "remainingEventCount": 1,
+      "remainingBand": "1",
+      "candidateCount": 211,
+      "operationCandidatePresent": true,
+      "validCandidatePresent": true,
+      "positiveCandidateCount": 1,
+      "evaluationClusterId": "d93e143821335de57225cc2388a46319c410fb8af2564e1e7337e55b97b481ac",
+      "primaryABCD": true
+    },
+    {
+      "role": "development",
+      "protocol": "real-edit-frontier-explicit-units-v2",
+      "stateHash": "0078c560a2f3f0d022b777fba106bbcd6ca523186345fd9f0cd578063519a100",
+      "caseId": "northamerica/usa/az558.rwl:WEB04A:C-broad-v7",
+      "stageIndex": 4,
+      "relativePath": "northamerica/usa/az558.rwl",
+      "fileContentHash": "0cdfb2912417a2479432767c09cd444961d93b7d5ea5e681ae7637b7cf9d27f7",
+      "targetId": "WEB04A",
+      "fileIntercorrelation": 0.7580058574676514,
+      "targetMasterCorrelation": 0.8406007289886475,
+      "category": "C",
+      "binName": "0.70-0.80",
+      "distanceBand": "35-69",
+      "placement": "middle",
+      "truth": {
+        "kind": "missing",
+        "shift": -1,
+        "year": 1939,
+        "barkDistanceYears": 60
+      },
+      "remainingTruths": [
+        {
+          "kind": "missing",
+          "shift": -1,
+          "year": 1888
+        },
+        {
+          "kind": "missing",
+          "shift": -1,
+          "year": 1900
+        },
+        {
+          "kind": "missing",
+          "shift": -1,
+          "year": 1904
+        },
+        {
+          "kind": "missing",
+          "shift": -1,
+          "year": 1915
+        },
+        {
+          "kind": "missing",
+          "shift": -1,
+          "year": 1922
+        },
+        {
+          "kind": "missing",
+          "shift": -1,
+          "year": 1927
+        },
+        {
+          "kind": "missing",
+          "shift": -1,
+          "year": 1932
+        },
+        {
+          "kind": "missing",
+          "shift": -1,
+          "year": 1939
+        }
+      ],
+      "remainingEventCount": 8,
+      "remainingBand": "5+",
+      "candidateCount": 200,
+      "operationCandidatePresent": true,
+      "validCandidatePresent": true,
+      "positiveCandidateCount": 6,
+      "evaluationClusterId": "ecd5c9b448011d0d1175fb2cb11d62d4c09b44b97f80b62f71e44bb6104807dc",
+      "primaryABCD": true
+    },
+    {
+      "role": "development",
+      "protocol": "real-edit-frontier-explicit-units-v2",
+      "stateHash": "0005eb17a1dbd1b5a4de082151ca277deebdd45a66db7e10d65cfbaf19f0068a",
+      "caseId": "russ027e.rwl:870082:D-distant-v11",
+      "stageIndex": 3,
+      "relativePath": "russ027e.rwl",
+      "fileContentHash": "11089ddb6ec5b2241ac8b965ff4ebc2165c4decfc6ad44668c6c8f87803921b1",
+      "targetId": "870082",
+      "fileIntercorrelation": 0.76095050573349,
+      "targetMasterCorrelation": 0.8226283192634583,
+      "category": "D",
+      "binName": "0.70-0.80",
+      "distanceBand": "70+",
+      "placement": "middle",
+      "truth": {
+        "kind": "false",
+        "shift": 1,
+        "year": 1801,
+        "barkDistanceYears": 189
+      },
+      "remainingTruths": [
+        {
+          "kind": "partial",
+          "shift": -18,
+          "year": 1680
+        },
+        {
+          "kind": "missing",
+          "shift": -1,
+          "year": 1771
+        },
+        {
+          "kind": "false",
+          "shift": 1,
+          "year": 1801
+        }
+      ],
+      "remainingEventCount": 3,
+      "remainingBand": "2-4",
+      "candidateCount": 325,
+      "operationCandidatePresent": true,
+      "validCandidatePresent": true,
+      "positiveCandidateCount": 9,
+      "evaluationClusterId": "14708cfe8a3a55f01ea92e364f319e463753bb6480edfc66b2dc319d23a63a3b",
+      "primaryABCD": true
+    },
+    {
+      "role": "development",
+      "protocol": "real-edit-frontier-explicit-units-v2",
+      "stateHash": "000fcda911e88c1d41b3030a0ec595e4c9b792183269e6ec92b19f7243f5d905",
+      "caseId": "northamerica/usa/nm556.rwl:CAT032:D-distant-v11",
+      "stageIndex": 0,
+      "relativePath": "northamerica/usa/nm556.rwl",
+      "fileContentHash": "bd9d669e580bc5c066313573a4067caaafccae1518804d3b950ad1d413c7b11c",
+      "targetId": "CAT032",
+      "fileIntercorrelation": 0.7471524477005005,
+      "targetMasterCorrelation": 0.7899239659309387,
+      "category": "D",
+      "binName": "0.70-0.80",
+      "distanceBand": "35-69",
+      "placement": "middle",
+      "truth": {
+        "kind": "partial",
+        "shift": -11,
+        "year": 1865,
+        "barkDistanceYears": 65
+      },
+      "remainingTruths": [
+        {
+          "kind": "missing",
+          "shift": -1,
+          "year": 1784
+        },
+        {
+          "kind": "false",
+          "shift": 1,
+          "year": 1818
+        },
+        {
+          "kind": "partial",
+          "shift": -11,
+          "year": 1865
+        }
+      ],
+      "remainingEventCount": 3,
+      "remainingBand": "2-4",
+      "candidateCount": 172,
+      "operationCandidatePresent": true,
+      "validCandidatePresent": true,
+      "positiveCandidateCount": 9,
+      "evaluationClusterId": "044b0495d7b219022c21c3d22f6a602db13ab0018a66e1c25bd64c6fe1e5efca",
+      "primaryABCD": true
+    },
+    {
+      "role": "calibration",
+      "protocol": "real-edit-frontier-explicit-units-v2",
+      "stateHash": "0004f31c2b133217fd1fe26dbeee12d6b537c9ad6c5fe70cb3576972ade33fa5",
+      "caseId": "dza004.rwl:AEH10B:Clean-broad-v7",
+      "stageIndex": 0,
+      "relativePath": "dza004.rwl",
+      "fileContentHash": "d6e21af677821d7824a069db9b14c1c4dfd2d5054497341e8bab970663f4ff05",
+      "targetId": "AEH10B",
+      "fileIntercorrelation": 0.8144111633300781,
+      "targetMasterCorrelation": 0.7621117234230042,
+      "category": "Clean",
+      "binName": "0.80+",
+      "distanceBand": "none",
+      "placement": "none",
+      "truth": {
+        "kind": "none",
+        "shift": 0,
+        "year": null,
+        "barkDistanceYears": null
+      },
+      "remainingTruths": [],
+      "remainingEventCount": 0,
+      "remainingBand": "1",
+      "candidateCount": 235,
+      "operationCandidatePresent": true,
+      "validCandidatePresent": true,
+      "positiveCandidateCount": 1,
+      "evaluationClusterId": "d6a22c3579023beca51784fefd160732763c88447181dd5ec75f078053153716",
+      "primaryABCD": true
+    },
+    {
+      "role": "calibration",
+      "protocol": "real-edit-frontier-explicit-units-v2",
+      "stateHash": "0028fa6af63ff7e81080febcfbbf5df3125a4a93dbba8f70bb8987484acf65e8",
+      "caseId": "northamerica/usa/co532.rwl:DMO031:Clean-broad-v7",
+      "stageIndex": 0,
+      "relativePath": "northamerica/usa/co532.rwl",
+      "fileContentHash": "c8dea5a9db7cc5d638fe2ed9623e218499b83410d46c2fcb6ab7d2044bf91c39",
+      "targetId": "DMO031",
+      "fileIntercorrelation": 0.7565551996231079,
+      "targetMasterCorrelation": 0.6459459066390991,
+      "category": "Clean",
+      "binName": "0.70-0.80",
+      "distanceBand": "none",
+      "placement": "none",
+      "truth": {
+        "kind": "none",
+        "shift": 0,
+        "year": null,
+        "barkDistanceYears": null
+      },
+      "remainingTruths": [],
+      "remainingEventCount": 0,
+      "remainingBand": "1",
+      "candidateCount": 304,
+      "operationCandidatePresent": true,
+      "validCandidatePresent": true,
+      "positiveCandidateCount": 1,
+      "evaluationClusterId": "f4fbc52540b2d45b72d845a25e4c111a16036e6613417bb7b216f72215a0144d",
+      "primaryABCD": true
+    },
+    {
+      "role": "calibration",
+      "protocol": "real-edit-frontier-explicit-units-v2",
+      "stateHash": "00fc9bbad692d804d35e2117b8a0b69e94ae21c355cd7ea24137b2a7a3543598",
+      "caseId": "northamerica/usa/ca517.rwl:TIM07B:A-partialMove-3-broad-v7",
+      "stageIndex": 0,
+      "relativePath": "northamerica/usa/ca517.rwl",
+      "fileContentHash": "0deb0211e9505a996cc1062c86504fd6f1ccc02bc5048fa9794eb4059020cfe1",
+      "targetId": "TIM07B",
+      "fileIntercorrelation": 0.7035746574401855,
+      "targetMasterCorrelation": 0.7825984358787537,
+      "category": "A",
+      "binName": "0.70-0.80",
+      "distanceBand": "1-5",
+      "placement": "near",
+      "truth": {
+        "kind": "partial",
+        "shift": -98,
+        "year": 1967,
+        "barkDistanceYears": 5
+      },
+      "remainingTruths": [
+        {
+          "kind": "partial",
+          "shift": -98,
+          "year": 1967
+        }
+      ],
+      "remainingEventCount": 1,
+      "remainingBand": "1",
+      "candidateCount": 128,
+      "operationCandidatePresent": false,
+      "validCandidatePresent": false,
+      "positiveCandidateCount": 0,
+      "evaluationClusterId": "1cf49eb565fd82b81abc7e656374da5a8496dec8975b140a4e41be339f7292ff",
+      "primaryABCD": true
+    },
+    {
+      "role": "calibration",
+      "protocol": "real-edit-frontier-explicit-units-v2",
+      "stateHash": "01725905e71a0caf043ab9e18af38fa5ed04adc968451bd46f92059620bc49a0",
+      "caseId": "northamerica/canada/cana231.rwl:P9809SE:A-partialMove-2-broad-v7",
+      "stageIndex": 0,
+      "relativePath": "northamerica/canada/cana231.rwl",
+      "fileContentHash": "7a08103ce76f84886db45c16fcb091fbc3db2219de8dba18162201f4f4db074f",
+      "targetId": "P9809SE",
+      "fileIntercorrelation": 0.7247923016548157,
+      "targetMasterCorrelation": 0.7768118381500244,
+      "category": "A",
+      "binName": "0.70-0.80",
+      "distanceBand": "35-69",
+      "placement": "middle",
+      "truth": {
+        "kind": "partial",
+        "shift": -99,
+        "year": 1950,
+        "barkDistanceYears": 47
+      },
+      "remainingTruths": [
+        {
+          "kind": "partial",
+          "shift": -99,
+          "year": 1950
+        }
+      ],
+      "remainingEventCount": 1,
+      "remainingBand": "1",
+      "candidateCount": 229,
+      "operationCandidatePresent": true,
+      "validCandidatePresent": true,
+      "positiveCandidateCount": 7,
+      "evaluationClusterId": "a52ebb80cd7dd3d3a98ea6ad77668e501ef74c644da514af68996d9a344142b0",
+      "primaryABCD": true
+    },
+    {
+      "role": "calibration",
+      "protocol": "real-edit-frontier-explicit-units-v2",
+      "stateHash": "000d26f10480b0b6a1ed1a5f28225a7f57138c4653da78d48a78ef29019fb4a9",
+      "caseId": "russ185.rwl:LAK06B:B-broad-v7",
+      "stageIndex": 3,
+      "relativePath": "russ185.rwl",
+      "fileContentHash": "7d4dbf6093f8cf0d098ebd06c6c161750c6738eed2d3e04a2ae50853ae67a138",
+      "targetId": "LAK06B",
+      "fileIntercorrelation": 0.8077715635299683,
+      "targetMasterCorrelation": 0.8940040469169617,
+      "category": "B",
+      "binName": "0.80+",
+      "distanceBand": "70+",
+      "placement": "middle",
+      "truth": {
+        "kind": "false",
+        "shift": 1,
+        "year": 1905,
+        "barkDistanceYears": 89
+      },
+      "remainingTruths": [
+        {
+          "kind": "false",
+          "shift": 1,
+          "year": 1729
+        },
+        {
+          "kind": "false",
+          "shift": 1,
+          "year": 1759
+        },
+        {
+          "kind": "false",
+          "shift": 1,
+          "year": 1797
+        },
+        {
+          "kind": "false",
+          "shift": 1,
+          "year": 1845
+        },
+        {
+          "kind": "false",
+          "shift": 1,
+          "year": 1905
+        }
+      ],
+      "remainingEventCount": 5,
+      "remainingBand": "5+",
+      "candidateCount": 253,
+      "operationCandidatePresent": true,
+      "validCandidatePresent": true,
+      "positiveCandidateCount": 5,
+      "evaluationClusterId": "49335775b1c09d476e0dfd6cc7fc5312a27c2cfbaf15fb6dc5c4520214d40e68",
+      "primaryABCD": true
+    },
+    {
+      "role": "calibration",
+      "protocol": "real-edit-frontier-explicit-units-v2",
+      "stateHash": "0098b2d3c6a7dd9657c524a4f877d7f843cc3caee4df487376befb4cd3708ba4",
+      "caseId": "northamerica/usa/nm612.rwl:WPM29A:B-broad-v7",
+      "stageIndex": 1,
+      "relativePath": "northamerica/usa/nm612.rwl",
+      "fileContentHash": "43cb13b79e93dc5fd676e50a8e28449e423cc42148a5e6811f8dff12a59622ac",
+      "targetId": "WPM29A",
+      "fileIntercorrelation": 0.8386300802230835,
+      "targetMasterCorrelation": 0.8495369553565979,
+      "category": "B",
+      "binName": "0.80+",
+      "distanceBand": "35-69",
+      "placement": "middle",
+      "truth": {
+        "kind": "missing",
+        "shift": -1,
+        "year": 1963,
+        "barkDistanceYears": 45
+      },
+      "remainingTruths": [
+        {
+          "kind": "missing",
+          "shift": -1,
+          "year": 1963
+        }
+      ],
+      "remainingEventCount": 1,
+      "remainingBand": "1",
+      "candidateCount": 199,
+      "operationCandidatePresent": true,
+      "validCandidatePresent": true,
+      "positiveCandidateCount": 4,
+      "evaluationClusterId": "783f21313fe96043a9cce5ae09c06aadaf14b6ecfe693f527dd76fd029098a91",
+      "primaryABCD": true
+    },
+    {
+      "role": "calibration",
+      "protocol": "real-edit-frontier-explicit-units-v2",
+      "stateHash": "0027ba02887918ee34e5fb7e4d10416d3a1a2b4a109d62f46304c9cc160e4622",
+      "caseId": "northamerica/usa/ca520.rwl:LIK14A:C-broad-v7",
+      "stageIndex": 10,
+      "relativePath": "northamerica/usa/ca520.rwl",
+      "fileContentHash": "8517b927347297143ca2833c6c0486004778d0c7d1f636568b882971a02e51b5",
+      "targetId": "LIK14A",
+      "fileIntercorrelation": 0.714177131652832,
+      "targetMasterCorrelation": 0.742385983467102,
+      "category": "C",
+      "binName": "0.70-0.80",
+      "distanceBand": "70+",
+      "placement": "middle",
+      "truth": {
+        "kind": "false",
+        "shift": 1,
+        "year": 1889,
+        "barkDistanceYears": 91
+      },
+      "remainingTruths": [
+        {
+          "kind": "false",
+          "shift": 1,
+          "year": 1877
+        },
+        {
+          "kind": "false",
+          "shift": 1,
+          "year": 1889
+        }
+      ],
+      "remainingEventCount": 2,
+      "remainingBand": "2-4",
+      "candidateCount": 205,
+      "operationCandidatePresent": true,
+      "validCandidatePresent": true,
+      "positiveCandidateCount": 4,
+      "evaluationClusterId": "8f2308829de23bf79a59bb1bad3faaa2c5daf55c8626d7d2ed6078c132240d64",
+      "primaryABCD": true
+    },
+    {
+      "role": "calibration",
+      "protocol": "real-edit-frontier-explicit-units-v2",
+      "stateHash": "0028312b7c78e2c9a148a60cb27a251d242f2e47e498d476b95edbe88c86ba5e",
+      "caseId": "russ128e.rwl:017022:C-broad-v7",
+      "stageIndex": 3,
+      "relativePath": "russ128e.rwl",
+      "fileContentHash": "5737817d49f0ae88a35ecf5de126259ad5359135ac7942aac2636f2750923336",
+      "targetId": "017022",
+      "fileIntercorrelation": 0.6992855668067932,
+      "targetMasterCorrelation": 0.8157617449760437,
+      "category": "C",
+      "binName": "0.60-0.70",
+      "distanceBand": "35-69",
+      "placement": "middle",
+      "truth": {
+        "kind": "false",
+        "shift": 1,
+        "year": 1949,
+        "barkDistanceYears": 41
+      },
+      "remainingTruths": [
+        {
+          "kind": "false",
+          "shift": 1,
+          "year": 1919
+        },
+        {
+          "kind": "false",
+          "shift": 1,
+          "year": 1931
+        },
+        {
+          "kind": "false",
+          "shift": 1,
+          "year": 1943
+        },
+        {
+          "kind": "false",
+          "shift": 1,
+          "year": 1944
+        },
+        {
+          "kind": "false",
+          "shift": 1,
+          "year": 1949
+        }
+      ],
+      "remainingEventCount": 5,
+      "remainingBand": "5+",
+      "candidateCount": 244,
+      "operationCandidatePresent": true,
+      "validCandidatePresent": true,
+      "positiveCandidateCount": 4,
+      "evaluationClusterId": "59f9c20caba64e856fbefb6ba75fe780834d105f57e9b046ec52dea8c3907ff8",
+      "primaryABCD": true
+    },
+    {
+      "role": "calibration",
+      "protocol": "real-edit-frontier-explicit-units-v2",
+      "stateHash": "0005c911fde98a639ba9e0307dcb7a09b4e59c2f13e6e25f91ab16df76c41b9d",
+      "caseId": "northamerica/usa/nm614.rwl:272072:D-distant-v11",
+      "stageIndex": 3,
+      "relativePath": "northamerica/usa/nm614.rwl",
+      "fileContentHash": "f1a6c86c30979057ee2338d79564cb2aa8c9e5aa289fe83ac9826933e0b7dee1",
+      "targetId": "272072",
+      "fileIntercorrelation": 0.8218650817871094,
+      "targetMasterCorrelation": 0.8851273059844971,
+      "category": "D",
+      "binName": "0.80+",
+      "distanceBand": "70+",
+      "placement": "middle",
+      "truth": {
+        "kind": "missing",
+        "shift": -1,
+        "year": 1679,
+        "barkDistanceYears": 293
+      },
+      "remainingTruths": [
+        {
+          "kind": "missing",
+          "shift": -1,
+          "year": 1679
+        }
+      ],
+      "remainingEventCount": 1,
+      "remainingBand": "1",
+      "candidateCount": 321,
+      "operationCandidatePresent": true,
+      "validCandidatePresent": true,
+      "positiveCandidateCount": 5,
+      "evaluationClusterId": "7e3911d3b9d9257645f18e9de1e53b3ef3b2ce5de97dab2e97710fb704e6239b",
+      "primaryABCD": true
+    },
+    {
+      "role": "calibration",
+      "protocol": "real-edit-frontier-explicit-units-v2",
+      "stateHash": "001372311d0d9de7aa796ea15fe221a3e9ee461ec3cec0598e6bfb4bc9da4edf",
+      "caseId": "ausl009.rwl:BEB131:D-distant-v11",
+      "stageIndex": 1,
+      "relativePath": "ausl009.rwl",
+      "fileContentHash": "18773a495e884a235c13c3fbe5eb2d969e1885724a498e342e9beb186b833868",
+      "targetId": "BEB131",
+      "fileIntercorrelation": 0.6221501231193542,
+      "targetMasterCorrelation": 0.626754641532898,
+      "category": "D",
+      "binName": "0.60-0.70",
+      "distanceBand": "70+",
+      "placement": "middle",
+      "truth": {
+        "kind": "false",
+        "shift": 1,
+        "year": 1610,
+        "barkDistanceYears": 363
+      },
+      "remainingTruths": [
+        {
+          "kind": "false",
+          "shift": 1,
+          "year": 1610
+        }
+      ],
+      "remainingEventCount": 1,
+      "remainingBand": "1",
+      "candidateCount": 550,
+      "operationCandidatePresent": true,
+      "validCandidatePresent": true,
+      "positiveCandidateCount": 6,
+      "evaluationClusterId": "8b23413a7cf837c75331e0212522b96d8358c2ad0e2617f10fc1f03f688deb45",
+      "primaryABCD": true
+    }
+  ]
+}

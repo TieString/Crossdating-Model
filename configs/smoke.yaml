@@ -1,0 +1,6 @@
+schema_version: 1
+source_config: v5.yaml
+seed: 20260914
+states_per_role_and_category: 2
+gold_states: 5
+purpose: pipeline mechanics only; never report as scientific accuracy

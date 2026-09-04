@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: If you use this model pipeline, please cite this software and the underlying tree-ring data sources.
+title: Crossdating-Model
+type: software
+version: 5.0.0
+license: GPL-3.0-only
+authors:
+  - family-names: TieString
+repository-code: https://github.com/TieString/Crossdating-Model
+url: https://github.com/TieString/Crossdating-Model
+abstract: Reproducible training, evaluation, and TypeScript deployment pipeline for automated tree-ring crossdating suggestions.
