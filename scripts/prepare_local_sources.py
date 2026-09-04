@@ -137,7 +137,8 @@ def make_splits(manifest_path: Path, destination: Path) -> None:
 
 
 def make_release(model_json: Path, model_joblib: Path, fixture: Path,
-                 fixture_manifest: Path, destination: Path) -> None:
+                 fixture_manifest: Path, destination: Path,
+                 source_commit: str | None) -> None:
     model = json.loads(model_json.read_text(encoding="utf-8"))
     if len(model["columns"]) != 207 or len(model["treeInfo"]) != 600:
         raise ValueError("accepted model does not satisfy the frozen v5 contract")
@@ -167,7 +168,7 @@ def make_release(model_json: Path, model_joblib: Path, fixture: Path,
         "trainingConfigSha256": file_sha256(ROOT / "configs/v5.yaml"),
         "splitManifestSha256": file_sha256(ROOT / "splits/FILE_SPLITS.json"),
         "sourceRepository": "TieString/Crossdating-Model",
-        "sourceCommit": None,
+        "sourceCommit": source_commit,
         "importedFromApplicationCommit": "f2d48dd0393785cdf456dff78d4977a816626d0c",
         "provenance": "Imported from the frozen pre-publication v5 research run",
     }
@@ -191,6 +192,7 @@ def main() -> None:
     parser.add_argument("--model-joblib", type=Path, required=True)
     parser.add_argument("--model-json", type=Path, required=True)
     parser.add_argument("--per-cell", type=int, default=2)
+    parser.add_argument("--source-commit", help="Auditable repository commit containing the imported pipeline")
     args = parser.parse_args()
     for label, path in (("packed", args.packed), ("manifest", args.manifest),
                         ("joblib", args.model_joblib), ("model_json", args.model_json)):
@@ -199,7 +201,8 @@ def main() -> None:
         args.packed, args.manifest, ROOT / "datasets/fixtures", args.per_cell)
     make_splits(args.manifest, ROOT / "splits/FILE_SPLITS.json")
     release = ROOT / "model-releases/v5.0.0"
-    make_release(args.model_json, args.model_joblib, fixture, fixture_manifest, release)
+    make_release(args.model_json, args.model_joblib, fixture, fixture_manifest, release,
+                 args.source_commit)
     write_sums(release)
     print(json.dumps({"fixture": str(fixture), "fixtureSha256": file_sha256(fixture),
                       "releaseModelSha256": file_sha256(release / "unifiedV5Model.json")}, indent=2))
