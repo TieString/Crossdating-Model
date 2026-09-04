@@ -6,5 +6,5 @@ This repository owns offline evidence construction, frozen file splits, LightGBM
 - `configs/v5.yaml` is the frozen scientific configuration.
 - `crossdating_model/evidence/reference_v5/` preserves the exact historical v5 dependency closure for audit.
 - `model-releases/v5.0.0/` is immutable once published; create a new version rather than overwriting a released hash.
-- Keep raw RWL data, large evidence matrices, official COFECHA executables and exploratory failures out of Git.
+- Keep downloaded RWL data, generated evidence matrices, official COFECHA executables and exploratory failures out of Git. Evidence is rebuilt locally from `datasets/source-manifest.json`, never downloaded as a binary prerequisite.
 - Split development, calibration and final by complete RWL file. A consumed final remains a permanent result and cannot be used for tuning.

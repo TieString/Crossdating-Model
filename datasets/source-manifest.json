@@ -1,14 +1,3790 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
+  "provider": "NOAA/NCEI International Tree-Ring Data Bank",
+  "baseUrl": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements",
+  "generatedFrom": "splits/FILE_SPLITS.json",
+  "sourceCount": 420,
+  "derivedEvidencePublished": false,
   "sources": [
-    {"id":"ca646","kind":"rwl","url":"https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ca646.rwl","path":"raw/ca646.rwl","sha256":"65d239d1f4abfd5b7dc96ed5cfcbeb6499d00d2d372e34f10b8f663a99f39e76"},
-    {"id":"co589","kind":"rwl","url":"https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/co589.rwl","path":"raw/co589.rwl","sha256":"f4539835802fdfd9abcf56020fd35ee3da0df1985433f4cf03b56a0422ce3031"},
-    {"id":"co612","kind":"rwl","url":"https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/co612.rwl","path":"raw/co612.rwl","sha256":"b1d4756303eb1c8af9805e5f14a95b7e4e04c6ef18ada0a86aa9dedf715af048"},
-    {"id":"or093","kind":"rwl","url":"https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/or093.rwl","path":"raw/or093.rwl","sha256":"f66508262b8f2d8c897280a9a45a1073317daab3981744776ec099e22e4eaae8"},
-    {"id":"paki033","kind":"rwl","url":"https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/paki033.rwl","path":"raw/paki033.rwl","sha256":"4f4d82079ddb4ba77141e0998af76fa07a2195e9bba968f02d771995a4ea6e71"},
-    {"id":"ut529","kind":"rwl","url":"https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ut529.rwl","path":"raw/ut529.rwl","sha256":"feae1d7abb5c9484627ba6a8cf41c8dc5cc6ab496dd03d9e5d31255e6b7520b1"},
-    {"id":"frozen-v5-evidence","kind":"external-evidence","url":null,"path":"cache/packed-data.joblib","bytes":5766558747,"sha256":"547894f9680aa48520809a2bc467f78ff33e60dc7b37bb0ea7755fd1fa4883dc"},
-    {"id":"frozen-v5-manifest","kind":"external-manifest","url":null,"path":"cache/full-manifest.json","bytes":51897205,"sha256":"41b17476e2dba417c43d95441a35784f9fb06a56b9e8eb379b127f91fbc2c74f"},
-    {"id":"accepted-v5-joblib","kind":"audit-only-model","url":null,"path":"cache/model-v5.joblib","bytes":2204133,"sha256":"ea06e86c66cf26eabe9a571a41e7088ca7d5146f217298a4b799df883dbd109c"}
+    {
+      "id": "ausl009",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "ausl009.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/australia/ausl009.rwl",
+      "sha256": "18773a495e884a235c13c3fbe5eb2d969e1885724a498e342e9beb186b833868",
+      "bytes": 151435
+    },
+    {
+      "id": "ausl031",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "ausl031.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/australia/ausl031.rwl",
+      "sha256": "9608e52191db9399a7163c9be716fc60bcd3ec9baaa5da7691080c9e5c99f6f8",
+      "bytes": 120855
+    },
+    {
+      "id": "ausl037",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "ausl037.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/australia/ausl037.rwl",
+      "sha256": "19202a108e99efda4bc9288580337dc76654f990b0cdb7835019d6a71b724076",
+      "bytes": 37012
+    },
+    {
+      "id": "aut119",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "aut119.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/aut119.rwl",
+      "sha256": "47659b02151cdd46f51af3b0232fe2d813a03dc11e7d90425d52802357c3653b",
+      "bytes": 33446
+    },
+    {
+      "id": "aut137",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "aut137.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/aut137.rwl",
+      "sha256": "af27e0b894ecd0cf20db809eb576fa3af04061cf054b280794e46ee9b3e7aded",
+      "bytes": 29419
+    },
+    {
+      "id": "bel001",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "bel001.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/bel001.rwl",
+      "sha256": "3e3a27c60ff60b4fbed7f684799fef566aceee0d38a5d8401ea3c9e73d9a0b25",
+      "bytes": 62821
+    },
+    {
+      "id": "che414",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "che414.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/che414.rwl",
+      "sha256": "a5464c908484de9a226b308545fa879c09ec2b6c04cb459fdd3268feb79f6e21",
+      "bytes": 109018
+    },
+    {
+      "id": "che525",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "che525.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/che525.rwl",
+      "sha256": "9d48f348ffb10497f28dbc7500fd7b2161d12b12ac63efdc82153e464cd3fc15",
+      "bytes": 67233
+    },
+    {
+      "id": "che526",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "che526.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/che526.rwl",
+      "sha256": "ee09232adf9e40e103b06b9b0b00c947d993228ac1df3dfaffbb85e737cf72ae",
+      "bytes": 74395
+    },
+    {
+      "id": "che567",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "che567.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/che567.rwl",
+      "sha256": "804bfbd89a6841fff5a97d4c019b58309398efa97cf99d6cd3d9fb72c9507e5d",
+      "bytes": 10539
+    },
+    {
+      "id": "che618",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "che618.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/che618.rwl",
+      "sha256": "bed0416498cf1f9a9b030cc8d2d3e96b09953825e95291bfa6d0da7a3954139f",
+      "bytes": 181026
+    },
+    {
+      "id": "chin004x",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "chin004x.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/chin004x.rwl",
+      "sha256": "aab20af5485565aeb1f509b468dba571695765f94ae53c4682694d7c07f5bb3a",
+      "bytes": 55980
+    },
+    {
+      "id": "chin006",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "chin006.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/chin006.rwl",
+      "sha256": "b20c04b54220ff5b454a9c6982c421148b4cb4172fbfcc41f817c25fc707ea2f",
+      "bytes": 552708
+    },
+    {
+      "id": "chin052",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "chin052.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/chin052.rwl",
+      "sha256": "c5ad30fd2170fc3ce5b3e55291164ffbc7f80e719cc8a684d5ac3bfef9a66cc8",
+      "bytes": 311230
+    },
+    {
+      "id": "chin069",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "chin069.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/chin069.rwl",
+      "sha256": "b32f4352c2f91ede5995997bd19f4ec72805761382a41545a1e857a4982498e9",
+      "bytes": 698027
+    },
+    {
+      "id": "chn095",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "chn095.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/chn095.rwl",
+      "sha256": "82296bb04339ad6cc88695b06dcd4dd142c9f384289c54f6e324289a01d441cb",
+      "bytes": 29673
+    },
+    {
+      "id": "chn098",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "chn098.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/chn098.rwl",
+      "sha256": "7c3bc611e6af5036591253fe427393efbb7041e16ec6cb8cc2ff027d860d04c7",
+      "bytes": 35519
+    },
+    {
+      "id": "cyp020",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "cyp020.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/cyp020.rwl",
+      "sha256": "65d6e85694c10d2ab39a21a8b082456bfd583a87da3a96ad6fe193e40457fe1b",
+      "bytes": 58089
+    },
+    {
+      "id": "deu465",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "deu465.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/deu465.rwl",
+      "sha256": "bc164590e95d94c1450102be7087374b606de11a3b1cf77f811d98091a556f4d",
+      "bytes": 120736
+    },
+    {
+      "id": "dza004",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "dza004.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/africa/dza004.rwl",
+      "sha256": "d6e21af677821d7824a069db9b14c1c4dfd2d5054497341e8bab970663f4ff05",
+      "bytes": 183378
+    },
+    {
+      "id": "dza012",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "dza012.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/africa/dza012.rwl",
+      "sha256": "9e59fc59c1fdc81573ac57ecb6d288816da78ee85a76e6517d5d3cb1f66690fc",
+      "bytes": 80006
+    },
+    {
+      "id": "dza022",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "dza022.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/africa/dza022.rwl",
+      "sha256": "1b35c6814e50cac60115078100922198e33aa00f9e0828214491b585b83bf183",
+      "bytes": 413656
+    },
+    {
+      "id": "dza023",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "dza023.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/africa/dza023.rwl",
+      "sha256": "da1e1bb49fd9b158d040e741d69fc2943942547b36830f2d621b88e589494e53",
+      "bytes": 78257
+    },
+    {
+      "id": "dza032",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "dza032.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/africa/dza032.rwl",
+      "sha256": "9b3ed04bdda1a3d7a5aa29eb58b33296fe2ca9d74f35ad0162f72a94e81b6397",
+      "bytes": 63920
+    },
+    {
+      "id": "finl058",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "finl058.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/finl058.rwl",
+      "sha256": "500ffdc571888ed58afeccb6bad2514bb146af7522b5f3e79d47b04de63cabcb",
+      "bytes": 32996
+    },
+    {
+      "id": "finl059",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "finl059.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/finl059.rwl",
+      "sha256": "72cb15c248001e7e62749369f9c6916028b87395c98a25403e72263f613a6785",
+      "bytes": 36361
+    },
+    {
+      "id": "fra059",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "fra059.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/fra059.rwl",
+      "sha256": "4a1b976aab94eb4f033f5d007dad9d55c515aabd5c79b8603c82e20922302b2d",
+      "bytes": 76968
+    },
+    {
+      "id": "fra060",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "fra060.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/fra060.rwl",
+      "sha256": "06248ffe441270978ef93c1a413a2c8ebd62361ffb43fd4117813fb582b0a496",
+      "bytes": 141758
+    },
+    {
+      "id": "fran009",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "fran009.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/fran009.rwl",
+      "sha256": "3295ecd12b2dfe2634bc62f796bbb4153ade942e0ae538327cab50895595ebc6",
+      "bytes": 230606
+    },
+    {
+      "id": "germ020e",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "germ020e.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/germ020e.rwl",
+      "sha256": "6c3226f4461d56da46944c717bf2c570dab94f409f4d04acb603d0d199a0970f",
+      "bytes": 16196
+    },
+    {
+      "id": "germ052i",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "germ052i.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/germ052i.rwl",
+      "sha256": "a0b3066757bc6a506e773ba6e51971546de68dbe0bb56b7c48f000bd0b7be2ac",
+      "bytes": 32852
+    },
+    {
+      "id": "germ211",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "germ211.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/germ211.rwl",
+      "sha256": "fdc959f4b91711f0b31391264c8afbcb2784a58e470f438980a962fcab88c02c",
+      "bytes": 27246
+    },
+    {
+      "id": "grc032",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "grc032.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/grc032.rwl",
+      "sha256": "4808e206ea89bf30c1911efe3c3578910cc78ec852df696c6482080d94b24284",
+      "bytes": 93510
+    },
+    {
+      "id": "gree015",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "gree015.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/gree015.rwl",
+      "sha256": "8fb9861889fe16d5ef9575151213decea396d376bc6716a1fa216b06de739aec",
+      "bytes": 234501
+    },
+    {
+      "id": "gree019",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "gree019.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/gree019.rwl",
+      "sha256": "706d3435fcedc28767b629148f55ac62b170ab0dc90c1636d476d0864a4d64c1",
+      "bytes": 77737
+    },
+    {
+      "id": "jord001",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "jord001.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/jord001.rwl",
+      "sha256": "d6988011379b9665e18e0e84adc9783be84eb5cc380acfcf190daabe9c41531a",
+      "bytes": 42651
+    },
+    {
+      "id": "kaz001",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "kaz001.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/kaz001.rwl",
+      "sha256": "b43c0a7adcd4d1d7bdba72096fd53b76b7d3dff0bda93211ed97c49107781797",
+      "bytes": 27188
+    },
+    {
+      "id": "lbn012",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "lbn012.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/lbn012.rwl",
+      "sha256": "8216698baac9b831a38ce86d1c7ec231ffaa12080763b91783227812777e38e3",
+      "bytes": 56252
+    },
+    {
+      "id": "lith042",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "lith042.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/lith042.rwl",
+      "sha256": "c29e209a587376f1ef5df05b5eddcaae2ae96c346beca2a39d15e70d0a865c05",
+      "bytes": 15878
+    },
+    {
+      "id": "mong011",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "mong011.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/mong011.rwl",
+      "sha256": "d54e3ec64d2c1fb6608c6a7817d83335ee70b419f3219d17304892a2044dab18",
+      "bytes": 89783
+    },
+    {
+      "id": "morc016",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "morc016.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/africa/morc016.rwl",
+      "sha256": "5e0b168b0c959dbe9c424578be9f6c96b4b3214dbfd27ff588ac9f2d7b08e8ad",
+      "bytes": 161304
+    },
+    {
+      "id": "morc019",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "morc019.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/africa/morc019.rwl",
+      "sha256": "820b6e676d671396926e2a2a630a320c378a09c548f7ca75964aaf4bdf511401",
+      "bytes": 25368
+    },
+    {
+      "id": "newz015",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "newz015.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/australia/newz015.rwl",
+      "sha256": "aedf486f0c4080d7b099257ba30c3447bee811a512a9e6955b25f7d43ce5a938",
+      "bytes": 50212
+    },
+    {
+      "id": "newz020",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "newz020.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/australia/newz020.rwl",
+      "sha256": "a0980970949b131dbb93b990a85cebd938705c37eeb4e8c089a201fa1d0fa33e",
+      "bytes": 70422
+    },
+    {
+      "id": "newz023",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "newz023.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/australia/newz023.rwl",
+      "sha256": "4ff87e6d23dc0ed75c011fa9bc36f9c49ac2ab0bdee5f191b2fe1da896221324",
+      "bytes": 31362
+    },
+    {
+      "id": "newz030",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "newz030.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/australia/newz030.rwl",
+      "sha256": "c0e0af80a2508fb60210ddc172d47dac47b985b7a07127b3f624085700fa5de0",
+      "bytes": 33215
+    },
+    {
+      "id": "newz044",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "newz044.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/australia/newz044.rwl",
+      "sha256": "01c4f52f73a05df06ece2bea94e8a8e589cf91aafcc7a3d61c6159c3004a24c5",
+      "bytes": 48115
+    },
+    {
+      "id": "northamerica-canada-can695",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/canada/can695.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/canada/can695.rwl",
+      "sha256": "2fc25552affafc36942a9cb2bf64dbc26040720319016a7f2e5afb6b68ca319b",
+      "bytes": 57644
+    },
+    {
+      "id": "northamerica-canada-cana011",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/canada/cana011.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/canada/cana011.rwl",
+      "sha256": "f960c73f174ecb1de785a4114f1e2c2cd09e501dbd684bdd06146911313d22e6",
+      "bytes": 40374
+    },
+    {
+      "id": "northamerica-canada-cana013",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/canada/cana013.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/canada/cana013.rwl",
+      "sha256": "a3ac2a61e69bfd86e4b4ce021813223b584d226549a77651ef451c788c44d714",
+      "bytes": 50754
+    },
+    {
+      "id": "northamerica-canada-cana213",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/canada/cana213.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/canada/cana213.rwl",
+      "sha256": "6d6b23289e325975ad5d316ecb86ced8827875fc3e96237f0e7aa4035594ddc3",
+      "bytes": 66438
+    },
+    {
+      "id": "northamerica-canada-cana231",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/canada/cana231.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/canada/cana231.rwl",
+      "sha256": "7a08103ce76f84886db45c16fcb091fbc3db2219de8dba18162201f4f4db074f",
+      "bytes": 77962
+    },
+    {
+      "id": "northamerica-canada-cana338",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/canada/cana338.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/canada/cana338.rwl",
+      "sha256": "1f44ce2e6c904c5582d8c4932b6975118f98b085425b01e67badf4b35527fffc",
+      "bytes": 94066
+    },
+    {
+      "id": "northamerica-canada-cana408",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/canada/cana408.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/canada/cana408.rwl",
+      "sha256": "957c8e73297fad8c8797f784b73e2ab81b5b011537e2211b5a450ebe024099a2",
+      "bytes": 72414
+    },
+    {
+      "id": "northamerica-canada-cana421",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/canada/cana421.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/canada/cana421.rwl",
+      "sha256": "a7e8e08af2c35a0b7bde42a281407e0a515dd8b1b262f0afb8c9669ec3323cbd",
+      "bytes": 97154
+    },
+    {
+      "id": "northamerica-canada-cana535",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/canada/cana535.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/canada/cana535.rwl",
+      "sha256": "204ed06f86ba63d7881ac55c345b72b06a0cde44b0d0e56cb6bd2ca7c10a0795",
+      "bytes": 66911
+    },
+    {
+      "id": "northamerica-canada-cana565",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/canada/cana565.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/canada/cana565.rwl",
+      "sha256": "6b3d660a70bda1771d5e9ec5783f8680435fa1fe79c6350d17dd48e02d91922d",
+      "bytes": 58743
+    },
+    {
+      "id": "northamerica-canada-cana643",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/canada/cana643.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/canada/cana643.rwl",
+      "sha256": "a56fb9659dfe65873e97c5e844dc560cbda192fa9507b410e8480d85baad57c3",
+      "bytes": 29242
+    },
+    {
+      "id": "northamerica-mexico-mexi026",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/mexico/mexi026.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/mexico/mexi026.rwl",
+      "sha256": "e8420a712044c0ff3ca043e1dcf4ec79e872952d933de951d92c290166a966be",
+      "bytes": 55148
+    },
+    {
+      "id": "northamerica-mexico-mexi046e",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/mexico/mexi046e.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/mexico/mexi046e.rwl",
+      "sha256": "4f01d48523cebf8b8ed0ca7566e3f6b41849b6dfbcd6d679fafc5c2717f82b13",
+      "bytes": 56292
+    },
+    {
+      "id": "northamerica-mexico-mexi059",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/mexico/mexi059.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/mexico/mexi059.rwl",
+      "sha256": "77483df0b514c649ae73f146a23036a4a8b7aabf8777c607c783b4101a0708a7",
+      "bytes": 93868
+    },
+    {
+      "id": "northamerica-mexico-mexi063",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/mexico/mexi063.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/mexico/mexi063.rwl",
+      "sha256": "7750014f46465a33ba546bf663b2d2553fbec9ce4582cb7f4554f7c42c3f60d7",
+      "bytes": 52396
+    },
+    {
+      "id": "northamerica-mexico-mexi068",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/mexico/mexi068.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/mexico/mexi068.rwl",
+      "sha256": "96470b8673f16839162d7807eb4ccee1bc19cff8b0c069eab29fb085acd040c6",
+      "bytes": 47670
+    },
+    {
+      "id": "northamerica-mexico-mexi075",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/mexico/mexi075.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/mexico/mexi075.rwl",
+      "sha256": "752e1fcf59c7a76bc0165083db3fd5c3de382b640d22c74d49ceaadb076b620b",
+      "bytes": 100311
+    },
+    {
+      "id": "northamerica-mexico-mexi080",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/mexico/mexi080.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/mexico/mexi080.rwl",
+      "sha256": "fba7f771e292aa08d779c2eaef4b2e90b3608578f2a2ee0b1a6509a6f9e8ad82",
+      "bytes": 65302
+    },
+    {
+      "id": "northamerica-usa-ak102",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/ak102.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ak102.rwl",
+      "sha256": "97ea6aea08499a14bcce456adabe2f686d022f25eded9fc8c39b43b379425dfc",
+      "bytes": 127576
+    },
+    {
+      "id": "northamerica-usa-ar084l",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/ar084l.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ar084l.rwl",
+      "sha256": "226f0b809c1425038c1da15d2d97ad5ce1aab4714cde58f66f89d6f5f6a648d0",
+      "bytes": 64375
+    },
+    {
+      "id": "northamerica-usa-az049",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/az049.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az049.rwl",
+      "sha256": "40179972031bb81030b74c7a95eee7c74ff136932126c1f093ace8e939855d1d",
+      "bytes": 61716
+    },
+    {
+      "id": "northamerica-usa-az050",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/az050.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az050.rwl",
+      "sha256": "32d9f1d35fc9c381130cbf243732eeaa4c51f4a6754987088216f6982272af15",
+      "bytes": 39516
+    },
+    {
+      "id": "northamerica-usa-az100",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/az100.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az100.rwl",
+      "sha256": "7a0f210ece6b058d94873b7b2369236fb5b2a06a6f71076c3494f20d35e2484a",
+      "bytes": 46990
+    },
+    {
+      "id": "northamerica-usa-az101",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/az101.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az101.rwl",
+      "sha256": "b5458dfc9d2a59825b573ad68f14e46af8be857c076a032341d90145ba65726a",
+      "bytes": 54390
+    },
+    {
+      "id": "northamerica-usa-az105",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/az105.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az105.rwl",
+      "sha256": "8b028058138062bbae91af6276e8f825a1001ef0fa6bdee8cd958eca04294e1f",
+      "bytes": 34780
+    },
+    {
+      "id": "northamerica-usa-az109",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/az109.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az109.rwl",
+      "sha256": "851988d28b91b99453c39caa2ae3c97c7cdaa2bf40c1a24285dfda18b113edab",
+      "bytes": 28638
+    },
+    {
+      "id": "northamerica-usa-az139",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/az139.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az139.rwl",
+      "sha256": "80e8935e909935f0dec9b366586aad3ecae3460cf58b260e003c1763c38db3ae",
+      "bytes": 52022
+    },
+    {
+      "id": "northamerica-usa-az517",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/az517.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az517.rwl",
+      "sha256": "cad026935f5c81220ee5a641cb30a8ee342265ced9efcad88370e83ae04969ea",
+      "bytes": 61418
+    },
+    {
+      "id": "northamerica-usa-az521",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/az521.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az521.rwl",
+      "sha256": "c2134bc6ba4d5d25ae680d6b4774ea01f549a0abcff5b1dd87b45444b1406953",
+      "bytes": 116522
+    },
+    {
+      "id": "northamerica-usa-az523",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/az523.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az523.rwl",
+      "sha256": "c0fdfceedcadcad3a558d44f0168e486022996b1067543b247e46f57d0fbe83b",
+      "bytes": 51250
+    },
+    {
+      "id": "northamerica-usa-az540",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/az540.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az540.rwl",
+      "sha256": "2de23a5068842c2dc1b00e6b9a9434c8f8852e6e9771b33b79a0d3eb969868bd",
+      "bytes": 37392
+    },
+    {
+      "id": "northamerica-usa-az583",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/az583.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az583.rwl",
+      "sha256": "c6e316e40907b928c6601a55ea6beb09b5f2983353ee69257412b072410b8507",
+      "bytes": 137476
+    },
+    {
+      "id": "northamerica-usa-az585",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/az585.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az585.rwl",
+      "sha256": "f82bc178f386815d43faffdfdf00184b2855fd6163b474d705edde0727232682",
+      "bytes": 182906
+    },
+    {
+      "id": "northamerica-usa-az594",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/az594.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az594.rwl",
+      "sha256": "196ce748423566fe442a3641057d1b1b46cba3294ce65865cc600053f0359d1f",
+      "bytes": 218180
+    },
+    {
+      "id": "northamerica-usa-az622",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/az622.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az622.rwl",
+      "sha256": "c0bdde22afc067b4299af653a1b0601722ea5251be841599fb299d4b35864c62",
+      "bytes": 40098
+    },
+    {
+      "id": "northamerica-usa-ca512",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/ca512.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ca512.rwl",
+      "sha256": "f37cf14f6ef80bee1abe807b97f17827f8e7113e7eced0a37f30d09f00eb8085",
+      "bytes": 51278
+    },
+    {
+      "id": "northamerica-usa-ca517",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/ca517.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ca517.rwl",
+      "sha256": "0deb0211e9505a996cc1062c86504fd6f1ccc02bc5048fa9794eb4059020cfe1",
+      "bytes": 43208
+    },
+    {
+      "id": "northamerica-usa-ca520",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/ca520.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ca520.rwl",
+      "sha256": "8517b927347297143ca2833c6c0486004778d0c7d1f636568b882971a02e51b5",
+      "bytes": 40645
+    },
+    {
+      "id": "northamerica-usa-ca613",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/ca613.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ca613.rwl",
+      "sha256": "d977dd7532b1aafeddcd47eda6c88128c289f702b7211b828deaeeccc8c994f4",
+      "bytes": 69612
+    },
+    {
+      "id": "northamerica-usa-ca637",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/ca637.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ca637.rwl",
+      "sha256": "6f658ee7660403a97e7c2aca4d1f1d8a400b7c7e00ca4302e094c74cd115784c",
+      "bytes": 360340
+    },
+    {
+      "id": "northamerica-usa-ca656",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/ca656.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ca656.rwl",
+      "sha256": "eb3aee8898316855bd79ba4670e3846fab037536bceff818cddb87119be4ac2d",
+      "bytes": 111826
+    },
+    {
+      "id": "northamerica-usa-ca692",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/ca692.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ca692.rwl",
+      "sha256": "daab888fcc76d033e15d848a842b77c11c5fe0eab64b9e93a9afbe0a585764bf",
+      "bytes": 137785
+    },
+    {
+      "id": "northamerica-usa-co036",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/co036.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/co036.rwl",
+      "sha256": "015c36a29feb22de5660c816b7ea678ade40965709d54f2d9fcbdfea6d4978ad",
+      "bytes": 32560
+    },
+    {
+      "id": "northamerica-usa-co532",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/co532.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/co532.rwl",
+      "sha256": "c8dea5a9db7cc5d638fe2ed9623e218499b83410d46c2fcb6ab7d2044bf91c39",
+      "bytes": 54470
+    },
+    {
+      "id": "northamerica-usa-co558",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/co558.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/co558.rwl",
+      "sha256": "13df56684cf1d6439a4ca6bd44ba2515b651d5cbcdd72840376b50105f113338",
+      "bytes": 62986
+    },
+    {
+      "id": "northamerica-usa-co569",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/co569.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/co569.rwl",
+      "sha256": "e750efd9ce4fabf7d3d2842b06ea0ac33ef8ab766cd6fc52191a3e076f076c03",
+      "bytes": 34872
+    },
+    {
+      "id": "northamerica-usa-co585",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/co585.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/co585.rwl",
+      "sha256": "f058f0989826312eefed06e03669d76a9d2ebda3f213a547af578be2de2c07c8",
+      "bytes": 99445
+    },
+    {
+      "id": "northamerica-usa-co590",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/co590.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/co590.rwl",
+      "sha256": "fc4605a8397d56513577e5e812863b551584540dd9fac4069ae9c5830230a9a4",
+      "bytes": 64117
+    },
+    {
+      "id": "northamerica-usa-co592",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/co592.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/co592.rwl",
+      "sha256": "fe1e2954d2567d700f08b77423582cfdeb2f4a4865eaa1b7d7ce7ade0101d892",
+      "bytes": 48614
+    },
+    {
+      "id": "northamerica-usa-co594",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/co594.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/co594.rwl",
+      "sha256": "bc31f3094859f8e1ba7f335a102eac2bd7ca71abb0a4672e9dd4fedcd83d11d1",
+      "bytes": 150434
+    },
+    {
+      "id": "northamerica-usa-co610",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/co610.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/co610.rwl",
+      "sha256": "1d606bfb38ab059c98708611f744d8ac0619187ef3d34489ab0f08d566fc6078",
+      "bytes": 138579
+    },
+    {
+      "id": "northamerica-usa-co621",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/co621.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/co621.rwl",
+      "sha256": "b170c42883877ae46a0ac1ab46189f2cb6e38459a0c316274994befbc727e56b",
+      "bytes": 96904
+    },
+    {
+      "id": "northamerica-usa-co644",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/co644.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/co644.rwl",
+      "sha256": "2264203adeab58c0add8cbc91b7c5571783faa2eb6403696d4229c2fa56f244a",
+      "bytes": 139565
+    },
+    {
+      "id": "northamerica-usa-co671",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/co671.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/co671.rwl",
+      "sha256": "7994bcf9390b9fd88ee2d41654c10bbe248e9eec197f06574d3bec40410a3c8e",
+      "bytes": 160114
+    },
+    {
+      "id": "northamerica-usa-ga003",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/ga003.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ga003.rwl",
+      "sha256": "697bc04be6db48e98e83c60c8d96a5fbc2d6a67f9849a2b9eea420df995d9ee5",
+      "bytes": 201652
+    },
+    {
+      "id": "northamerica-usa-ga004",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/ga004.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ga004.rwl",
+      "sha256": "bf042deb896641c729a4ee5089d6e51060c4063345c43e593720f9221a73e21e",
+      "bytes": 79895
+    },
+    {
+      "id": "northamerica-usa-ia023",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/ia023.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ia023.rwl",
+      "sha256": "d3d2db06ee85f91be8569295ee2ab86b0436d682d2bb19303803e6e4b1612229",
+      "bytes": 165401
+    },
+    {
+      "id": "northamerica-usa-id014",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/id014.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/id014.rwl",
+      "sha256": "81efb923d92976dc16aaea6a29566256decbfd74468fdffd9a04a8e804be98d8",
+      "bytes": 103539
+    },
+    {
+      "id": "northamerica-usa-id023",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/id023.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/id023.rwl",
+      "sha256": "532ebd45189748c28cdadcd41a75e3b082728629c947a48499f5795c81269c14",
+      "bytes": 227187
+    },
+    {
+      "id": "northamerica-usa-id039",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/id039.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/id039.rwl",
+      "sha256": "3d51c083f07be083dbfc1a741dee6245d02f4f747d77e2cef4e735d06b6fbc90",
+      "bytes": 103976
+    },
+    {
+      "id": "northamerica-usa-me015x",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/me015x.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/me015x.rwl",
+      "sha256": "7a1f621a82ad175cb1021ddac3a52d1e6d508b9aeefe1568a454e0e3c57d6e0e",
+      "bytes": 25201
+    },
+    {
+      "id": "northamerica-usa-mn002",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/mn002.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/mn002.rwl",
+      "sha256": "bed469060800f6fd8566322f9ee5de4430b2a1f347af322587f70b95b91332a3",
+      "bytes": 33994
+    },
+    {
+      "id": "northamerica-usa-mt103",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/mt103.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/mt103.rwl",
+      "sha256": "0193007c48559ae2230183a7de3b2a34626d59529338dec2e568a2b5a9a5d2bc",
+      "bytes": 21224
+    },
+    {
+      "id": "northamerica-usa-nc008l",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/nc008l.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nc008l.rwl",
+      "sha256": "0df061f6f985ae04051dce3137aa94fe2ba417b41bfa228a165fffcd454a1aae",
+      "bytes": 224023
+    },
+    {
+      "id": "northamerica-usa-ne006",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/ne006.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ne006.rwl",
+      "sha256": "2c557c54dab50bad49d9e61cff6d54c971441ee22a70eda73055fe5536592f5c",
+      "bytes": 36399
+    },
+    {
+      "id": "northamerica-usa-nm032",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/nm032.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nm032.rwl",
+      "sha256": "ce23f520222bd99cd5359ae341d646e5ebbad50abb2a1a5af08581a4fd47e75f",
+      "bytes": 62530
+    },
+    {
+      "id": "northamerica-usa-nm036",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/nm036.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nm036.rwl",
+      "sha256": "54c65f9694a8f47595237dabc2234d611ee2227dd06e734fa1b3236a280dc4d6",
+      "bytes": 50192
+    },
+    {
+      "id": "northamerica-usa-nm040",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/nm040.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nm040.rwl",
+      "sha256": "5c314954891100911e2aa6e6c262390f4c87eab9fbb40ec20e2b1bf40c4be099",
+      "bytes": 48026
+    },
+    {
+      "id": "northamerica-usa-nm052",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/nm052.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nm052.rwl",
+      "sha256": "563bb8e82206bb7286010e7c042e9cfc4673cedaade9545d3e09d9c65e48e10d",
+      "bytes": 68154
+    },
+    {
+      "id": "northamerica-usa-nm119",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/nm119.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nm119.rwl",
+      "sha256": "c7478a81502a515142f61858ed3ae0bb5b2af9cbe8dffd7f0183d16e4cf5f87b",
+      "bytes": 59496
+    },
+    {
+      "id": "northamerica-usa-nm503",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/nm503.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nm503.rwl",
+      "sha256": "a9fd584c053b0f2dc96552d4f85014079c95789e3dfa352c74e4ef82b939e978",
+      "bytes": 41006
+    },
+    {
+      "id": "northamerica-usa-nm537t",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/nm537t.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nm537t.rwl",
+      "sha256": "f9be00957be2cdd290840ef0abf032b965e28fdf4684c375a0657452ce8be13d",
+      "bytes": 15830
+    },
+    {
+      "id": "northamerica-usa-nm573",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/nm573.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nm573.rwl",
+      "sha256": "ee2669b34a2233e02a747aa1741ea10bd62b8df5afed2731b0ac674006b84fc5",
+      "bytes": 43894
+    },
+    {
+      "id": "northamerica-usa-nm582",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/nm582.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nm582.rwl",
+      "sha256": "2a14e4a7e8280d55e0a3823c8950b93cd38e9bcda98b201bdde6fa8b1a9d7634",
+      "bytes": 78867
+    },
+    {
+      "id": "northamerica-usa-nm586",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/nm586.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nm586.rwl",
+      "sha256": "21f965b8b360db01eab3fc3c13350804ec3e68392201095c9e1ae22a375c4c0c",
+      "bytes": 91695
+    },
+    {
+      "id": "northamerica-usa-nm606",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/nm606.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nm606.rwl",
+      "sha256": "375b94c3dd50ed0cbc0195e0eeb8118112e285c356fdb9ffc234a5c7d0e4f03c",
+      "bytes": 251484
+    },
+    {
+      "id": "northamerica-usa-nm607",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/nm607.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nm607.rwl",
+      "sha256": "93069bf39bfee7c32905ac94da0baf3336b879c6f25775bc6c80d114a3c2b7be",
+      "bytes": 168522
+    },
+    {
+      "id": "northamerica-usa-nm608",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/nm608.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nm608.rwl",
+      "sha256": "a4ceabbffe973ac67e6223ad520a2acae388e5da46510648976a007f14d29f97",
+      "bytes": 230782
+    },
+    {
+      "id": "northamerica-usa-nm610",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/nm610.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nm610.rwl",
+      "sha256": "150acb88ec0f94780a553c7f5a2767a5d80b7da89d788f7516d8f4ff5207ca0e",
+      "bytes": 131152
+    },
+    {
+      "id": "northamerica-usa-nm611",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/nm611.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nm611.rwl",
+      "sha256": "6286bf675806108cededa7b3906d08fa51a291e35d3f450aa767de8623772342",
+      "bytes": 50304
+    },
+    {
+      "id": "northamerica-usa-nm612",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/nm612.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nm612.rwl",
+      "sha256": "43cb13b79e93dc5fd676e50a8e28449e423cc42148a5e6811f8dff12a59622ac",
+      "bytes": 86276
+    },
+    {
+      "id": "northamerica-usa-nm614",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/nm614.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nm614.rwl",
+      "sha256": "f1a6c86c30979057ee2338d79564cb2aa8c9e5aa289fe83ac9826933e0b7dee1",
+      "bytes": 153500
+    },
+    {
+      "id": "northamerica-usa-nv052",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/nv052.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nv052.rwl",
+      "sha256": "c38307b17404084fc84d70355552cb69bafd30b95e2545a9cc758e16dec6a7b6",
+      "bytes": 89318
+    },
+    {
+      "id": "northamerica-usa-nv506",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/nv506.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nv506.rwl",
+      "sha256": "9c937025d3b39a9d04af1cf4bab2cab9f6cba20c511a8990da1691e0fe8d8559",
+      "bytes": 49492
+    },
+    {
+      "id": "northamerica-usa-nv510",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/nv510.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nv510.rwl",
+      "sha256": "15082f8d836fd4465c781bb970ef45f37553d6ad8c411e94b1ec52e7e598e894",
+      "bytes": 246796
+    },
+    {
+      "id": "northamerica-usa-ok025e",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/ok025e.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ok025e.rwl",
+      "sha256": "507595f1a08c767dc15592e11ef983370ab82a7cbc327a7c54148286591291b8",
+      "bytes": 87924
+    },
+    {
+      "id": "northamerica-usa-or015b",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/or015b.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/or015b.rwl",
+      "sha256": "88a60e74f33e47b881d3b73e10c7fe7051fc809099596bfdf05393581813d005",
+      "bytes": 125901
+    },
+    {
+      "id": "northamerica-usa-or051",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/or051.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/or051.rwl",
+      "sha256": "e0295627021d241e96c1ce7b93634164a6be677ceb2e91fc8aee377d9237e76a",
+      "bytes": 60081
+    },
+    {
+      "id": "northamerica-usa-or085",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/or085.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/or085.rwl",
+      "sha256": "9ae360df4561318e2fd30235c2be715f3df2fa3a5ae17f7d28935d485cc9f341",
+      "bytes": 94610
+    },
+    {
+      "id": "northamerica-usa-or102",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/or102.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/or102.rwl",
+      "sha256": "9e9c09fff08e13441bbac354169a549c2c0f75fb5ebaee7cac08c9510f6bd867",
+      "bytes": 164859
+    },
+    {
+      "id": "northamerica-usa-pa005",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/pa005.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/pa005.rwl",
+      "sha256": "a745ea74de0bf97a84b7842496dfbd5f2aab59a0b565938733a20e7b8d0b42b0",
+      "bytes": 53830
+    },
+    {
+      "id": "northamerica-usa-pa008",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/pa008.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/pa008.rwl",
+      "sha256": "786d51bf62eb8b1a6d20da6f62f2213ed4b3b1c07e2979f00b50f01a82113e5e",
+      "bytes": 49600
+    },
+    {
+      "id": "northamerica-usa-sd004",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/sd004.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/sd004.rwl",
+      "sha256": "b6baafaa1c934bb7eddc13a7ec3b562e0abce9b5dd2479f21a218f44ec417cea",
+      "bytes": 26596
+    },
+    {
+      "id": "northamerica-usa-sd005",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/sd005.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/sd005.rwl",
+      "sha256": "b81153501ced976fac9c49f2c2805478a54a438f2223b677eed62a4fa9c334fa",
+      "bytes": 16492
+    },
+    {
+      "id": "northamerica-usa-tn",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/tn.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/tn.rwl",
+      "sha256": "2c0015841524a34f2e002d47482d88d496c860b207b38867f62d9f0efbacc5ee",
+      "bytes": 38276
+    },
+    {
+      "id": "northamerica-usa-tx046e",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/tx046e.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/tx046e.rwl",
+      "sha256": "f649ca89b9801a8335651b61e788be85ba059d6f8e733cfa75bd7a62547b95f9",
+      "bytes": 59232
+    },
+    {
+      "id": "northamerica-usa-tx054",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/tx054.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/tx054.rwl",
+      "sha256": "600e5a825fb437867252a6989d1dd856ebeb3e612ba57c4608f5cf7ba225b3ae",
+      "bytes": 51293
+    },
+    {
+      "id": "northamerica-usa-ut021",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/ut021.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ut021.rwl",
+      "sha256": "c104181dd7984b3f3a03ca57ff60c25fbbe48942a7b137bc41f443895d1116a7",
+      "bytes": 66378
+    },
+    {
+      "id": "northamerica-usa-ut517",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/ut517.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ut517.rwl",
+      "sha256": "a89c8c922a4b19f732a08320e6312cfc64dba1915921dafe4e3cddafd4b4b5b7",
+      "bytes": 82134
+    },
+    {
+      "id": "northamerica-usa-ut520",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/ut520.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ut520.rwl",
+      "sha256": "c68e27dfa0a989bc2562592d2c1c189b82df0bed97bef1b66a04c6d8005b4f62",
+      "bytes": 56418
+    },
+    {
+      "id": "northamerica-usa-ut543",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/ut543.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ut543.rwl",
+      "sha256": "dc91cbe09af2af123e37882a8518e747e92f08fca6756a0e3e76e59c810aa75f",
+      "bytes": 330360
+    },
+    {
+      "id": "northamerica-usa-ut586",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/ut586.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ut586.rwl",
+      "sha256": "bff0828d6909fe1ad70c08566384a44c70989586afa3751dda693e19eeab25e9",
+      "bytes": 106958
+    },
+    {
+      "id": "northamerica-usa-wa045",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/wa045.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/wa045.rwl",
+      "sha256": "2197c7977e40caeca1cd84063a1b03b8f9255f817b935b1175da7f0d0f6d0fff",
+      "bytes": 26350
+    },
+    {
+      "id": "northamerica-usa-wv002",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/wv002.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/wv002.rwl",
+      "sha256": "2a8ca72ea23520c86e8bf6d086ffbbe6ab5ddec24b74376427c6a16aaf77a8c1",
+      "bytes": 41980
+    },
+    {
+      "id": "northamerica-usa-wy005",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "northamerica/usa/wy005.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/wy005.rwl",
+      "sha256": "ff7e0ef6acafa17576ac827913be430b05b33c707e242600796da2a8dbab15f1",
+      "bytes": 44013
+    },
+    {
+      "id": "paki018",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "paki018.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/paki018.rwl",
+      "sha256": "78a9b60ecd4da065f8f9eba60fd990ab66d9c41edc3d182abef31dbc87e3a27f",
+      "bytes": 111472
+    },
+    {
+      "id": "rus326",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "rus326.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/rus326.rwl",
+      "sha256": "9767c61b239f72a9fe50bba1906b2ef2110d83024af90fadf04f523f2c75313e",
+      "bytes": 66453
+    },
+    {
+      "id": "rus343",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "rus343.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/rus343.rwl",
+      "sha256": "a8340fcc59576f8ff77d7dd6b798ee09c33fc4dd65e3c4c138ae0dea947d59f6",
+      "bytes": 30118
+    },
+    {
+      "id": "russ036t",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ036t.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ036t.rwl",
+      "sha256": "77e18d99ead714a3215766695728c975aaf8361885e1d8849214fb34ae4fe544",
+      "bytes": 52119
+    },
+    {
+      "id": "russ047e",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ047e.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ047e.rwl",
+      "sha256": "e8abfc0aacd53352baac3ae5c586f76034cc0ed1184da2113a6dfd519dfafb1e",
+      "bytes": 49419
+    },
+    {
+      "id": "russ049i",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ049i.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ049i.rwl",
+      "sha256": "791508e365036fbd1083ba6126e6431e18d18200086c7c34376306bcaa23f282",
+      "bytes": 35647
+    },
+    {
+      "id": "russ068e",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ068e.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ068e.rwl",
+      "sha256": "4892d372f585512b1e05e81e1486f54d09b7097ad56b853d4b6ef3bd6b549542",
+      "bytes": 70590
+    },
+    {
+      "id": "russ072i",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ072i.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ072i.rwl",
+      "sha256": "42d63242568beb4d318d07fcf14de4a00c7384b819fe3130fd4fbf002be1de88",
+      "bytes": 55826
+    },
+    {
+      "id": "russ078e",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ078e.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ078e.rwl",
+      "sha256": "60c5c61edcd6dce6f84b6bfdda8edb305ff0e05fbbfb90f0c16a4ef8611dee2e",
+      "bytes": 49775
+    },
+    {
+      "id": "russ078x",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ078x.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ078x.rwl",
+      "sha256": "bfe7461babfe60555d780cc83eda6e4426f9599b21ab58b0512b04d23e45d3af",
+      "bytes": 49779
+    },
+    {
+      "id": "russ080x",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ080x.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ080x.rwl",
+      "sha256": "781cc71ad4b37df3aa44d2c759097b8061ca0ddac8de38a7f72fc4ed9b7233ac",
+      "bytes": 37835
+    },
+    {
+      "id": "russ081e",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ081e.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ081e.rwl",
+      "sha256": "eb29966bf292338afa426a2cc54211eda982c20ad782c6c5ae20467f192fb563",
+      "bytes": 44893
+    },
+    {
+      "id": "russ090w",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ090w.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ090w.rwl",
+      "sha256": "f572a6ed5a2ce4ef66660ed7bec9f19dd1a6a8fc61ea6de5778d48a299c42c9b",
+      "bytes": 56608
+    },
+    {
+      "id": "russ096w",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ096w.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ096w.rwl",
+      "sha256": "a98264095f42c12b428e647df39751f206bea1991479573312aef50fabfecd28",
+      "bytes": 58951
+    },
+    {
+      "id": "russ105w",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ105w.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ105w.rwl",
+      "sha256": "73094d949e97a0e51abde9a82914253c8fabe63b18741f20fa4705a215e7041d",
+      "bytes": 56696
+    },
+    {
+      "id": "russ107x",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ107x.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ107x.rwl",
+      "sha256": "cecf6a4ee331d856284ed5f99fc98eff23b47ee379eccba2a64953e4f738251c",
+      "bytes": 69547
+    },
+    {
+      "id": "russ109e",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ109e.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ109e.rwl",
+      "sha256": "9fbf61507cc0e0795a6828602b2fbd59160b362757cad2c0e5c0752c49af4ffe",
+      "bytes": 39613
+    },
+    {
+      "id": "russ109w",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ109w.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ109w.rwl",
+      "sha256": "4f88bb05fac4fdf9e6e60f54fbe63ebea2b7100dc0b876484b179cf3b5824f2b",
+      "bytes": 39612
+    },
+    {
+      "id": "russ111e",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ111e.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ111e.rwl",
+      "sha256": "240a9890023725cf17a7b03160d425f182f1188b76e338069379a5f52e135860",
+      "bytes": 54569
+    },
+    {
+      "id": "russ111w",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ111w.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ111w.rwl",
+      "sha256": "ad7ade7f61c3568eef16fe1c005aa329aa4c8f407f3fdd5888e5d0dd117e61af",
+      "bytes": 54568
+    },
+    {
+      "id": "russ113x",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ113x.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ113x.rwl",
+      "sha256": "63a6e4a90084b4e0287a3efe3574d98205fe8cbef7223bc10c665f98c5bae9f9",
+      "bytes": 57454
+    },
+    {
+      "id": "russ114w",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ114w.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ114w.rwl",
+      "sha256": "5b9115bea3d6a2d690766b5c4c7e647a2d57b56266f1f5ba1df44e30426718a3",
+      "bytes": 52664
+    },
+    {
+      "id": "russ119e",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ119e.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ119e.rwl",
+      "sha256": "74e0b7bbfbc8602d2cf84e2382412cb1e01be644c755bf9b4a39f26ccb68afc2",
+      "bytes": 51175
+    },
+    {
+      "id": "russ122e",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ122e.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ122e.rwl",
+      "sha256": "cfad44dc8affb9b5c45d4b2105a15b989ce3b21405c32e10207c692d9504532a",
+      "bytes": 27831
+    },
+    {
+      "id": "russ126w",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ126w.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ126w.rwl",
+      "sha256": "fc2b7ce1b2641afdccb38bd49d71c64ceff48a5e40874a3561c343020d081dca",
+      "bytes": 75700
+    },
+    {
+      "id": "russ127w",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ127w.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ127w.rwl",
+      "sha256": "bec26db8c01d75cf4f59e15a388466af8674ad8a610b90111b3dbf991e455c40",
+      "bytes": 61325
+    },
+    {
+      "id": "russ128e",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ128e.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ128e.rwl",
+      "sha256": "5737817d49f0ae88a35ecf5de126259ad5359135ac7942aac2636f2750923336",
+      "bytes": 83939
+    },
+    {
+      "id": "russ142w",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ142w.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ142w.rwl",
+      "sha256": "960be3c7f2521191f5b8140048a3deefd566aed9a7b63d7e086b549c7443084c",
+      "bytes": 69803
+    },
+    {
+      "id": "russ144e",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ144e.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ144e.rwl",
+      "sha256": "7789e4d67db3b6e8c38f6d29df43efbf554f0fdbec1e31a0b773298129023136",
+      "bytes": 40206
+    },
+    {
+      "id": "russ155w",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ155w.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ155w.rwl",
+      "sha256": "023b700ec5004a6af5ee2b42b3fdadc22066e17f099e9d73ea804e1f22127866",
+      "bytes": 35745
+    },
+    {
+      "id": "russ156e",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ156e.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ156e.rwl",
+      "sha256": "b99b70f8e7e7a345fa5d08c9776e16210a0fa9ece32dba43558cea51817c6e2f",
+      "bytes": 28083
+    },
+    {
+      "id": "russ185",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ185.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ185.rwl",
+      "sha256": "7d4dbf6093f8cf0d098ebd06c6c161750c6738eed2d3e04a2ae50853ae67a138",
+      "bytes": 28197
+    },
+    {
+      "id": "russ194",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ194.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ194.rwl",
+      "sha256": "ba2346c2c8f693c029893bb8c0528266ba4be4f06ebb4a519c718226879b0f3d",
+      "bytes": 129526
+    },
+    {
+      "id": "russ211",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ211.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ211.rwl",
+      "sha256": "b42ec344e93e10f45210fecf5864f8cd171e3fda9c69b1e885decae4a2f21386",
+      "bytes": 53368
+    },
+    {
+      "id": "russ213",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ213.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ213.rwl",
+      "sha256": "944295f3aec969a960bf1ee14f5dce384b39fbdf81ebadf07015daedf2ea9014",
+      "bytes": 44429
+    },
+    {
+      "id": "russ258",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ258.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ258.rwl",
+      "sha256": "390a37af02fe253b9fe4c4a31eb428014e5d09868832eb428b11ad7d7cf3fc7a",
+      "bytes": 45338
+    },
+    {
+      "id": "russ303",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "russ303.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ303.rwl",
+      "sha256": "735c1d8f5be0024445508cdcf70b5be4068e146c9db5912e2168709fcb22a39b",
+      "bytes": 99986
+    },
+    {
+      "id": "southamerica-arge072",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "southamerica/arge072.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/southamerica/arge072.rwl",
+      "sha256": "2c2f31a35ec56306b16ecf85cd9d45f51a8b222115eaa13aed49e9e6fd748d7d",
+      "bytes": 25661
+    },
+    {
+      "id": "southamerica-arge074",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "southamerica/arge074.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/southamerica/arge074.rwl",
+      "sha256": "43d85cbba2ad33640ce9761b3bcaa9a7bfeca24dc565b29f2672a0763cec1d2e",
+      "bytes": 46955
+    },
+    {
+      "id": "southamerica-arge078",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "southamerica/arge078.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/southamerica/arge078.rwl",
+      "sha256": "10f2dee5b6ea2584faba2787ea6387b7adf585541ada644fcc780923c5163bdb",
+      "bytes": 60590
+    },
+    {
+      "id": "southamerica-chil011",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "southamerica/chil011.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/southamerica/chil011.rwl",
+      "sha256": "e51f4df5b34fc94b501bce13d02cbf893fc201a15072350c08cd4ed79a7b9c6d",
+      "bytes": 31590
+    },
+    {
+      "id": "swed316",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "swed316.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/swed316.rwl",
+      "sha256": "0dd4fa191de5ac2fd50540956ecde6f8635094d939624aedbb25897c677c6acb",
+      "bytes": 26012
+    },
+    {
+      "id": "swed330x",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "swed330x.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/swed330x.rwl",
+      "sha256": "3f8bb3fef7cbcfa43c57e7f48b009ce7a74487cfa1fd27f93572fa9dd9f623d7",
+      "bytes": 86641
+    },
+    {
+      "id": "swit174x",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "swit174x.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/swit174x.rwl",
+      "sha256": "4add1981996049293c28e3a8d22f04dc78b0e8ee3404ed4da8456bc36030e268",
+      "bytes": 38856
+    },
+    {
+      "id": "swit178l",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "swit178l.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/swit178l.rwl",
+      "sha256": "840a77226ecbeae488500fd3316c49e4699137059bb98327464de25bd98a3b2f",
+      "bytes": 23812
+    },
+    {
+      "id": "swit185",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "swit185.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/swit185.rwl",
+      "sha256": "0e4cbed1c885488abd7637665f4964d129027a8f26a4099ecd3c2a9b26aede3b",
+      "bytes": 20001
+    },
+    {
+      "id": "turk052",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "turk052.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/turk052.rwl",
+      "sha256": "02ef3c33ae1c7a85757dcb0a23e00215567ac2046eb1ec038ea851de5cc44c9b",
+      "bytes": 94012
+    },
+    {
+      "id": "turk054",
+      "kind": "rwl",
+      "role": "calibration",
+      "relativePath": "turk054.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/turk054.rwl",
+      "sha256": "8350ee048c416ae28f349e8f00ea8f53e30cc232c50d2aff0b9cbe770786f3eb",
+      "bytes": 39808
+    },
+    {
+      "id": "ausl012",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "ausl012.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/australia/ausl012.rwl",
+      "sha256": "2c6e4462ace9f0d86fc48dcf34f64468964deb9e5eb1ea11bcb85a57711cb5ae",
+      "bytes": 31064
+    },
+    {
+      "id": "ausl014",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "ausl014.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/australia/ausl014.rwl",
+      "sha256": "585852878cf1eb0d3e2ab9c693ef436c87443e808716dd25c98c09758678b72a",
+      "bytes": 71220
+    },
+    {
+      "id": "aust111l",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "aust111l.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/aust111l.rwl",
+      "sha256": "e156b87b12ddcda16af8a0fc8659715c5487f446ea348c10ecf3cd48ad44bcba",
+      "bytes": 29274
+    },
+    {
+      "id": "blr001",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "blr001.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/blr001.rwl",
+      "sha256": "863d88f7758a33d3fdee0fe19cb9ead14f3044f86505ddc007bb11999745ddef",
+      "bytes": 33436
+    },
+    {
+      "id": "brit015x",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "brit015x.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/brit015x.rwl",
+      "sha256": "f5986d2b422c6a99b541934f765a16652e95114b8ebc5c331739c600be14b817",
+      "bytes": 39456
+    },
+    {
+      "id": "che464",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "che464.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/che464.rwl",
+      "sha256": "54b793de86ec16d0b8a622bbf450d0637b38de153f24a6011942c71e47e5baef",
+      "bytes": 49025
+    },
+    {
+      "id": "che509",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "che509.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/che509.rwl",
+      "sha256": "9870781109560c65d92161da0465b31c804aec5d85528c52192db986132870f1",
+      "bytes": 18464
+    },
+    {
+      "id": "che527",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "che527.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/che527.rwl",
+      "sha256": "04700f6e668b30ef872af65ba85663178af29d9bbad39f53130f4d56b24882e4",
+      "bytes": 35893
+    },
+    {
+      "id": "che603",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "che603.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/che603.rwl",
+      "sha256": "6165ffe68b03f4b24363ea92f1ba078c894ca22c61f6cdfce92beb927449affd",
+      "bytes": 231498
+    },
+    {
+      "id": "che611",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "che611.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/che611.rwl",
+      "sha256": "413291eb3f3d474b4ec9687084af8a4c2c444fcb62a5ddfad831f97aefd4a0d9",
+      "bytes": 99912
+    },
+    {
+      "id": "chin029",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "chin029.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/chin029.rwl",
+      "sha256": "d09a1ad16af20aacb3a43ef8f2196b50893d6cff1700aa4228b8e368ba710fbd",
+      "bytes": 128796
+    },
+    {
+      "id": "chin051",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "chin051.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/chin051.rwl",
+      "sha256": "fc2aff062ee068fedd98b8f0ae7b2a92a7146ab82e37fd18513c5bb4aeb484a4",
+      "bytes": 254858
+    },
+    {
+      "id": "chin061",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "chin061.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/chin061.rwl",
+      "sha256": "6496740f54e2bb0130e44cd198a7bbf4560e62c4ebe7e1a9614cc2d41390dfe6",
+      "bytes": 176560
+    },
+    {
+      "id": "chin075",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "chin075.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/chin075.rwl",
+      "sha256": "aaf77be3fc478794e8674e964845174837ea894289bb6f2079a4061d7a4685af",
+      "bytes": 99059
+    },
+    {
+      "id": "cyp022",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "cyp022.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/cyp022.rwl",
+      "sha256": "fd20740794384bea3ba198853bc404c85021abc45a4d245a9e96b621a5a7ec4f",
+      "bytes": 101508
+    },
+    {
+      "id": "czec001",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "czec001.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/czec001.rwl",
+      "sha256": "bc50b11dc75936b4599f10626ae616c1332ef9595608c75ed5819cf021013140",
+      "bytes": 40993
+    },
+    {
+      "id": "deu315",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "deu315.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/deu315.rwl",
+      "sha256": "6a90b26569847a2e392081282ecdb08464ae8ce2327141c9fe18e7934bb25f27",
+      "bytes": 14372
+    },
+    {
+      "id": "deu338",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "deu338.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/deu338.rwl",
+      "sha256": "06a7314219150e751d748e070419c52c5015926843eb1a33fd0b84b11c5772c8",
+      "bytes": 54300
+    },
+    {
+      "id": "dza016",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "dza016.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/africa/dza016.rwl",
+      "sha256": "d1413fa690d28a63746c44378e08122d7feaa27a855a9d31d9b3e540ff570d45",
+      "bytes": 53062
+    },
+    {
+      "id": "fran038",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "fran038.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/fran038.rwl",
+      "sha256": "8742cff9f2d2ba27186b4eb54e6d583cd4de07407d490f0f922f56cc4e41e5d7",
+      "bytes": 30540
+    },
+    {
+      "id": "fran044",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "fran044.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/fran044.rwl",
+      "sha256": "1a3078c0d4294c520106c38a1a2ee3e0af6585130043fd5b91f5e813d6b33b34",
+      "bytes": 61158
+    },
+    {
+      "id": "germ020",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "germ020.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/germ020.rwl",
+      "sha256": "bbd29c4018289786d08c4d7416109f1ce55d3b728b8bc7b7c61494b50cf4103f",
+      "bytes": 16196
+    },
+    {
+      "id": "germ052x",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "germ052x.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/germ052x.rwl",
+      "sha256": "8034a666822a52a54c25dc0a7279a660f38fe931a848e212c563feb8549048e4",
+      "bytes": 32854
+    },
+    {
+      "id": "germ152",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "germ152.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/germ152.rwl",
+      "sha256": "cd2f83b0f1ff3025db244b579f5818df22c431d97e7a76cf04a6e2b46506e88f",
+      "bytes": 24208
+    },
+    {
+      "id": "germ205",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "germ205.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/germ205.rwl",
+      "sha256": "2f691cebfa9fd4acf119e41eaf2d4705809417c63b9b944f4f84f14a6e523d3f",
+      "bytes": 22110
+    },
+    {
+      "id": "germ210",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "germ210.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/germ210.rwl",
+      "sha256": "b86479f1c1a7aef67e9aa04db390ada205fdf20084a2f06f19c044429759b949",
+      "bytes": 26270
+    },
+    {
+      "id": "grc029",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "grc029.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/grc029.rwl",
+      "sha256": "b973ee2e3cdbb740c003730512374e3bf220de931ab174596569202ef9432c75",
+      "bytes": 64258
+    },
+    {
+      "id": "grc050",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "grc050.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/grc050.rwl",
+      "sha256": "5c8c1dc47d54e7ab7911cdaeae3be21e05fb07825a78757da2d7f1303549cd03",
+      "bytes": 148249
+    },
+    {
+      "id": "grc051",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "grc051.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/grc051.rwl",
+      "sha256": "b9c293cb3c1cd3bfa4e608f7e6afb6dfe3cb753dfbf0241bc918322950e7db4f",
+      "bytes": 39693
+    },
+    {
+      "id": "gree020",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "gree020.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/gree020.rwl",
+      "sha256": "74b50eaecab628a6a22c86df50806f6125b1ce9520769c03ed98c8405d40528a",
+      "bytes": 60403
+    },
+    {
+      "id": "mar040",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "mar040.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/africa/mar040.rwl",
+      "sha256": "397ed270c7ec020d9ea8f9bd1dce8cea2b277d6bed273dbbd5a3a425c6eba186",
+      "bytes": 57676
+    },
+    {
+      "id": "mar044",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "mar044.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/africa/mar044.rwl",
+      "sha256": "7d6792e4a7fb3d9ab1367eab17be6404b6928208f7f71070bccbb280b0668cad",
+      "bytes": 78878
+    },
+    {
+      "id": "mng045",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "mng045.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/mng045.rwl",
+      "sha256": "ed86516f66172f9b704d88d57ddf2cc89a32180991a3ef1d5a61be1188349e62",
+      "bytes": 195455
+    },
+    {
+      "id": "mong008",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "mong008.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/mong008.rwl",
+      "sha256": "1cd65f0fe858b0d2a1ec223d5ba85e5fceaecdf8c65707364abd0e9d70086014",
+      "bytes": 24614
+    },
+    {
+      "id": "mong010",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "mong010.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/mong010.rwl",
+      "sha256": "012cc928b5ad56190aeafd7371da83a946d7982562b045881f2d8f6f5f000a92",
+      "bytes": 94428
+    },
+    {
+      "id": "mong016",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "mong016.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/mong016.rwl",
+      "sha256": "1e4e52f5898cb7c3f63e33baa73d11cf1fc59734f193ad9d6fc2f95a528f6f03",
+      "bytes": 89090
+    },
+    {
+      "id": "mong018",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "mong018.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/mong018.rwl",
+      "sha256": "ab44306609a55acaa116c2058cd4e46089a2c6c4974908848420163594d8be91",
+      "bytes": 64918
+    },
+    {
+      "id": "mong020",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "mong020.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/mong020.rwl",
+      "sha256": "102cc2191ae8bb5d2c1b86714e950c203b8ba6d5a771e75a5c2225ad82e97632",
+      "bytes": 41871
+    },
+    {
+      "id": "mong024",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "mong024.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/mong024.rwl",
+      "sha256": "de914025c811fa641b550314dcf683a33b7f59494c5db88676f71fa828c15df7",
+      "bytes": 86558
+    },
+    {
+      "id": "mong027",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "mong027.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/mong027.rwl",
+      "sha256": "51300d1f849e7c75f4ab05ab162bbc30563bc0b73cf200b0d573240d8eaa9719",
+      "bytes": 48856
+    },
+    {
+      "id": "morc020",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "morc020.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/africa/morc020.rwl",
+      "sha256": "3eb17487348667339d377bdcbb0e2a8f26e0d99f92102b4355516626ddf1ac55",
+      "bytes": 32882
+    },
+    {
+      "id": "newz036",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "newz036.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/australia/newz036.rwl",
+      "sha256": "2d74635ae40396b6db994ead217c142aae4d4b395a75bf2d15edbd195dba1f84",
+      "bytes": 26365
+    },
+    {
+      "id": "newz053",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "newz053.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/australia/newz053.rwl",
+      "sha256": "3b778aead7f2b254b26fda2eaaf532d92bfda59d44bb41fa3f84fdf3a686bcd4",
+      "bytes": 24177
+    },
+    {
+      "id": "newz078",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "newz078.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/australia/newz078.rwl",
+      "sha256": "ef47b59c5c083213e185aa08201b41735c325796b29bdd64789746e4da6055dd",
+      "bytes": 21510
+    },
+    {
+      "id": "newz128",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "newz128.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/australia/newz128.rwl",
+      "sha256": "1f9c89bcf8c756cfdbf811c6d8426a06e811760b168a650ee82fc2359b05f113",
+      "bytes": 168045
+    },
+    {
+      "id": "northamerica-canada-can708",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/canada/can708.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/canada/can708.rwl",
+      "sha256": "579e4188308564f0fc8ed39f9612c702ae010a756383d77efd46bddf10f044d5",
+      "bytes": 98813
+    },
+    {
+      "id": "northamerica-canada-can713",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/canada/can713.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/canada/can713.rwl",
+      "sha256": "3f4a2bcb95f92cf6454230084272145fb6be0e46142a13aa99ec88e929cc588b",
+      "bytes": 67907
+    },
+    {
+      "id": "northamerica-canada-cana026",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/canada/cana026.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/canada/cana026.rwl",
+      "sha256": "39e22321452fea3a534e02784564de133563a13625fd159e7c01173efbb043a6",
+      "bytes": 50513
+    },
+    {
+      "id": "northamerica-canada-cana234e",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/canada/cana234e.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/canada/cana234e.rwl",
+      "sha256": "7d8070d00ad9a666cedb318f0e38dd2b1004117f679b061f69da09c32319a54a",
+      "bytes": 64092
+    },
+    {
+      "id": "northamerica-canada-cana246",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/canada/cana246.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/canada/cana246.rwl",
+      "sha256": "46d8b69ab2d01344994b81f7101e6eca35e8a329445d1202bf3dc01613942669",
+      "bytes": 71122
+    },
+    {
+      "id": "northamerica-canada-cana254",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/canada/cana254.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/canada/cana254.rwl",
+      "sha256": "c286009427f653d294dd0bc27e5c3dec17730956e6e10fc8b1c09cafbdab81f3",
+      "bytes": 111223
+    },
+    {
+      "id": "northamerica-canada-cana334",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/canada/cana334.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/canada/cana334.rwl",
+      "sha256": "a2c2de22fbe683837449ee134c36c33e0fc10bc8413c44e108eb9e0d04a35ece",
+      "bytes": 74426
+    },
+    {
+      "id": "northamerica-canada-cana386",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/canada/cana386.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/canada/cana386.rwl",
+      "sha256": "df73bff4e07eee920a2ebe46ab109f1ad3c1b9184786d5674f59b1153bd8874a",
+      "bytes": 47436
+    },
+    {
+      "id": "northamerica-canada-cana4",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/canada/cana4.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/canada/cana4.rwl",
+      "sha256": "5a147f65ab8291aaca3f8233a4800ebc01bdd4c177db26257126a5a2cd31e9bf",
+      "bytes": 21632
+    },
+    {
+      "id": "northamerica-canada-cana417",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/canada/cana417.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/canada/cana417.rwl",
+      "sha256": "5ea0eb2b4196240e248258835ea7305c611cca72ae730113d7aa76221a4614ac",
+      "bytes": 142816
+    },
+    {
+      "id": "northamerica-canada-cana422",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/canada/cana422.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/canada/cana422.rwl",
+      "sha256": "a7a2dab3b84f1d17d1660b5a026ac55edbe89081ceafc321e6e0abac38c993a2",
+      "bytes": 82492
+    },
+    {
+      "id": "northamerica-canada-cana427",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/canada/cana427.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/canada/cana427.rwl",
+      "sha256": "f7e85205fd80d84d4a154f4c907cf064812e0fc188bce078c6c57c4975e18e51",
+      "bytes": 68488
+    },
+    {
+      "id": "northamerica-canada-cana518",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/canada/cana518.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/canada/cana518.rwl",
+      "sha256": "8d9b4176d1da4bc2ec9b503ae392c8bca71c2f85740e554b1419ddcf436a88ea",
+      "bytes": 156229
+    },
+    {
+      "id": "northamerica-canada-cana572",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/canada/cana572.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/canada/cana572.rwl",
+      "sha256": "4667cf8f9bfd80b390db11e765b119d286e76909b15b4117507938762da9a842",
+      "bytes": 61059
+    },
+    {
+      "id": "northamerica-mexico-mexi004",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/mexico/mexi004.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/mexico/mexi004.rwl",
+      "sha256": "e4bf9b6522376f15c011e34888a49bc17beb6931b4229a1e13bec054667d26de",
+      "bytes": 31722
+    },
+    {
+      "id": "northamerica-mexico-mexi023",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/mexico/mexi023.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/mexico/mexi023.rwl",
+      "sha256": "91a08de9527c4999d99a878e295e0908f6cb866b04db0095d3954b957464cd40",
+      "bytes": 199258
+    },
+    {
+      "id": "northamerica-mexico-mexi028",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/mexico/mexi028.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/mexico/mexi028.rwl",
+      "sha256": "f31701fd802d6e2113d428ce8680c421ef3401a93d40807dd6a1bef6dc974850",
+      "bytes": 90298
+    },
+    {
+      "id": "northamerica-mexico-mexi030e",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/mexico/mexi030e.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/mexico/mexi030e.rwl",
+      "sha256": "ca7cdea8223bdab0cea4722c406029b4adb510cebcc958f20205a271e7126bfe",
+      "bytes": 20627
+    },
+    {
+      "id": "northamerica-mexico-mexi044",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/mexico/mexi044.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/mexico/mexi044.rwl",
+      "sha256": "72e5785c5bb7bbf2a653e81373257ac01a795f559bdf0855b2a44871a63724ed",
+      "bytes": 294428
+    },
+    {
+      "id": "northamerica-mexico-mexi064",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/mexico/mexi064.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/mexico/mexi064.rwl",
+      "sha256": "89b5e54902a64edf794afc76112b63567e0710288ff3e7983b8cc636ef0840d8",
+      "bytes": 28758
+    },
+    {
+      "id": "northamerica-mexico-mexi074",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/mexico/mexi074.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/mexico/mexi074.rwl",
+      "sha256": "ae2db3dcde7d1cfeb10eedb9d65101219d83d35b4027359ed883f96ecec1ed24",
+      "bytes": 144531
+    },
+    {
+      "id": "northamerica-usa-ak024",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/ak024.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ak024.rwl",
+      "sha256": "da0284ee58ef2e173cdb53186a8494f32fa7c50a53bb20c3f7c53341ab18e704",
+      "bytes": 38630
+    },
+    {
+      "id": "northamerica-usa-ak068",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/ak068.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ak068.rwl",
+      "sha256": "e7ce4b523f4b71aaf61a45965ff0231786417ec0229ea994fd4074e900d213ca",
+      "bytes": 77773
+    },
+    {
+      "id": "northamerica-usa-ak13",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/ak13.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ak13.rwl",
+      "sha256": "6a42c204ac9494ad1079104f544ca29e63e55ce6b50724bede49048c7896ee86",
+      "bytes": 22558
+    },
+    {
+      "id": "northamerica-usa-az044",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/az044.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az044.rwl",
+      "sha256": "981f4a45e8540346f1c44a6a6d33211c1ead2cb0566a58e5cfb4596e8abdd8b5",
+      "bytes": 23384
+    },
+    {
+      "id": "northamerica-usa-az046",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/az046.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az046.rwl",
+      "sha256": "c7c9d2ff7b7d4a6dc7dad50ba500165faa5a8ad1d4c5bdff2052419176b1f3f8",
+      "bytes": 40626
+    },
+    {
+      "id": "northamerica-usa-az047",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/az047.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az047.rwl",
+      "sha256": "eb36c17873914c63438ba0402a3c2e85751f23e0a854381eec625c486e166946",
+      "bytes": 42254
+    },
+    {
+      "id": "northamerica-usa-az066",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/az066.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az066.rwl",
+      "sha256": "5969abc0ee8bdfe01f8ebeeb1fde51badbbeb5a6a58e98148470c7f15eb257de",
+      "bytes": 144670
+    },
+    {
+      "id": "northamerica-usa-az079",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/az079.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az079.rwl",
+      "sha256": "17a8935656f94011005a8ced7cb7c945860a573ae3cbd0534825e07624cc7802",
+      "bytes": 21830
+    },
+    {
+      "id": "northamerica-usa-az081",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/az081.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az081.rwl",
+      "sha256": "49cb26bd7b24975c012d735373ff4085db8ad5575a388bb2cac4aae06b016f13",
+      "bytes": 94270
+    },
+    {
+      "id": "northamerica-usa-az091",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/az091.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az091.rwl",
+      "sha256": "73b46df8a8949ab532e67345f9fddfa47d846d5e7bf62ee14f971c99dde186ed",
+      "bytes": 51726
+    },
+    {
+      "id": "northamerica-usa-az503",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/az503.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az503.rwl",
+      "sha256": "65c08b2338a53accd4afc9e20da51e22e531f8b37ccc6bb21a587b18b97a5660",
+      "bytes": 27226
+    },
+    {
+      "id": "northamerica-usa-az512",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/az512.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az512.rwl",
+      "sha256": "86794ebea3d2ad3c7c5f3d36eafb02f37e7837c7737a8f016c260d07d3d3e61c",
+      "bytes": 65044
+    },
+    {
+      "id": "northamerica-usa-az536",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/az536.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az536.rwl",
+      "sha256": "a2a12d1260b54e494a646eed12421cbe3903c41c6bbe1ad21e1b2b2b2e89ab54",
+      "bytes": 70274
+    },
+    {
+      "id": "northamerica-usa-az547",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/az547.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az547.rwl",
+      "sha256": "f82803c29398a0b64f718aa030f89ecd50b6139104a53fc9ab282c513ba2a9a4",
+      "bytes": 66256
+    },
+    {
+      "id": "northamerica-usa-az558",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/az558.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az558.rwl",
+      "sha256": "0cdfb2912417a2479432767c09cd444961d93b7d5ea5e681ae7637b7cf9d27f7",
+      "bytes": 156370
+    },
+    {
+      "id": "northamerica-usa-az568",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/az568.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az568.rwl",
+      "sha256": "763a0b21f09ad44b9b13dadd59d4b7f6a3206ec77bd6742e4f54be8696e4cb58",
+      "bytes": 195608
+    },
+    {
+      "id": "northamerica-usa-az579",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/az579.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az579.rwl",
+      "sha256": "2b83c5e689cdd6d135409ed070bf7490b038d5b06d0c38ab0472c0e07db6d075",
+      "bytes": 78282
+    },
+    {
+      "id": "northamerica-usa-az606",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/az606.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/az606.rwl",
+      "sha256": "7b048142440bcb51244f9366095ac98725412e3758013df988ae4639676c4ced",
+      "bytes": 86359
+    },
+    {
+      "id": "northamerica-usa-ca520d",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/ca520d.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ca520d.rwl",
+      "sha256": "f3b54a0833c0cb781355c9cee652c8bae4a7dc2944fa336f22b406fc5a0ffb0c",
+      "bytes": 21502
+    },
+    {
+      "id": "northamerica-usa-ca553",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/ca553.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ca553.rwl",
+      "sha256": "16551245de3b7e2698daed079f6eb8027b763e13ff1825d41ab4f5fa16b84ed2",
+      "bytes": 35172
+    },
+    {
+      "id": "northamerica-usa-ca679",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/ca679.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ca679.rwl",
+      "sha256": "dbadbd9e912b3814761e845e1b818c684eec0be9e81bb92e32904aff535663c7",
+      "bytes": 72760
+    },
+    {
+      "id": "northamerica-usa-co043",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/co043.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/co043.rwl",
+      "sha256": "9ef2319354d373ea660eb0020da379febb7a8580c6b94ca0e2fa5c3742631c2b",
+      "bytes": 49333
+    },
+    {
+      "id": "northamerica-usa-co046",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/co046.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/co046.rwl",
+      "sha256": "81176aa002c8742c07247fcd3810d5cfbcb1863ed143a194f5d27ad05492a78b",
+      "bytes": 13666
+    },
+    {
+      "id": "northamerica-usa-co055",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/co055.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/co055.rwl",
+      "sha256": "c68ea94cfc320390daac801e217ab5c2f373e5ec0f29a3d1688200a832832751",
+      "bytes": 33942
+    },
+    {
+      "id": "northamerica-usa-co076",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/co076.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/co076.rwl",
+      "sha256": "0e6d3ce76d21f147082632f9ab7955062b16dd7a4e4b70304a709ef87e5626ff",
+      "bytes": 52583
+    },
+    {
+      "id": "northamerica-usa-co526",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/co526.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/co526.rwl",
+      "sha256": "8d38abbd8f9b092f539a36fa960be4c6ce5a38e8c26ecd410c44eb66361054aa",
+      "bytes": 41026
+    },
+    {
+      "id": "northamerica-usa-co539",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/co539.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/co539.rwl",
+      "sha256": "2258b9d671ef8ed826cc88e8706139146e0713b6fc70ce8c1a0648c4491b2812",
+      "bytes": 63356
+    },
+    {
+      "id": "northamerica-usa-co557",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/co557.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/co557.rwl",
+      "sha256": "ce81c255cd1a02b933bbf6ac196b75dc04dda733a388923c6f1cc9ccb99c9cab",
+      "bytes": 47212
+    },
+    {
+      "id": "northamerica-usa-co579",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/co579.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/co579.rwl",
+      "sha256": "f7cb5efeb10836c011e5f0e8d033f3f3f57a19801c87f44a7d950cb6dfaac348",
+      "bytes": 171844
+    },
+    {
+      "id": "northamerica-usa-co580",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/co580.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/co580.rwl",
+      "sha256": "eb5cfcfb5da14c040f3ebb712ba336fecad18e94e95c96a1be8dd0200eb7e041",
+      "bytes": 162698
+    },
+    {
+      "id": "northamerica-usa-co608",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/co608.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/co608.rwl",
+      "sha256": "06b55cbf7c7e15843ed664e8d9ebea7a6fdd55b799411a6e23bf6bdef6715d19",
+      "bytes": 52675
+    },
+    {
+      "id": "northamerica-usa-co620",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/co620.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/co620.rwl",
+      "sha256": "6f7340bf7b237de5c985fd75defc50a476d5ceaadd51a58fe287f2e20b742b5a",
+      "bytes": 79495
+    },
+    {
+      "id": "northamerica-usa-co652e",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/co652e.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/co652e.rwl",
+      "sha256": "9b992863250d71911c4ae840f37b5a939571bb9a483c9b83452420ebe9c9fcb7",
+      "bytes": 392600
+    },
+    {
+      "id": "northamerica-usa-co654",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/co654.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/co654.rwl",
+      "sha256": "797e3c545041eab12377ad712179d2dd862b90d29ee07b7ddd83d7ae482747d6",
+      "bytes": 66442
+    },
+    {
+      "id": "northamerica-usa-co660",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/co660.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/co660.rwl",
+      "sha256": "8e48110f6f7306d61ec60c63340f9993b734804f3236472392c12c86868e13b9",
+      "bytes": 88255
+    },
+    {
+      "id": "northamerica-usa-co667",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/co667.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/co667.rwl",
+      "sha256": "6f73a52d8bef629b06464239154b09cf9162678ae2cc39b5da520bc1e46e43a8",
+      "bytes": 221524
+    },
+    {
+      "id": "northamerica-usa-fl001",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/fl001.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/fl001.rwl",
+      "sha256": "ac6e8e300f4fb4dec2119ab014051e76b3cf7a5c8b53accd670c7a7931d7160b",
+      "bytes": 260732
+    },
+    {
+      "id": "northamerica-usa-id031",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/id031.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/id031.rwl",
+      "sha256": "86548f0e1058f92979ebb3290e756ceb8e1f8f799558642fd3917f220fd98be4",
+      "bytes": 62018
+    },
+    {
+      "id": "northamerica-usa-id045",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/id045.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/id045.rwl",
+      "sha256": "aaf77a650b1c3d051e289a439ed266a77e50c20431cbcfff9056d5618e306428",
+      "bytes": 90405
+    },
+    {
+      "id": "northamerica-usa-ma029",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/ma029.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ma029.rwl",
+      "sha256": "05a4e4f55740658ca4d92613092b32991db4ed30ab1e2d62de0b224623e766b7",
+      "bytes": 32531
+    },
+    {
+      "id": "northamerica-usa-me010",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/me010.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/me010.rwl",
+      "sha256": "69b263ec9f1f33c863be99589f31d31d27fbeaeec8335d9688434d8cb992413c",
+      "bytes": 56226
+    },
+    {
+      "id": "northamerica-usa-mo006",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/mo006.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/mo006.rwl",
+      "sha256": "0dc03723c894f33e5278012790d633fcd05309a3453a4224ab77f756b92b9a54",
+      "bytes": 30274
+    },
+    {
+      "id": "northamerica-usa-mt006",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/mt006.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/mt006.rwl",
+      "sha256": "c3eb563866f8c649c70870b7a74e6950d104c0db4b5579129ee3df6f801c1b6b",
+      "bytes": 89801
+    },
+    {
+      "id": "northamerica-usa-mt104",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/mt104.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/mt104.rwl",
+      "sha256": "e5e71ed64cd015e2a7bcc3a7a817b47e3c04195496a22f40d45f89cf1e144783",
+      "bytes": 42928
+    },
+    {
+      "id": "northamerica-usa-mt132",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/mt132.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/mt132.rwl",
+      "sha256": "633445120a7e8bc1dc3a8adf4560b2175882a1cbd008e3de01d013d23861396d",
+      "bytes": 70517
+    },
+    {
+      "id": "northamerica-usa-mt133",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/mt133.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/mt133.rwl",
+      "sha256": "e870b2f7b723b26fbdd1611fdfbf7304b82824fb4b905a64892f6d529cf50695",
+      "bytes": 58277
+    },
+    {
+      "id": "northamerica-usa-mt148",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/mt148.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/mt148.rwl",
+      "sha256": "da9d3729424626884df7a9bbc1a9416216990cd6f2f05d6f288689c9cbe95877",
+      "bytes": 109355
+    },
+    {
+      "id": "northamerica-usa-nc002",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/nc002.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nc002.rwl",
+      "sha256": "db4072818bf50a167cae659f50f20a7dac18bd587f2a2c0a523bf4d0b7e37024",
+      "bytes": 70548
+    },
+    {
+      "id": "northamerica-usa-nc008e",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/nc008e.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nc008e.rwl",
+      "sha256": "a4bb14a0e4e81ce17219643f753e509dd354014546fe25a49baadf9ebdc3457f",
+      "bytes": 236336
+    },
+    {
+      "id": "northamerica-usa-nd001",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/nd001.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nd001.rwl",
+      "sha256": "a385a714c24dd63396523b71b8830b96adada440ca4f8853e2446dcb3392f042",
+      "bytes": 87995
+    },
+    {
+      "id": "northamerica-usa-nd006",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/nd006.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nd006.rwl",
+      "sha256": "1acefcdd6bc820e0de7a94795fda41468629fc8fa17350ca7c41d21e6e95067f",
+      "bytes": 56998
+    },
+    {
+      "id": "northamerica-usa-nm011",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/nm011.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nm011.rwl",
+      "sha256": "5b9b334cf9aef181788bb40db30d50d36db6b35d6602e17b76f587be623c0104",
+      "bytes": 37666
+    },
+    {
+      "id": "northamerica-usa-nm030",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/nm030.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nm030.rwl",
+      "sha256": "bd0267c7ce663b7fc31068d403ef2d2a5e2bdd7c16fa39656abbfc362cbe4412",
+      "bytes": 89022
+    },
+    {
+      "id": "northamerica-usa-nm037",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/nm037.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nm037.rwl",
+      "sha256": "688973635ee0f385ee6a14b3b0451f939236027a3f080cad2937fb9cf5deedd6",
+      "bytes": 35890
+    },
+    {
+      "id": "northamerica-usa-nm112",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/nm112.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nm112.rwl",
+      "sha256": "b2519f0d0474c1c44f27e634ee1fe7a3ef8737d9b2d0c0ac3aec6804f44f7e66",
+      "bytes": 74814
+    },
+    {
+      "id": "northamerica-usa-nm503l",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/nm503l.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nm503l.rwl",
+      "sha256": "6dd10f262be9c18250132f29629fb540f221a06068bde24d91b1e2407f7eae49",
+      "bytes": 41000
+    },
+    {
+      "id": "northamerica-usa-nm551",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/nm551.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nm551.rwl",
+      "sha256": "4ac1d8ea426782a67951ada47905b29edd69651600dc514368d0b74354ca7e9f",
+      "bytes": 38316
+    },
+    {
+      "id": "northamerica-usa-nm556",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/nm556.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nm556.rwl",
+      "sha256": "bd9d669e580bc5c066313573a4067caaafccae1518804d3b950ad1d413c7b11c",
+      "bytes": 45604
+    },
+    {
+      "id": "northamerica-usa-nm564",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/nm564.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nm564.rwl",
+      "sha256": "6c0e3fdf295365107b99b5924e61350babbb3e3cc47b6a6e9e6297c0818c88b4",
+      "bytes": 67240
+    },
+    {
+      "id": "northamerica-usa-nm597",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/nm597.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nm597.rwl",
+      "sha256": "945c9e06ab0a0a8ce05690ab5e6be6194854470fdaccbb3100bb22e139a69153",
+      "bytes": 147210
+    },
+    {
+      "id": "northamerica-usa-nm603",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/nm603.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nm603.rwl",
+      "sha256": "bb1e0b852e954b4a15847e9479d3c020359856829eb434a9e047a04ab90347be",
+      "bytes": 275526
+    },
+    {
+      "id": "northamerica-usa-nm615",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/nm615.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nm615.rwl",
+      "sha256": "d7f986f9e5984cf8e6328da98bbeea0a32cb4089a5a169daa4f87be20539a5e5",
+      "bytes": 765334
+    },
+    {
+      "id": "northamerica-usa-nv048",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/nv048.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nv048.rwl",
+      "sha256": "d6f1c763bfb26999d728ca6039bcde8ac0a08378ffe69f1e5afadc11af47dfb7",
+      "bytes": 86136
+    },
+    {
+      "id": "northamerica-usa-nv503",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/nv503.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nv503.rwl",
+      "sha256": "8b37ceeff7a4938f82b57b8d9b3afe3766a6e722ee70164d6fc7bb8192feaa4c",
+      "bytes": 36042
+    },
+    {
+      "id": "northamerica-usa-nv507",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/nv507.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nv507.rwl",
+      "sha256": "af4a157aca920173adc41d99503cfd55932ee9f39d7352827497332a21188b05",
+      "bytes": 52496
+    },
+    {
+      "id": "northamerica-usa-nv518",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/nv518.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/nv518.rwl",
+      "sha256": "4841c9a029b85d76d32ffff4c40ea9f8709cd6329405a1f18c5c41cddfa8f7c8",
+      "bytes": 198853
+    },
+    {
+      "id": "northamerica-usa-ny012",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/ny012.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ny012.rwl",
+      "sha256": "ce0889e36af70fb4248040d8415b11f5ab67110771c4f0ffdb758492757ffdb8",
+      "bytes": 66600
+    },
+    {
+      "id": "northamerica-usa-ny025",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/ny025.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ny025.rwl",
+      "sha256": "c0a26a138edbf0abf63bf6374993135101cb774bfd43ac76e02369eedd3e52e1",
+      "bytes": 20140
+    },
+    {
+      "id": "northamerica-usa-ok049",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/ok049.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ok049.rwl",
+      "sha256": "20f747af00b13320df78eb388a2dca32961d634b05cda8a9d706af0464bf55f0",
+      "bytes": 411506
+    },
+    {
+      "id": "northamerica-usa-ok049l",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/ok049l.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ok049l.rwl",
+      "sha256": "5d0066d22916d1db687e51c589e8e7c72ee2ceb384639a2e93411c655a73eaa5",
+      "bytes": 414320
+    },
+    {
+      "id": "northamerica-usa-or026",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/or026.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/or026.rwl",
+      "sha256": "829857574deba52c511d5341b01ff348ed3c9b98942699e062206b0cbce296f7",
+      "bytes": 73998
+    },
+    {
+      "id": "northamerica-usa-or029",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/or029.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/or029.rwl",
+      "sha256": "c5049c7278ab34ec7efb86b66c9501d3e84e3e569b0ffa321b80f378be0e0a3c",
+      "bytes": 79280
+    },
+    {
+      "id": "northamerica-usa-or092",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/or092.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/or092.rwl",
+      "sha256": "c22578e2bc718cd791ae85ba562d0f2d0a8434e473f51d12f736e332d6723ada",
+      "bytes": 149130
+    },
+    {
+      "id": "northamerica-usa-or094",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/or094.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/or094.rwl",
+      "sha256": "ffb8c238353fc116b7624c38534a754d24bf47c75f1e51196789e63be1e5fd7f",
+      "bytes": 103644
+    },
+    {
+      "id": "northamerica-usa-or095",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/or095.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/or095.rwl",
+      "sha256": "6de532fa3b6047637745ddc790b780efd8fdd0b092369381246e9569fe0fbe70",
+      "bytes": 79060
+    },
+    {
+      "id": "northamerica-usa-or101",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/or101.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/or101.rwl",
+      "sha256": "1097b305391d3aeafd43bd4af2144b30850270886feeff7fc1eefa5195656e6b",
+      "bytes": 109005
+    },
+    {
+      "id": "northamerica-usa-pa003",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/pa003.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/pa003.rwl",
+      "sha256": "35267068695822e2f3f82e58fcd567be3b7df7c6fc551583e3144bae5c5046bd",
+      "bytes": 58444
+    },
+    {
+      "id": "northamerica-usa-sc007",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/sc007.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/sc007.rwl",
+      "sha256": "fd27c4f71c1ba7d2fa40908a86661586067cbab00753fb7a2af9cbff9737ea2d",
+      "bytes": 174624
+    },
+    {
+      "id": "northamerica-usa-tx046",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/tx046.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/tx046.rwl",
+      "sha256": "0c10c0db34b300daa1a6972eaa83f21905279705bdf6859c17019478594bd1cb",
+      "bytes": 56672
+    },
+    {
+      "id": "northamerica-usa-tx056",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/tx056.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/tx056.rwl",
+      "sha256": "29d192cdb60a021d6c26e0260aa74c0ac2057335f7ee030066d3821a7e0f3839",
+      "bytes": 174306
+    },
+    {
+      "id": "northamerica-usa-ut505",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/ut505.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ut505.rwl",
+      "sha256": "93450ef7b7870b283f61ccc2b4ecb994409a59980b0cd7f91a02928a753238c4",
+      "bytes": 74714
+    },
+    {
+      "id": "northamerica-usa-ut515",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/ut515.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ut515.rwl",
+      "sha256": "fadfa2831968301c9adc7d3e5306e151a65582024850009bbadd2937f232d755",
+      "bytes": 93207
+    },
+    {
+      "id": "northamerica-usa-ut518",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/ut518.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ut518.rwl",
+      "sha256": "bfea5a88622b983301d25ffda710cd06a8e01819e1c16c949e14440fa2794360",
+      "bytes": 35324
+    },
+    {
+      "id": "northamerica-usa-ut519",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/ut519.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ut519.rwl",
+      "sha256": "dbcf5700fb9459c65b8ce17be267e597199649744b2623b5535246d09282c27d",
+      "bytes": 54239
+    },
+    {
+      "id": "northamerica-usa-ut529",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/ut529.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ut529.rwl",
+      "sha256": "feae1d7abb5c9484627ba6a8cf41c8dc5cc6ab496dd03d9e5d31255e6b7520b1",
+      "bytes": 139088
+    },
+    {
+      "id": "northamerica-usa-ut542",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/ut542.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ut542.rwl",
+      "sha256": "54cff65dacfac55c6894cecb350f467cd87392de7792f1b7330c9ceb0376acb1",
+      "bytes": 110117
+    },
+    {
+      "id": "northamerica-usa-ut544",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/ut544.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ut544.rwl",
+      "sha256": "ba37e0e0047e006635ba312c93457770bb35f86fddd1f90e4d047b5ee12ddadc",
+      "bytes": 238890
+    },
+    {
+      "id": "northamerica-usa-ut549",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/ut549.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ut549.rwl",
+      "sha256": "28dd65d24410d887b5500a50dcee83227e5995e389bed09690566089617f97e6",
+      "bytes": 75748
+    },
+    {
+      "id": "northamerica-usa-ut561",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/ut561.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/ut561.rwl",
+      "sha256": "055209f29512bda4a9e1c3fc5abc4ee268de5dfefb8b4ca4491a64c4145f0d27",
+      "bytes": 42493
+    },
+    {
+      "id": "northamerica-usa-wa043",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/wa043.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/wa043.rwl",
+      "sha256": "058d6dac26912d394c31326082aafbed48f9b77ed58629dcc4494be28b17db50",
+      "bytes": 54970
+    },
+    {
+      "id": "northamerica-usa-wa151",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/wa151.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/wa151.rwl",
+      "sha256": "6889f9f29ad7f894db0b2c01f47597c816ebf3c6b0e0435b45b460a2f45e61af",
+      "bytes": 232522
+    },
+    {
+      "id": "northamerica-usa-wa154e",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/wa154e.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/wa154e.rwl",
+      "sha256": "6f17d3e5796d55c44ed3ad271d7dfa1efbee5475d66d23bf6677fc56dfd8ea7b",
+      "bytes": 77553
+    },
+    {
+      "id": "northamerica-usa-wy010",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/wy010.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/wy010.rwl",
+      "sha256": "d13e6434fb4a728dea46370a75e1f2cbb4b521c59800a21dfd9eb2d653347ef5",
+      "bytes": 37074
+    },
+    {
+      "id": "northamerica-usa-wy069",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/wy069.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/wy069.rwl",
+      "sha256": "25be329bfbba2eb93bd3cbe1422c0e524ef767942d8815fa2903ad0dd99b093c",
+      "bytes": 186103
+    },
+    {
+      "id": "northamerica-usa-wy082",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "northamerica/usa/wy082.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/northamerica/usa/wy082.rwl",
+      "sha256": "aa029780531185743eefca25b61adf9bf626935858b7926e983754e9b553c4b5",
+      "bytes": 113515
+    },
+    {
+      "id": "norw002l",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "norw002l.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/norw002l.rwl",
+      "sha256": "d6a2a8c83f7adb3269bf0a1fd321f22c93e19986bc3535109aed0d46cbfd74ae",
+      "bytes": 27394
+    },
+    {
+      "id": "pak042",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "pak042.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/pak042.rwl",
+      "sha256": "7a6e260ca3e2170c4d199c370957b880c0040090d2a6d95b461484b0c1fe03cb",
+      "bytes": 47698
+    },
+    {
+      "id": "paki003",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "paki003.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/paki003.rwl",
+      "sha256": "460f3ac827f729c8bb5c51d12e82c787cc99bee42af73cb2cc01d51a29e2a7ba",
+      "bytes": 60130
+    },
+    {
+      "id": "paki010",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "paki010.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/paki010.rwl",
+      "sha256": "eb9bcf4d8bd9746bb4f3edd7002ef352540fe1409c88a93a958e1fa15ee6e13a",
+      "bytes": 67140
+    },
+    {
+      "id": "paki028",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "paki028.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/paki028.rwl",
+      "sha256": "7bdf5a5fa83b6c20fa017679f95acf2805adf6436e0cb4d989beb7f0f228d17d",
+      "bytes": 48632
+    },
+    {
+      "id": "paki029",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "paki029.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/paki029.rwl",
+      "sha256": "b1b18dc7670ea5acd7a908b0efe039d0cda639c135dfbd0e9dfffdcd47eb9290",
+      "bytes": 96090
+    },
+    {
+      "id": "paki034",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "paki034.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/paki034.rwl",
+      "sha256": "b72acde6b36d0fc4810e3edc1e3914fcea043d526b3192d9a3227bf21770dd8c",
+      "bytes": 20012
+    },
+    {
+      "id": "pola019x",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "pola019x.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/pola019x.rwl",
+      "sha256": "996fd96ddd0a177df3a71e186571980b0a464ef810340b5f51d51bb8de5af169",
+      "bytes": 20735
+    },
+    {
+      "id": "pola022",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "pola022.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/pola022.rwl",
+      "sha256": "84a67eeaf75edea24dc1f0ed5bbf31190458bed2a8f95b09aa602c31582d8c26",
+      "bytes": 49335
+    },
+    {
+      "id": "rus325",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "rus325.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/rus325.rwl",
+      "sha256": "61ec109f58260d88848a3ad0691c8661123950b5e6e6b903b7f07f0e9ea08108",
+      "bytes": 34078
+    },
+    {
+      "id": "rus362",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "rus362.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/rus362.rwl",
+      "sha256": "ffbe16894ff9df01a32a29929b3046b0047c3f6185e0cb92caaf6c8f272afc98",
+      "bytes": 54113
+    },
+    {
+      "id": "rus378",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "rus378.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/rus378.rwl",
+      "sha256": "ec58a43cd63c3dc95dd208442b9f0826d970eef294b28f6151b5d17f90e6eae9",
+      "bytes": 51385
+    },
+    {
+      "id": "russ027e",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ027e.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ027e.rwl",
+      "sha256": "11089ddb6ec5b2241ac8b965ff4ebc2165c4decfc6ad44668c6c8f87803921b1",
+      "bytes": 45354
+    },
+    {
+      "id": "russ027x",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ027x.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ027x.rwl",
+      "sha256": "52c903a8bb1b5d9b6dda6d5519df9ea9e889377705b364f48a79ce9b4ec2cb17",
+      "bytes": 45358
+    },
+    {
+      "id": "russ028e",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ028e.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ028e.rwl",
+      "sha256": "ec8f7607335564e0ca106675ce070578a27627c37f6735113472ce1f49f6a26d",
+      "bytes": 42799
+    },
+    {
+      "id": "russ030e",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ030e.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ030e.rwl",
+      "sha256": "c2adc3a50e52dce6a44bdeb88e3fa7ad5ca603e52b3ec9d5bca69d44878e0417",
+      "bytes": 44890
+    },
+    {
+      "id": "russ030w",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ030w.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ030w.rwl",
+      "sha256": "7aa3ebcf02d53f6de593f7976d15625b7571294f9cc8e51c0cbb464de81116fe",
+      "bytes": 44889
+    },
+    {
+      "id": "russ031x",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ031x.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ031x.rwl",
+      "sha256": "7209cb1abc6a509d182636a8ba513cc9d3b5921dd071601f0a279932024aa19e",
+      "bytes": 41119
+    },
+    {
+      "id": "russ033t",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ033t.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ033t.rwl",
+      "sha256": "c36bebdc139bb9eebad870d9e5969cf46b1142b0728669ea773336141b0d2274",
+      "bytes": 30293
+    },
+    {
+      "id": "russ038w",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ038w.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ038w.rwl",
+      "sha256": "7385f21f5a6dcf9297966ddf6fcfb2e1463b800ae790eb1bfe886819dc761e97",
+      "bytes": 31301
+    },
+    {
+      "id": "russ042x",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ042x.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ042x.rwl",
+      "sha256": "68cae6712cde119eff5a5837aeb2dc611ce2ef3af8afcc944420a1bfbd7c7cd2",
+      "bytes": 33957
+    },
+    {
+      "id": "russ059w",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ059w.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ059w.rwl",
+      "sha256": "ccc463adcb7b593c07f0ca565630a93c92a08f2ecc2b8d5b39be8fb699661dc9",
+      "bytes": 36606
+    },
+    {
+      "id": "russ066e",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ066e.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ066e.rwl",
+      "sha256": "231b1708dbe2ef89d2e3a69ee8f2f521d9d88836dc1e313eb26f3ef88e870803",
+      "bytes": 67677
+    },
+    {
+      "id": "russ073w",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ073w.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ073w.rwl",
+      "sha256": "24bad0759388a660cc3beee2a827bfcc7c955fcc013d06da5308a87479d1e1f1",
+      "bytes": 55865
+    },
+    {
+      "id": "russ073x",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ073x.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ073x.rwl",
+      "sha256": "75079871cd306c5326572f9ba0fd18ca4e94e63a52cda437f6db89094e8a395f",
+      "bytes": 55870
+    },
+    {
+      "id": "russ081x",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ081x.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ081x.rwl",
+      "sha256": "3ec2cf7c05ecc276ac1c146094e7c13d27e9f73e17da5cc3f56e51dfaad0a549",
+      "bytes": 44897
+    },
+    {
+      "id": "russ097i",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ097i.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ097i.rwl",
+      "sha256": "82c43706e8be6f331103517b502aa62a7c623d04003407e1b2e47e429720ddf4",
+      "bytes": 54845
+    },
+    {
+      "id": "russ110x",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ110x.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ110x.rwl",
+      "sha256": "6d2155b21692fca68a1bb49523e18e1985fde47377f36512043e345062abb63a",
+      "bytes": 35401
+    },
+    {
+      "id": "russ119x",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ119x.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ119x.rwl",
+      "sha256": "9afebe499111381610cc4fcd7193d8a67efa3b523e131340ae1419014d5523b6",
+      "bytes": 51179
+    },
+    {
+      "id": "russ122l",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ122l.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ122l.rwl",
+      "sha256": "c8d4b60048b5200b4603aa98279ee9afe481ae22a3af0695a020c4128a4823b3",
+      "bytes": 27830
+    },
+    {
+      "id": "russ125t",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ125t.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ125t.rwl",
+      "sha256": "6f5c5ee8b39073655730cca9cb5a22b3c41411255f4721e6f14e1f0f51b88ddf",
+      "bytes": 66282
+    },
+    {
+      "id": "russ126x",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ126x.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ126x.rwl",
+      "sha256": "e39fbf9beb3d1ac8824c99688463b255c19a0234cc49c0040284781554ad7d0f",
+      "bytes": 75705
+    },
+    {
+      "id": "russ128w",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ128w.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ128w.rwl",
+      "sha256": "2048a6353c46c6ac7525b1fa2bf07909f202c0541d36af276f305518d4b1391b",
+      "bytes": 83938
+    },
+    {
+      "id": "russ147t",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ147t.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ147t.rwl",
+      "sha256": "553953ee8dab7ed1f4edc3b721fa5f05e2dc7a974deb76ed115de7941b1eaa4a",
+      "bytes": 73636
+    },
+    {
+      "id": "russ150w",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ150w.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ150w.rwl",
+      "sha256": "0cd5fdbb1f658856e99951256550a85abd80bbd7cb822c7c386f7fe7e3cd3748",
+      "bytes": 35998
+    },
+    {
+      "id": "russ167w",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ167w.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ167w.rwl",
+      "sha256": "54d6f3f6449f7366e114937396abb0fb1385abe5e7bc34c8b01ef7bccedac8e9",
+      "bytes": 38483
+    },
+    {
+      "id": "russ174w",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ174w.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ174w.rwl",
+      "sha256": "442446b9a5273f8f44e46bcc0cb35195e3f9ceba746eea0318a8379e7a4cc23f",
+      "bytes": 37267
+    },
+    {
+      "id": "russ209",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ209.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ209.rwl",
+      "sha256": "5c4842ff77f41a021a1f31f0e8300aea8c75c3b4fd2ac5e96f6a84c94b21ff19",
+      "bytes": 25600
+    },
+    {
+      "id": "russ227",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ227.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ227.rwl",
+      "sha256": "9d2f8314877a21211369b57d685fff29ca83fa3c52dca87883f6ddfd82cb2370",
+      "bytes": 55970
+    },
+    {
+      "id": "russ232",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ232.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ232.rwl",
+      "sha256": "5302594e156fb46237ae89f87ad5e9ef7de951e6eca59560480a2a1d42e5f86e",
+      "bytes": 62426
+    },
+    {
+      "id": "russ239n",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ239n.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ239n.rwl",
+      "sha256": "219e7121f9f537d9a30dad72b90e8e73f2ebad8ded274241bd9ad16dd4ba8dc9",
+      "bytes": 65364
+    },
+    {
+      "id": "russ253",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ253.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ253.rwl",
+      "sha256": "c4e75fc4426a25011981ceccdf22c66c790dcda405ec55644e43a21b474476ba",
+      "bytes": 46032
+    },
+    {
+      "id": "russ254",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ254.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ254.rwl",
+      "sha256": "c95586a42c760c1e54d382ce1c902353b012d48e883e610e24219a1b0ac45b82",
+      "bytes": 114770
+    },
+    {
+      "id": "russ257",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "russ257.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/asia/russ257.rwl",
+      "sha256": "f0af01443f9142d2110b624c1b5a66b40a5432e7a78b622c3262f2f6a1ffdda9",
+      "bytes": 63474
+    },
+    {
+      "id": "spai009",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "spai009.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/spai009.rwl",
+      "sha256": "3e4d6e649dfd4577bc5ff38ca463af9bc4b408ae45235f385d7ed7a391c608b5",
+      "bytes": 21928
+    },
+    {
+      "id": "spai016",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "spai016.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/spai016.rwl",
+      "sha256": "5e04a753e86b6a7e1d7ab46a725769cbe2e1fdc39ba6bd7940fc1f1018352954",
+      "bytes": 27922
+    },
+    {
+      "id": "spai019",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "spai019.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/spai019.rwl",
+      "sha256": "1df3e56179ece64be7a53ab866a560aad8df46d92c869b082242a6ce39173ae1",
+      "bytes": 44350
+    },
+    {
+      "id": "spai025",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "spai025.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/spai025.rwl",
+      "sha256": "12cdf07738af0458ab4c013546e30305fbf27fb9eec0cf9f1559e71bdc4e927f",
+      "bytes": 35114
+    },
+    {
+      "id": "spai026",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "spai026.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/spai026.rwl",
+      "sha256": "5d1c4853b53effb9e1d63e0d1bad3a183d0199d363c5c6e13e78473fcc6550de",
+      "bytes": 62916
+    },
+    {
+      "id": "spai046",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "spai046.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/spai046.rwl",
+      "sha256": "2f8c9f9162c32f566bbc6e7b3e09930130135b6e68cf9a545ff626dfe009fbad",
+      "bytes": 48580
+    },
+    {
+      "id": "svk019",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "svk019.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/svk019.rwl",
+      "sha256": "b22eede4f915323cfea0fc13a14bc09b9f5ba62c3615f6f692675331ab76d9a4",
+      "bytes": 123083
+    },
+    {
+      "id": "svk019x",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "svk019x.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/svk019x.rwl",
+      "sha256": "1d3caebae8e747908b924e02d90b01009346a780605e4a5f7f792feb32401ca9",
+      "bytes": 70730
+    },
+    {
+      "id": "swed327",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "swed327.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/swed327.rwl",
+      "sha256": "7cd0a36690ddce8268c29776874f0e6b7c78987a15326dd5567f475061c3073d",
+      "bytes": 56599
+    },
+    {
+      "id": "swed337",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "swed337.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/swed337.rwl",
+      "sha256": "f455aea69b2d87c99c0114356d042da8645abb0ecf0965ed5962c0ba35aa50c8",
+      "bytes": 53764
+    },
+    {
+      "id": "swit102x",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "swit102x.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/swit102x.rwl",
+      "sha256": "97ba07a66bb722a6d23f22e7df99634d46ab43761d686d6d24c11faf7849ce6c",
+      "bytes": 22032
+    },
+    {
+      "id": "swit160l",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "swit160l.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/swit160l.rwl",
+      "sha256": "3fc5c044c81c20b6830719aa26b21145b9b8ec69bb2cbfd6029718fe12969a6e",
+      "bytes": 39272
+    },
+    {
+      "id": "swit192",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "swit192.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/swit192.rwl",
+      "sha256": "f06296ad0125b1a749337cbed98b7d7281ef7213101a0921cb41f22420e49f78",
+      "bytes": 32702
+    },
+    {
+      "id": "tur064",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "tur064.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/tur064.rwl",
+      "sha256": "093a5c2e4f0e3dbd3ee5c86f6330dcfb1e5cf3f2d63a5392f3fc8e6556585b18",
+      "bytes": 52093
+    },
+    {
+      "id": "turk016",
+      "kind": "rwl",
+      "role": "development",
+      "relativePath": "turk016.rwl",
+      "url": "https://www.ncei.noaa.gov/pub/data/paleo/treering/measurements/europe/turk016.rwl",
+      "sha256": "9b546d0aa67bea2340a379a0fa01c63610da291d5768ae446dbe71ca2aaa57ac",
+      "bytes": 251525
+    }
   ]
 }

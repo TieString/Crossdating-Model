@@ -2,13 +2,6 @@ name: Full v5 reproduction
 
 on:
   workflow_dispatch:
-    inputs:
-      evidence_url:
-        description: Immutable packed-data.joblib asset URL
-        required: true
-      manifest_url:
-        description: Immutable full-manifest.json asset URL
-        required: true
 
 jobs:
   train:
@@ -25,20 +18,9 @@ jobs:
           cache: npm
       - run: pip install -r requirements.lock pytest==8.3.5
       - run: npm ci
-      - name: Download immutable evidence
-        shell: bash
-        env:
-          EVIDENCE_URL: ${{ inputs.evidence_url }}
-          MANIFEST_URL: ${{ inputs.manifest_url }}
-        run: |
-          mkdir -p datasets/cache
-          curl --fail --location "$EVIDENCE_URL" --output datasets/cache/packed-data.joblib
-          curl --fail --location "$MANIFEST_URL" --output datasets/cache/full-manifest.json
-          echo "547894f9680aa48520809a2bc467f78ff33e60dc7b37bb0ea7755fd1fa4883dc  datasets/cache/packed-data.joblib" | sha256sum --check
-          echo "41b17476e2dba417c43d95441a35784f9fb06a56b9e8eb379b127f91fbc2c74f  datasets/cache/full-manifest.json" | sha256sum --check
-      - run: python scripts/reproduce_v5.py
+      - run: python scripts/rebuild_from_itrdb.py --download --workers 12
       - uses: actions/upload-artifact@v7
         with:
           name: v5-reproduction-${{ github.sha }}
-          path: artifacts/v5-full/
+          path: work/v5-rebuild/trained/
           retention-days: 30

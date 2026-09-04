@@ -7,7 +7,9 @@ dist/
 work/
 artifacts/
 datasets/raw/
+datasets/rwl/
 datasets/cache/
+*.partial
 *.joblib
 *.npy
 *.npz

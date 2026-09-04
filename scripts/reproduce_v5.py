@@ -27,7 +27,7 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from crossdating_model.config import file_sha256, load_config
+from crossdating_model.config import file_sha256, load_config, path_sha256
 from crossdating_model.export.gold import generate_gold
 from crossdating_model.export.lightgbm_json import export_model
 from crossdating_model.training.ranker import train
@@ -52,10 +52,11 @@ def main() -> None:
     args = parser.parse_args()
     if args.smoke and (args.dataset or args.manifest):
         parser.error("--smoke cannot be combined with explicit dataset paths")
-    dataset = args.dataset or ROOT / ("datasets/fixtures/v5-smoke.npz" if args.smoke
-                                      else "datasets/cache/packed-data.joblib")
-    manifest = args.manifest or ROOT / ("datasets/fixtures/v5-smoke-manifest.json" if args.smoke
-                                        else "datasets/cache/full-manifest.json")
+    if not args.smoke and (args.dataset is None or args.manifest is None):
+        parser.error("full reproduction starts with scripts/rebuild_from_itrdb.py --download; "
+                     "this trainer requires both --dataset and --manifest")
+    dataset = args.dataset or ROOT / "datasets/fixtures/v5-smoke.npz"
+    manifest = args.manifest or ROOT / "datasets/fixtures/v5-smoke-manifest.json"
     if not dataset.exists() or not manifest.exists():
         parser.error(f"missing frozen inputs: {dataset} / {manifest}")
     output = args.output or ROOT / "artifacts" / ("smoke" if args.smoke else "v5-full")
@@ -83,7 +84,7 @@ def main() -> None:
         "lightgbm": lightgbm.__version__,
         "cofechaJs": config["cofecha_js_version"],
         "configSha256": file_sha256(args.config),
-        "datasetSha256": file_sha256(dataset),
+        "datasetSha256": path_sha256(dataset),
         "inputManifestSha256": file_sha256(manifest),
         "modelSha256": file_sha256(model_path),
         "startedAt": started.isoformat(),

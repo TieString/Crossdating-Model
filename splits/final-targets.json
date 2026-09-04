@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "role": "final",
+  "status": "unassigned",
+  "files": [],
+  "reason": "The accepted v5.0.0 engineering baseline consumed development and calibration only. No independent final holdout is invented retroactively; a future release must freeze new complete RWL files before evaluation."
+}

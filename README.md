@@ -25,7 +25,8 @@ This repository never imports `Crossdating_IDM` source. The application consumes
 ## Reproducibility status
 
 - `smoke`: runnable from a fresh clone. It trains the same LambdaRank family on a small frozen real-candidate fixture, exports LightGBM JSON, generates Python gold, and verifies the independent TypeScript scorer.
-- `full v5`: code/config/splits are frozen, but the multi-gigabyte evidence bundle must be downloaded separately and pass SHA-256 verification. Until that public asset URL is populated, full raw-data reproduction is **not** claimed.
+- `full v5`: starts from the committed list of 420 public ITRDB RWL URLs and SHA-256 values. Every scenario, COFECHA testing value, candidate and 207-field evidence row is regenerated locally.
+- The approximately 5.7 GB packed evidence is a disposable local build cache. It is neither published nor required as an input.
 - The accepted v5 model is preserved in `model-releases/v5.0.0/` with a manifest and hashes.
 
 ## Quick start
@@ -38,13 +39,13 @@ npm ci
 python scripts/reproduce_v5.py --smoke
 ```
 
-Full training after obtaining and hash-verifying both frozen evidence assets:
+Complete reconstruction from public ITRDB data:
 
 ```powershell
-python scripts/reproduce_v5.py
+python scripts/rebuild_from_itrdb.py --download
 ```
 
-See [`docs/REPRODUCING_V5.md`](docs/REPRODUCING_V5.md) for the exact paths, hashes and current external-asset limitation.
+See [`docs/REPRODUCING_V5.md`](docs/REPRODUCING_V5.md) for the exact stages, storage estimate and validation contract.
 
 ## Pipeline
 
@@ -66,6 +67,8 @@ The Tauri product does not need Python or LightGBM. Python is used only for offl
 
 ```text
 python scripts/reproduce_v5.py --smoke
+python datasets/download.py
+python scripts/rebuild_from_itrdb.py
 python -m pytest
 npm test
 npm run typecheck
@@ -74,7 +77,7 @@ python scripts/verify_release.py model-releases/v5.0.0
 
 ## Data policy
 
-Git contains source manifests, SHA-256 values, static split manifests, compact fixtures and final reports. Raw/public ITRDB files are downloaded from NCEI. Large evidence and candidate matrices belong in Zenodo, OSF or versioned GitHub Release assets. Official COFECHA executables are never distributed here.
+Git contains source URLs and hashes, static file/target/case manifests, compact fixtures and final reports. Raw public ITRDB files are downloaded from NCEI. Generated evidence and candidate matrices remain local and ignored; they are not release assets. Official COFECHA executables are never used or distributed here.
 
 ## Release consumption by Crossdating_IDM
 

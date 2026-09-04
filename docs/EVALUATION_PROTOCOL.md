@@ -7,6 +7,8 @@
 - Split development, calibration and final by complete RWL file/content hash. A file and every series derived from it belong to one role only.
 - Freeze split JSON before model fitting. Development trains; calibration selects the event gate and hyperparameters; a new final is read once after all choices are frozen.
 
+The historical v5.0.0 engineering baseline has frozen development and calibration partitions but did not consume a new independent final. `splits/final-targets.json` records that fact explicitly. Reproduction recreates the reported baseline; it does not relabel calibration as final. A future final must use newly frozen complete files and a new model-release version.
+
 ## Scenarios
 
 - Clean: no injected event.

@@ -5,7 +5,7 @@ import joblib
 import lightgbm as lgb
 import numpy as np
 from sklearn.model_selection import GroupKFold
-from crossdating_model.config import file_sha256, load_config
+from crossdating_model.config import file_sha256, load_config, path_sha256
 from crossdating_model.evaluation.workflow import evaluate, gate_for_clean, grouped_summaries, summarize
 from crossdating_model.evaluation.bootstrap import file_clustered_interval
 
@@ -23,7 +23,13 @@ def profile_operations(scores: np.ndarray, identities: np.ndarray, starts: np.nd
 def load_packed(dataset_path: str | Path, manifest_path: str | Path) -> tuple[dict, dict]:
     dataset_path, manifest_path = Path(dataset_path), Path(manifest_path)
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-    if dataset_path.suffix == ".joblib":
+    if dataset_path.is_dir():
+        packed = {key: np.load(dataset_path / f"{key}.npy", mmap_mode="r")
+                  for key in ("x", "y", "offsets", "sizes", "codes", "starts")}
+        expected = (dataset_path / "manifest-sha256.txt").read_text(encoding="ascii").strip()
+        if expected != file_sha256(manifest_path):
+            raise ValueError("packed directory and manifest SHA-256 disagree")
+    elif dataset_path.suffix == ".joblib":
         packed = joblib.load(dataset_path, mmap_mode="r")
         expected = packed.get("manifestSha256")
         if expected and expected != file_sha256(manifest_path):
@@ -106,7 +112,7 @@ def train(dataset_path: str | Path, manifest_path: str | Path, config_path: str 
         "operationThenConditionalWindow": True, "config": config}
     model_path = output / "model.joblib"
     joblib.dump(artifact, model_path)
-    report = {"schemaVersion": 1, "modelVersion": config["model_version"], "datasetSha256": file_sha256(dataset_path),
+    report = {"schemaVersion": 1, "modelVersion": config["model_version"], "datasetSha256": path_sha256(dataset_path),
         "manifestSha256": file_sha256(manifest_path), "configSha256": file_sha256(config_path),
         "developmentFiles": len(set(dev_groups)), "calibrationFiles": len(cal_groups), "fileOverlap": 0,
         "developmentOof": summarize(development_result), "calibration": summarize(calibration_result),

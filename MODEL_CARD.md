@@ -12,6 +12,10 @@ One operation and exact displacement. Local events have one 13-year review windo
 
 LightGBM LambdaRank, 207 ordered features, 600 trees, file-grouped development/calibration isolation. Production inference is pure TypeScript over a frozen JSON dump.
 
+## Training data
+
+The reproduction starts from 420 public NOAA/NCEI ITRDB RWL files identified by URL and SHA-256. Generated scenario states and the approximately 5.7 GB evidence matrix are disposable local build products and are not distributed.
+
 ## Accepted development/calibration evaluation
 
 The frozen application-side evaluation reports 8,406 / 9,038 correct event opportunities (93.01%), 99.87% coverage and 29 / 2,924 Clean false positives (0.99%). These files participated in development/calibration; `newFinalConsumed` is false. The result is the accepted engineering baseline, not a newly claimed independent final holdout.

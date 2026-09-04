@@ -18,24 +18,44 @@ The last command trains 600-tree LambdaRank with grouped folds, calibrates the e
 
 ## Full run
 
-Obtain the two external assets declared in `datasets/source-manifest.json` and verify them before use:
-
-| Asset | Bytes | SHA-256 |
-| --- | ---: | --- |
-| packed-data.joblib | 5,766,558,747 | `547894f9680aa48520809a2bc467f78ff33e60dc7b37bb0ea7755fd1fa4883dc` |
-| full-manifest.json | 51,897,205 | `41b17476e2dba417c43d95441a35784f9fb06a56b9e8eb379b127f91fbc2c74f` |
-
-Place them under `datasets/cache/` and run:
+Run the complete public-data path:
 
 ```powershell
-python scripts/reproduce_v5.py
+python scripts/rebuild_from_itrdb.py --download
 ```
 
-The public asset URL is intentionally left null until a Zenodo/OSF/Release upload exists. Consequently, this repository currently provides complete code/config/contracts and a fresh-clone smoke reproduction, but does not claim that an anonymous user can yet reconstruct the accepted model from raw downloads alone.
+This performs:
+
+```text
+420 public ITRDB RWL URLs + SHA-256
+  → frozen development/calibration files and target lists
+  → exact A/B/C/D/Clean case plans
+  → bark-to-pith frontier states
+  → cofecha-js 0.2.0 testingValues and leave-target-out references
+  → operation candidates + constant-lag evidence
+  → conditional 13-year window profiles
+  → global baseline geometry
+  → 207-field local packed cache
+  → file-grouped LambdaRank training and calibration
+  → JSON export and Python/TypeScript parity
+```
+
+The 420-source v5.0.0 reconstruction consists of 220 development and 200 calibration files. The accepted historical run did not assign or consume an independent final partition; this is explicitly recorded rather than retroactively manufacturing a final result.
+
+Allow substantial disk space and runtime. The generated packed arrays are approximately 5.7 GB, live only under the ignored `work/` directory and may be deleted after the model/report has been exported. They are an optimization for repeated model-head experiments, not a downloadable prerequisite.
+
+For a short structural check against locally downloaded RWL files:
+
+```powershell
+python scripts/rebuild_from_itrdb.py --rwl-root D:\path\to\measurements `
+  --work work/pipeline-check --evidence-limit 10 --skip-training
+```
+
+The committed case plans carry the historical stage hashes. Generation stops immediately if event application, frontier order, input-unit normalization or the `cofecha-js` evidence key differs.
 
 ## Evidence reconstruction audit
 
-`crossdating_model/evidence/reference_v5/` contains the 15-file final research dependency closure used to create the frozen matrix. Historical command-line paths are preserved for audit. The stable public orchestration deliberately does not import the desktop application's source.
+`crossdating_model/evidence/reference_v5/` contains the minimal final research stages used to build the candidate matrix. Historical command-line shapes are preserved for audit. The stable public orchestration deliberately does not import the desktop application's source.
 
 ## Release discipline
 

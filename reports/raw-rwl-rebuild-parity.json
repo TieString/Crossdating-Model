@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-05",
+  "source": "public ITRDB RWL",
+  "sourceManifestFiles": 420,
+  "remoteUrlsVerified": 420,
+  "remoteSha256Matches": 420,
+  "developmentFiles": 220,
+  "calibrationFiles": 200,
+  "sampledCasesPerRole": 10,
+  "sampledEventStates": 41,
+  "stateHashMatches": 41,
+  "evidenceStatesCompared": 20,
+  "testingValuesMaximumAbsoluteError": 0.0,
+  "candidateStatesCompared": 41,
+  "candidateMatricesExact": 41,
+  "candidateMaximumAbsoluteError": 0.0,
+  "orderedFeatureColumnsExact": true,
+  "featureCount": 207,
+  "identityTableExact": true,
+  "derivedEvidencePublished": false,
+  "result": "PASS"
+}

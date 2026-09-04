@@ -128,6 +128,7 @@ def make_splits(manifest_path: Path, destination: Path) -> None:
         }
     roles = {role: sorted(values.values(), key=lambda item: (item["relativePath"], item["sha256"]))
              for role, values in sorted(grouped.items())}
+    roles.setdefault("final", [])
     payload = {
         "schemaVersion": 1,
         "sourceManifestSha256": EXPECTED["manifest"],
@@ -135,6 +136,7 @@ def make_splits(manifest_path: Path, destination: Path) -> None:
         "newFinalConsumed": False,
         "roles": roles,
         "counts": {role: len(values) for role, values in roles.items()},
+        "finalStatus": "unassigned; no independent final was consumed by v5.0.0",
     }
     destination.parent.mkdir(parents=True, exist_ok=True)
     write_text_lf(destination, json.dumps(payload, indent=2))

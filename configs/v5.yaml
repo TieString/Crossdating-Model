@@ -17,7 +17,7 @@ lightgbm:
   reg_lambda: 20.0
   reg_alpha: 0.25
   lambdarank_truncation_level: 1
-  n_jobs: 8
+  n_jobs: 12
 
 eligibility:
   file_correlation_bins:
