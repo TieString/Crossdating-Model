@@ -11,7 +11,7 @@
   "modelSha256": "4a355af59c22a9cd53e20d233256d94b44b83aea222d7ace55e6cb7e9bbb5c1e",
   "sourceJoblibSha256": "ea06e86c66cf26eabe9a571a41e7088ca7d5146f217298a4b799df883dbd109c",
   "trainingConfigSha256": "bcc1aefed28f5121ea097d4e7dc022c7e89f4b0b244b609b525574bf7c8ce805",
-  "splitManifestSha256": "a9e378624e7e4b25785e54656416289797e8236c0e87d28316b9cd7a807cd47b",
+  "splitManifestSha256": "31f155dc63a0b1ba85dfb4e4a2e4408ef87eae6b6e4e1713422a4f6ed247d258",
   "sourceRepository": "TieString/Crossdating-Model",
   "sourceCommit": "3be6c5ac85d519eb35a50d8496527012aa51c528",
   "importedFromApplicationCommit": "f2d48dd0393785cdf456dff78d4977a816626d0c",

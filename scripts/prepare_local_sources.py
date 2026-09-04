@@ -32,6 +32,10 @@ EXPECTED = {
 }
 
 
+def write_text_lf(path: Path, value: str) -> None:
+    path.write_text(value, encoding="utf-8", newline="\n")
+
+
 def require_hash(path: Path, expected: str, label: str) -> None:
     actual = file_sha256(path)
     if actual != expected:
@@ -107,7 +111,7 @@ def make_fixture(packed_path: Path, manifest_path: Path, destination: Path,
         "identities": manifest["identities"],
         "rows": [public_row(manifest["rows"][index]) for index in selected],
     }
-    manifest_out.write_text(json.dumps(payload, indent=2), encoding="utf-8")
+    write_text_lf(manifest_out, json.dumps(payload, indent=2))
     return data_path, manifest_out
 
 
@@ -133,7 +137,7 @@ def make_splits(manifest_path: Path, destination: Path) -> None:
         "counts": {role: len(values) for role, values in roles.items()},
     }
     destination.parent.mkdir(parents=True, exist_ok=True)
-    destination.write_text(json.dumps(payload, indent=2), encoding="utf-8")
+    write_text_lf(destination, json.dumps(payload, indent=2))
 
 
 def make_release(model_json: Path, model_joblib: Path, fixture: Path,
@@ -145,12 +149,12 @@ def make_release(model_json: Path, model_joblib: Path, fixture: Path,
     destination.mkdir(parents=True, exist_ok=True)
     copied_model = destination / "unifiedV5Model.json"
     shutil.copyfile(model_json, copied_model)
-    (destination / "feature-schema.json").write_text(json.dumps({
+    write_text_lf(destination / "feature-schema.json", json.dumps({
         "schemaVersion": 5, "featureCount": 207, "orderedFeatures": model["columns"],
-    }, indent=2), encoding="utf-8")
-    (destination / "identities.json").write_text(json.dumps({
+    }, indent=2))
+    write_text_lf(destination / "identities.json", json.dumps({
         "schemaVersion": 1, "identities": model["identities"],
-    }, indent=2), encoding="utf-8")
+    }, indent=2))
     gold_path = destination / "golden-fixtures" / "python-scores.json"
     generate_gold(model_joblib, fixture, fixture_manifest, gold_path, limit=5)
     manifest = {
@@ -172,7 +176,7 @@ def make_release(model_json: Path, model_joblib: Path, fixture: Path,
         "importedFromApplicationCommit": "f2d48dd0393785cdf456dff78d4977a816626d0c",
         "provenance": "Imported from the frozen pre-publication v5 research run",
     }
-    (destination / "model-manifest.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+    write_text_lf(destination / "model-manifest.json", json.dumps(manifest, indent=2))
     shutil.copyfile(ROOT / "MODEL_CARD.md", destination / "MODEL_CARD.md")
     shutil.copyfile(ROOT / "reports/v5-accepted-evaluation.md", destination / "METRICS.md")
     shutil.copyfile(ROOT / "splits/FILE_SPLITS.json", destination / "FILE_SPLITS.json")
@@ -182,7 +186,7 @@ def write_sums(destination: Path) -> None:
     files = sorted(path for path in destination.rglob("*") if path.is_file()
                    and path.name != "SHA256SUMS.txt")
     lines = [f"{file_sha256(path)}  {path.relative_to(destination).as_posix()}" for path in files]
-    (destination / "SHA256SUMS.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    write_text_lf(destination / "SHA256SUMS.txt", "\n".join(lines) + "\n")
 
 
 def main() -> None:
