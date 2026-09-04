@@ -14,12 +14,12 @@ jobs:
   train:
     runs-on: [self-hosted, model-training]
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.10"
           cache: pip
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: "22"
           cache: npm
@@ -37,7 +37,7 @@ jobs:
           echo "547894f9680aa48520809a2bc467f78ff33e60dc7b37bb0ea7755fd1fa4883dc  datasets/cache/packed-data.joblib" | sha256sum --check
           echo "41b17476e2dba417c43d95441a35784f9fb06a56b9e8eb379b127f91fbc2c74f  datasets/cache/full-manifest.json" | sha256sum --check
       - run: python scripts/reproduce_v5.py
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: v5-reproduction-${{ github.sha }}
           path: artifacts/v5-full/
